@@ -11,14 +11,16 @@ export function BallotHeader({ info }: BallotHeaderProps) {
         {info.title}
       </h1>
       <div className="mt-4 space-y-1 text-sm font-bold text-foreground">
-        <p>OFFICIAL {info.party} BALLOT</p>
+        {info.party && <p>OFFICIAL {info.party} BALLOT</p>}
         <div className="space-y-0.5">
           <p>{info.electionType}</p>
           {info.additionalType && <p>{info.additionalType}</p>}
         </div>
         <p>{info.date}</p>
         <p>{info.county}</p>
-        <p>PRECINCT {info.precincts.join(" / ")}</p>
+        {info.precincts && info.precincts.length > 0 && (
+          <p>PRECINCT {info.precincts.join(" / ")}</p>
+        )}
       </div>
     </header>
   )
