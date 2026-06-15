@@ -1,19 +1,37 @@
 import { createFileRoute } from "@tanstack/react-router"
-import { Button } from "@/components/ui/button"
 
-export const Route = createFileRoute("/")({ component: App })
+import { BallotHeader } from "@/components/ballot/ballot-header"
+import { BallotLegend } from "@/components/ballot/ballot-legend"
+import { BallotRace } from "@/components/ballot/ballot-race"
+import { BallotSection } from "@/components/ballot/ballot-section"
+import { StateQuestion } from "@/components/ballot/state-question"
+import { ballotInfo, ballotSections } from "@/data/ballot"
 
-function App() {
+export const Route = createFileRoute("/")({ component: VoterGuide })
+
+function VoterGuide() {
   return (
-    <div className="flex min-h-svh p-6">
-      <div className="flex max-w-md min-w-0 flex-col gap-4 text-sm leading-loose">
-        <div>
-          <h1 className="font-medium">Project ready!</h1>
-          <p>You may now add components and start building.</p>
-          <p>We&apos;ve already added the button component for you.</p>
-          <Button className="mt-2">Button</Button>
-        </div>
-      </div>
-    </div>
+    <main className="mx-auto min-h-svh max-w-3xl px-4 py-8">
+      <BallotHeader info={ballotInfo} />
+      <BallotLegend
+        items={[
+          {
+            label: "Trump Endorsed",
+            url: "https://ballotpedia.org/Endorsements_by_Donald_Trump#2026",
+          },
+        ]}
+      />
+
+      {ballotSections.map((section) => (
+        <BallotSection key={section.id} heading={section.heading}>
+          {section.races?.map((race) => (
+            <BallotRace key={race.id} race={race} />
+          ))}
+          {section.questions?.map((question) => (
+            <StateQuestion key={question.id} question={question} />
+          ))}
+        </BallotSection>
+      ))}
+    </main>
   )
 }

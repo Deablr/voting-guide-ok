@@ -1,3 +1,8 @@
 package-lock.json
 pnpm-lock.yaml
 yarn.lock
+bun.lock
+official-samples/
+src/routeTree.gen.ts
+dist/
+node_modules/
