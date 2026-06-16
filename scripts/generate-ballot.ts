@@ -1,6 +1,11 @@
 import fs from "node:fs"
 import path from "node:path"
-import type { ParsedCounty } from "./parse-elections"
+import type {
+  ParsedCandidate,
+  ParsedCounty,
+  ParsedRace,
+  ParsedSection,
+} from "./parse-elections"
 
 const parsedPath =
   process.argv[2] || path.join("/tmp/opencode", "parsed-elections.json")
@@ -524,6 +529,286 @@ const existingEndorsements: Record<string, { name: string; url?: string }[]> = {
   ],
 }
 
+// ---------------------------------------------------------------------------
+// Build structured ballot data in memory so we can detect shared sections.
+// ---------------------------------------------------------------------------
+
+type BuiltCandidate = {
+  name: string
+  party: string
+  website?: string
+  endorsements?: { name: string; url?: string }[]
+}
+
+type BuiltRace = {
+  id: string
+  title: string
+  subtitle?: string
+  party?: string
+  instruction: string
+  candidates: BuiltCandidate[]
+  debates?: { label: string; url: string }[]
+}
+
+type BuiltQuestion = {
+  id: string
+  title: string
+  subtitle?: string
+  text: string
+  choices: string[]
+}
+
+type BuiltSection = {
+  id: string
+  heading: string
+  races?: BuiltRace[]
+  questions?: BuiltQuestion[]
+}
+
+type BuiltBallot = {
+  county: string
+  sections: BuiltSection[]
+}
+
+function buildCandidate(
+  candidate: ParsedCandidate,
+  raceParty: string | undefined
+): BuiltCandidate {
+  const normalized = normalizeName(candidate.name)
+  const website = existingCandidateWebsites[normalized]
+  const endorsements = existingEndorsements[normalized]
+  const built: BuiltCandidate = {
+    name: candidate.name,
+    party: raceParty || "NONPARTISAN",
+  }
+  if (website) built.website = website
+  if (endorsements) built.endorsements = endorsements
+  return built
+}
+
+function buildRace(race: ParsedRace): BuiltRace {
+  const id = raceId(race.title, race.subtitle, race.party)
+  const researchKey = raceId(
+    race.title.replace(/^FOR /, ""),
+    race.subtitle,
+    race.party
+  )
+  const research = existingResearch[researchKey]
+  const built: BuiltRace = {
+    id,
+    title: race.title,
+    instruction: race.instruction,
+    candidates: race.candidates.map((c) => buildCandidate(c, race.party)),
+  }
+  if (race.subtitle) built.subtitle = race.subtitle
+  if (race.party) built.party = race.party
+  if (research?.debates) built.debates = research.debates
+  return built
+}
+
+function buildSection(section: ParsedSection): BuiltSection {
+  const sectionId = slugify(section.heading)
+  const built: BuiltSection = {
+    id: sectionId,
+    heading: section.heading,
+  }
+
+  const races = section.races.filter((r) => r.candidates.length > 0)
+  if (races.length > 0) {
+    built.races = races.map(buildRace)
+  }
+
+  return built
+}
+
+const stateQuestionsSection: BuiltSection = {
+  id: "state-questions",
+  heading: "STATE QUESTIONS",
+  questions: [
+    {
+      id: "sq-832",
+      title: "STATE QUESTION NO. 832",
+      subtitle: "INITIATIVE PETITION NO. 446",
+      text: "This measure amends the Oklahoma Minimum Wage Act (OMWA) under the Oklahoma Statutes to increase the state minimum wage. Employers must pay employees at least $9 per hour beginning in 2025, increasing $1.50 annually for a final rate of $15 per hour in 2029. Beginning in 2030 and continuing indefinitely, the minimum wage would automatically increase annually based on the increase in the cost of living, if any, as measured by the U.S. Department of Labor's Consumer Price Index for Urban Wage Earners and Clerical Workers; the minimum wage increase would continue with any successor agency or index. Such increase would also not require approval from Congress or the Oklahoma Legislature. This measure eliminates several exemptions in the current OMWA, including the exemptions for employers subject to the federal Fair Labor Standards Act; part-time employees; certain students and individuals under age 18; farm and agricultural workers; domestic service workers; newspaper vendors or carriers; and feedstore employees. Effectively, eliminating these exemptions results in current employees not covered by the OMWA now being entitled to the minimum wage. The measure also repeals title 40, section 197.5. |Federal and state employees will not be covered under the OMWA. Volunteers; employers with ten or fewer employees and grossing $100,000 or less; some employees of carriers engaged in interstate commerce; employees working in a bona fide executive, administrative, or professional capacity; outside salesmen; and reserve deputy sheriffs will remain excluded from the OMWA's coverage. Because counties, municipalities, and school districts are not excluded, a fiscal impact on the State will result, possibly necessitating a revenue increase by new taxes or elimination of existing services. The measure will be effective the January 1 following approval and will not apply retroactively. |Shall the proposal be approved?",
+      choices: ["FOR THE PROPOSAL - YES", "AGAINST THE PROPOSAL - NO"],
+    },
+  ],
+}
+
+const builtBallots: Record<string, BuiltBallot> = {}
+for (const county of parsed) {
+  builtBallots[county.name] = {
+    county: county.name,
+    sections: [...county.sections.map(buildSection), stateQuestionsSection],
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Find sections that are identical in every county and can be shared.
+// ---------------------------------------------------------------------------
+
+function deepEqual(a: unknown, b: unknown): boolean {
+  return JSON.stringify(a) === JSON.stringify(b)
+}
+
+const sectionOccurrences: Record<string, BuiltSection[]> = {}
+for (const ballot of Object.values(builtBallots)) {
+  for (const section of ballot.sections) {
+    sectionOccurrences[section.id] ??= []
+    sectionOccurrences[section.id].push(section)
+  }
+}
+
+const sharedSections: Record<string, BuiltSection> = {}
+for (const [id, sections] of Object.entries(sectionOccurrences)) {
+  if (
+    sections.length === parsed.length &&
+    sections.every((s) => deepEqual(s, sections[0]))
+  ) {
+    sharedSections[id] = sections[0]
+  }
+}
+
+function sectionConstName(id: string): string {
+  return `${id.replace(/-/g, "_")}Section`
+}
+
+// ---------------------------------------------------------------------------
+// TypeScript serialization helpers.
+// ---------------------------------------------------------------------------
+
+function indent(level: number): string {
+  return "  ".repeat(level)
+}
+
+function serializeValue(value: unknown, level: number): string {
+  if (value === undefined) return "undefined"
+  return JSON.stringify(value, null, 2)
+    .split("\n")
+    .map((line, index) => (index === 0 ? line : indent(level) + line))
+    .join("\n")
+}
+
+function serializeCandidate(candidate: BuiltCandidate, level: number): string {
+  const lines: string[] = []
+  lines.push(`${indent(level)}{`)
+  lines.push(`${indent(level + 1)}name: ${serializeValue(candidate.name, level + 1)},`)
+  lines.push(`${indent(level + 1)}party: ${serializeValue(candidate.party, level + 1)},`)
+  if (candidate.website) {
+    lines.push(`${indent(level + 1)}website: ${serializeValue(candidate.website, level + 1)},`)
+  }
+  if (candidate.endorsements) {
+    lines.push(`${indent(level + 1)}endorsements: [`)
+    for (const e of candidate.endorsements) {
+      if (e.url) {
+        lines.push(
+          `${indent(level + 2)}{ name: ${serializeValue(e.name, level + 2)}, url: ${serializeValue(e.url, level + 2)} },`
+        )
+      } else {
+        lines.push(`${indent(level + 2)}{ name: ${serializeValue(e.name, level + 2)} },`)
+      }
+    }
+    lines.push(`${indent(level + 1)}],`)
+  }
+  lines.push(`${indent(level)}},`)
+  return lines.join("\n")
+}
+
+function serializeRace(race: BuiltRace, level: number): string {
+  const lines: string[] = []
+  lines.push(`${indent(level)}{`)
+  lines.push(`${indent(level + 1)}id: ${serializeValue(race.id, level + 1)},`)
+  lines.push(`${indent(level + 1)}title: ${serializeValue(race.title, level + 1)},`)
+  if (race.subtitle) {
+    lines.push(`${indent(level + 1)}subtitle: ${serializeValue(race.subtitle, level + 1)},`)
+  }
+  if (race.party) {
+    lines.push(`${indent(level + 1)}party: ${serializeValue(race.party, level + 1)},`)
+  }
+  lines.push(`${indent(level + 1)}instruction: ${serializeValue(race.instruction, level + 1)},`)
+  lines.push(`${indent(level + 1)}candidates: [`)
+  for (const candidate of race.candidates) {
+    lines.push(serializeCandidate(candidate, level + 2))
+  }
+  lines.push(`${indent(level + 1)}],`)
+  if (race.debates) {
+    lines.push(`${indent(level + 1)}debates: [`)
+    for (const debate of race.debates) {
+      lines.push(
+        `${indent(level + 2)}{ label: ${serializeValue(debate.label, level + 2)}, url: ${serializeValue(debate.url, level + 2)} },`
+      )
+    }
+    lines.push(`${indent(level + 1)}],`)
+  }
+  lines.push(`${indent(level)}},`)
+  return lines.join("\n")
+}
+
+function serializeQuestion(question: BuiltQuestion, level: number): string {
+  const lines: string[] = []
+  lines.push(`${indent(level)}{`)
+  lines.push(`${indent(level + 1)}id: ${serializeValue(question.id, level + 1)},`)
+  lines.push(`${indent(level + 1)}title: ${serializeValue(question.title, level + 1)},`)
+  if (question.subtitle) {
+    lines.push(`${indent(level + 1)}subtitle: ${serializeValue(question.subtitle, level + 1)},`)
+  }
+  lines.push(`${indent(level + 1)}text: ${serializeValue(question.text, level + 1)},`)
+  lines.push(
+    `${indent(level + 1)}choices: ${serializeValue(question.choices, level + 1)},`
+  )
+  lines.push(`${indent(level)}},`)
+  return lines.join("\n")
+}
+
+function serializeSectionBody(section: BuiltSection, level: number): string {
+  const lines: string[] = []
+  lines.push(`${indent(level)}id: ${serializeValue(section.id, level + 1)},`)
+  lines.push(`${indent(level)}heading: ${serializeValue(section.heading, level + 1)},`)
+  if (section.races) {
+    lines.push(`${indent(level)}races: [`)
+    for (const race of section.races) {
+      lines.push(serializeRace(race, level + 1))
+    }
+    lines.push(`${indent(level)}],`)
+  }
+  if (section.questions) {
+    lines.push(`${indent(level)}questions: [`)
+    for (const question of section.questions) {
+      lines.push(serializeQuestion(question, level + 1))
+    }
+    lines.push(`${indent(level)}],`)
+  }
+  return lines.join("\n")
+}
+
+function serializeSharedSection(section: BuiltSection): string {
+  const name = sectionConstName(section.id)
+  const lines: string[] = []
+  lines.push(`const ${name}: BallotSection = {`)
+  lines.push(serializeSectionBody(section, 1))
+  lines.push(`}`)
+  return lines.join("\n")
+}
+
+function serializeCountySection(
+  section: BuiltSection,
+  level: number
+): string {
+  const shared = sharedSections[section.id]
+  if (shared) {
+    return `${indent(level)}${sectionConstName(section.id)},`
+  }
+  const lines: string[] = []
+  lines.push(`${indent(level)}{`)
+  lines.push(serializeSectionBody(section, level + 1))
+  lines.push(`${indent(level)}},`)
+  return lines.join("\n")
+}
+
+// ---------------------------------------------------------------------------
+// Generate the output file.
+// ---------------------------------------------------------------------------
+
 const lines: string[] = []
 lines.push(`export type Endorsement = {`)
 lines.push(`  name: string`)
@@ -590,101 +875,25 @@ lines.push(`  date: "June 16, 2026",`)
 lines.push(`}`)
 lines.push(``)
 
+for (const section of Object.values(sharedSections)) {
+  lines.push(serializeSharedSection(section))
+  lines.push(``)
+}
+
 lines.push(
   `export const jurisdictionBallots: Record<string, JurisdictionBallot> = {`
 )
-
 for (const county of parsed) {
+  const ballot = builtBallots[county.name]
   lines.push(`  "${county.name}": {`)
   lines.push(`    county: "${county.name}",`)
   lines.push(`    sections: [`)
-
-  for (const section of county.sections) {
-    const sectionId = slugify(section.heading)
-    lines.push(`      {`)
-    lines.push(`        id: "${sectionId}",`)
-    lines.push(`        heading: "${section.heading}",`)
-
-    const races = section.races.filter((r) => r.candidates.length > 0)
-    if (section.heading === "STATE QUESTIONS") {
-      lines.push(`        questions: [`)
-      lines.push(`          {`)
-      lines.push(`            id: "sq-832",`)
-      lines.push(`            title: "STATE QUESTION NO. 832",`)
-      lines.push(`            subtitle: "INITIATIVE PETITION NO. 446",`)
-      lines.push(
-        `            text: "This measure amends the Oklahoma Minimum Wage Act (OMWA) under the Oklahoma Statutes to increase the state minimum wage. Employers must pay employees at least $9 per hour beginning in 2025, increasing $1.50 annually for a final rate of $15 per hour in 2029. Beginning in 2030 and continuing indefinitely, the minimum wage would automatically increase annually based on the increase in the cost of living, if any, as measured by the U.S. Department of Labor's Consumer Price Index for Urban Wage Earners and Clerical Workers; the minimum wage increase would continue with any successor agency or index. Such increase would also not require approval from Congress or the Oklahoma Legislature. This measure eliminates several exemptions in the current OMWA, including the exemptions for employers subject to the federal Fair Labor Standards Act; part-time employees; certain students and individuals under age 18; farm and agricultural workers; domestic service workers; newspaper vendors or carriers; and feedstore employees. Effectively, eliminating these exemptions results in current employees not covered by the OMWA now being entitled to the minimum wage. The measure also repeals title 40, section 197.5. |Federal and state employees will not be covered under the OMWA. Volunteers; employers with ten or fewer employees and grossing $100,000 or less; some employees of carriers engaged in interstate commerce; employees working in a bona fide executive, administrative, or professional capacity; outside salesmen; and reserve deputy sheriffs will remain excluded from the OMWA's coverage. Because counties, municipalities, and school districts are not excluded, a fiscal impact on the State will result, possibly necessitating a revenue increase by new taxes or elimination of existing services. The measure will be effective the January 1 following approval and will not apply retroactively. |Shall the proposal be approved?",`
-      )
-      lines.push(
-        `            choices: ["FOR THE PROPOSAL - YES", "AGAINST THE PROPOSAL - NO"],`
-      )
-      lines.push(`          },`)
-      lines.push(`        ],`)
-    }
-
-    if (races.length > 0) {
-      lines.push(`        races: [`)
-      for (const race of races) {
-        const id = raceId(race.title, race.subtitle, race.party)
-        const researchKey = raceId(
-          race.title.replace(/^FOR /, ""),
-          race.subtitle,
-          race.party
-        )
-        const research = existingResearch[researchKey]
-
-        lines.push(`          {`)
-        lines.push(`            id: "${id}",`)
-        lines.push(`            title: "${race.title}",`)
-        if (race.subtitle)
-          lines.push(`            subtitle: "${race.subtitle}",`)
-        if (race.party) lines.push(`            party: "${race.party}",`)
-        lines.push(`            instruction: "${race.instruction}",`)
-        lines.push(`            candidates: [`)
-        for (const candidate of race.candidates) {
-          const normalized = normalizeName(candidate.name)
-          const website = existingCandidateWebsites[normalized]
-          const endorsements = existingEndorsements[normalized]
-          lines.push(`              {`)
-          lines.push(`                name: "${candidate.name}",`)
-          lines.push(`                party: "${race.party || "NONPARTISAN"}",`)
-          if (website) lines.push(`                website: "${website}",`)
-          if (endorsements) {
-            lines.push(`                endorsements: [`)
-            for (const e of endorsements) {
-              if (e.url) {
-                lines.push(
-                  `                  { name: "${e.name}", url: "${e.url}" },`
-                )
-              } else {
-                lines.push(`                  { name: "${e.name}" },`)
-              }
-            }
-            lines.push(`                ],`)
-          }
-          lines.push(`              },`)
-        }
-        lines.push(`            ],`)
-        if (research?.debates) {
-          lines.push(`            debates: [`)
-          for (const debate of research.debates) {
-            lines.push(
-              `              { label: "${debate.label}", url: "${debate.url}" },`
-            )
-          }
-          lines.push(`            ],`)
-        }
-        lines.push(`          },`)
-      }
-      lines.push(`        ],`)
-    }
-    lines.push(`      },`)
+  for (const section of ballot.sections) {
+    lines.push(serializeCountySection(section, 3))
   }
-
   lines.push(`    ],`)
   lines.push(`  },`)
 }
-
 lines.push(`}`)
 lines.push(``)
 
@@ -708,3 +917,6 @@ lines.push(``)
 fs.writeFileSync(outputPath, lines.join("\n"))
 console.log(`Wrote ${outputPath}`)
 console.log(`Counties: ${parsed.length}`)
+console.log(
+  `Shared sections: ${Object.keys(sharedSections).join(", ") || "none"}`
+)
