@@ -568,11 +568,11 @@ const existingPositions: Record<
     ],
     against: [
       {
-        label: "Abortion Ban",
+        label: "School Vouchers",
         url: "https://www.cyndimunson.com/Priorities",
       },
       {
-        label: "School Vouchers",
+        label: "Abortion Ban",
         url: "https://www.cyndimunson.com/Priorities",
       },
     ],
@@ -670,11 +670,11 @@ const existingPositions: Record<
     ],
     against: [
       {
-        label: "Abortion",
+        label: "Vaccine Mandates",
         url: "https://oklahomavoice.com/voter-guides/contests/governor-republican/",
       },
       {
-        label: "Vaccine Mandates",
+        label: "Abortion",
         url: "https://oklahomavoice.com/voter-guides/contests/governor-republican/",
       },
     ],
@@ -714,10 +714,6 @@ const existingPositions: Record<
         url: "https://www.keating2026.com/issues",
       },
       {
-        label: "Pro-Life",
-        url: "https://www.keating2026.com/issues",
-      },
-      {
         label: "Second Amendment",
         url: "https://www.keating2026.com/issues",
       },
@@ -739,6 +735,10 @@ const existingPositions: Record<
       },
       {
         label: "Domestic Manufacturing",
+        url: "https://www.keating2026.com/issues",
+      },
+      {
+        label: "Pro-Life",
         url: "https://www.keating2026.com/issues",
       },
     ],
@@ -788,10 +788,6 @@ const existingPositions: Record<
   "JAKE A. MERRICK": {
     supports: [
       {
-        label: "Pro-Life",
-        url: "https://jakemerrickforgovernor.com/",
-      },
-      {
         label: "DHS Reform",
         url: "https://jakemerrickforgovernor.com/",
       },
@@ -806,6 +802,10 @@ const existingPositions: Record<
       {
         label: "Parental Rights",
         url: "https://oklahomavoice.com/voter-guides/contests/governor-republican/",
+      },
+      {
+        label: "Abolition",
+        url: "https://jakemerrickforgovernor.com/",
       },
     ],
     against: [
@@ -1084,10 +1084,6 @@ const existingPositions: Record<
   "BRIAN HILL": {
     supports: [
       {
-        label: "Pro-Life",
-        url: "https://www.hillforlg.com/",
-      },
-      {
         label: "Second Amendment",
         url: "https://www.hillforlg.com/",
       },
@@ -1113,6 +1109,10 @@ const existingPositions: Record<
       },
       {
         label: "Workforce Reentry",
+        url: "https://www.hillforlg.com/",
+      },
+      {
+        label: "Pro-Life",
         url: "https://www.hillforlg.com/",
       },
     ],
@@ -1164,10 +1164,6 @@ const existingPositions: Record<
         url: "https://jeffstarling.com/",
       },
       {
-        label: "Pro-Life",
-        url: "https://jeffstarling.com/",
-      },
-      {
         label: "Border Security",
         url: "https://jeffstarling.com/",
       },
@@ -1177,6 +1173,10 @@ const existingPositions: Record<
       },
       {
         label: "Fentanyl Crisis",
+        url: "https://jeffstarling.com/",
+      },
+      {
+        label: "Pro-Life",
         url: "https://jeffstarling.com/",
       },
     ],
@@ -1304,10 +1304,6 @@ const existingPositions: Record<
         url: "https://www.toniforok.com/",
       },
       {
-        label: "Pro-Life",
-        url: "https://www.toniforok.com/",
-      },
-      {
         label: "Second Amendment",
         url: "https://www.toniforok.com/",
       },
@@ -1329,6 +1325,10 @@ const existingPositions: Record<
       },
       {
         label: "Women's Sports",
+        url: "https://www.toniforok.com/",
+      },
+      {
+        label: "Pro-Life",
         url: "https://www.toniforok.com/",
       },
     ],
@@ -1716,11 +1716,11 @@ const existingPositions: Record<
         url: "https://votebobsullivan.com",
       },
       {
-        label: "Pro-Life",
+        label: "Second Amendment",
         url: "https://votebobsullivan.com",
       },
       {
-        label: "Second Amendment",
+        label: "Pro-Life",
         url: "https://votebobsullivan.com",
       },
     ],
@@ -2234,10 +2234,6 @@ const existingPositions: Record<
   "ERVIN STONE YEN": {
     supports: [
       {
-        label: "Protect Abortion Rights",
-        url: "https://yenforsenate.com/",
-      },
-      {
         label: "Defend Medical Autonomy",
         url: "https://yenforsenate.com/",
       },
@@ -2287,6 +2283,10 @@ const existingPositions: Record<
       },
       {
         label: "Federal Accountability",
+        url: "https://yenforsenate.com/",
+      },
+      {
+        label: "Abortion Rights",
         url: "https://yenforsenate.com/",
       },
     ],
@@ -2380,10 +2380,6 @@ const existingPositions: Record<
         url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
       },
       {
-        label: "Restore Abortion Rights",
-        url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
-      },
-      {
         label: "Autism Services",
         url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
       },
@@ -2409,6 +2405,10 @@ const existingPositions: Record<
       },
       {
         label: "LGBTQ Rights",
+        url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
+      },
+      {
+        label: "Abortion Rights",
         url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
       },
     ],
@@ -2618,10 +2618,6 @@ const existingPositions: Record<
         url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
       },
       {
-        label: "Pro-Life",
-        url: "https://hernforsenate.com/",
-      },
-      {
         label: "Born-Alive Protection",
         url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
       },
@@ -2643,6 +2639,10 @@ const existingPositions: Record<
       },
       {
         label: "Second Amendment",
+        url: "https://hernforsenate.com/",
+      },
+      {
+        label: "Pro-Life",
         url: "https://hernforsenate.com/",
       },
     ],
@@ -2778,10 +2778,6 @@ const existingPositions: Record<
         url: "https://brandon4congress.com/",
       },
       {
-        label: "Protect Abortion Rights",
-        url: "https://brandon4congress.com/",
-      },
-      {
         label: "Fund Public Schools",
         url: "https://brandon4congress.com/",
       },
@@ -2824,6 +2820,10 @@ const existingPositions: Record<
       {
         label: "Richard Star Act",
         url: "https://nondoc.com/2026/06/01/cheat-sheet-democrats-go-head-to-head-in-2nd-3rd-4th-congressional-district-primaries/",
+      },
+      {
+        label: "Abortion Rights",
+        url: "https://brandon4congress.com/",
       },
     ],
     against: [
@@ -2872,15 +2872,15 @@ const existingPositions: Record<
         url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
       },
       {
-        label: "Pro-Life",
-        url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
-      },
-      {
         label: "Second Amendment",
         url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
       },
       {
         label: "Fund National Defense",
+        url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
+      },
+      {
+        label: "Pro-Life",
         url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
       },
     ],
@@ -3042,10 +3042,6 @@ const existingPositions: Record<
         url: "https://www.oklahomafight.com/",
       },
       {
-        label: "Reproductive Rights",
-        url: "https://www.oklahomafight.com/",
-      },
-      {
         label: "Protect Democracy",
         url: "https://www.oklahomafight.com/",
       },
@@ -3055,6 +3051,10 @@ const existingPositions: Record<
       },
       {
         label: "Green Energy",
+        url: "https://www.oklahomafight.com/",
+      },
+      {
+        label: "Abortion Rights",
         url: "https://www.oklahomafight.com/",
       },
     ],
@@ -3116,10 +3116,6 @@ const existingPositions: Record<
         url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
       },
       {
-        label: "Pro-Life",
-        url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
-      },
-      {
         label: "Hyde Amendment",
         url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
       },
@@ -3137,6 +3133,10 @@ const existingPositions: Record<
       },
       {
         label: "Fort Reno Protection",
+        url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
+      },
+      {
+        label: "Pro-Life",
         url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
       },
     ],
@@ -3210,6 +3210,10 @@ const existingPositions: Record<
       {
         label: "Workers' Rights",
         url: "https://nondoc.com/2026/06/04/cd-5-democratic-primary-trey-martin-jena-nelson-fight-for-right-to-face-bice/",
+      },
+      {
+        label: "Abortion Rights",
+        url: "https://www.treyforoklahoma.com/platform",
       },
     ],
     against: [
@@ -3394,10 +3398,6 @@ const existingPositions: Record<
         url: "https://www.mitchelljacob.com/",
       },
       {
-        label: "Pro-Choice",
-        url: "https://www.mitchelljacob.com/",
-      },
-      {
         label: "Tribal Sovereignty",
         url: "https://www.mitchelljacob.com/",
       },
@@ -3415,6 +3415,10 @@ const existingPositions: Record<
       },
       {
         label: "No PAC Money",
+        url: "https://www.mitchelljacob.com/",
+      },
+      {
+        label: "Abortion Rights",
         url: "https://www.mitchelljacob.com/",
       },
     ],
@@ -3558,16 +3562,16 @@ const existingPositions: Record<
         url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
       },
       {
-        label: "Pro-Life",
-        url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
-      },
-      {
         label: "Truth Commission",
         url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
       },
       {
         label: "Trump Agenda",
         url: "https://tomcoleforcongress.com/",
+      },
+      {
+        label: "Pro-Life",
+        url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
       },
     ],
     against: [
@@ -3577,6 +3581,10 @@ const existingPositions: Record<
       },
       {
         label: "Iran Nuclear Deal",
+        url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
+      },
+      {
+        label: "Abortion Rights",
         url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
       },
     ],
@@ -3664,10 +3672,6 @@ const existingPositions: Record<
         url: "https://paulroyse.com",
       },
       {
-        label: "Pro-Life",
-        url: "https://paulroyse.com",
-      },
-      {
         label: "Religious Liberty",
         url: "https://paulroyse.com",
       },
@@ -3685,6 +3689,10 @@ const existingPositions: Record<
       },
       {
         label: "National Debt Reduction",
+        url: "https://paulroyse.com",
+      },
+      {
+        label: "Pro-Life",
         url: "https://paulroyse.com",
       },
     ],
@@ -3850,10 +3858,6 @@ const existingPositions: Record<
         url: "https://www.tedfordforcongress.com/",
       },
       {
-        label: "Pro-Life",
-        url: "https://www.tedfordforcongress.com/",
-      },
-      {
         label: "Second Amendment",
         url: "https://www.tedfordforcongress.com/",
       },
@@ -3867,6 +3871,10 @@ const existingPositions: Record<
       },
       {
         label: "Veterans Support",
+        url: "https://www.tedfordforcongress.com/",
+      },
+      {
+        label: "Pro-Life",
         url: "https://www.tedfordforcongress.com/",
       },
     ],
@@ -3922,16 +3930,16 @@ const existingPositions: Record<
         url: "https://nondoc.com/2026/05/25/cheat-sheet-hern-decision-draws-9-to-oklahomas-1st-congressional-district-gop-primary/",
       },
       {
-        label: "Pro-Life",
-        url: "https://nondoc.com/2026/05/25/cheat-sheet-hern-decision-draws-9-to-oklahomas-1st-congressional-district-gop-primary/",
-      },
-      {
         label: "Ban CRT",
         url: "https://nondoc.com/2026/05/25/cheat-sheet-hern-decision-draws-9-to-oklahomas-1st-congressional-district-gop-primary/",
       },
       {
         label: "Trump Agenda",
         url: "https://votekimdavid.com",
+      },
+      {
+        label: "Pro-Life",
+        url: "https://nondoc.com/2026/05/25/cheat-sheet-hern-decision-draws-9-to-oklahomas-1st-congressional-district-gop-primary/",
       },
     ],
   },
@@ -4002,10 +4010,6 @@ const existingPositions: Record<
         url: "https://nathanbutterfield.com",
       },
       {
-        label: "Pro-Life",
-        url: "https://nathanbutterfield.com",
-      },
-      {
         label: "Small Government",
         url: "https://nathanbutterfield.com",
       },
@@ -4035,6 +4039,10 @@ const existingPositions: Record<
       },
       {
         label: "Local Control",
+        url: "https://nathanbutterfield.com",
+      },
+      {
+        label: "Pro-Life",
         url: "https://nathanbutterfield.com",
       },
     ],
@@ -4120,10 +4128,6 @@ const existingPositions: Record<
         url: "https://okhouse.gov/representatives/mike-kelley",
       },
       {
-        label: "Pro-Life",
-        url: "https://okhouse.gov/representatives/mike-kelley",
-      },
-      {
         label: "Property Rights",
         url: "https://okhouse.gov/representatives/mike-kelley",
       },
@@ -4131,20 +4135,24 @@ const existingPositions: Record<
         label: "Law Enforcement Support",
         url: "https://okhouse.gov/representatives/mike-kelley",
       },
+      {
+        label: "Pro-Life",
+        url: "https://okhouse.gov/representatives/mike-kelley",
+      },
     ],
   },
   "CHRIS SNEED": {
     supports: [
-      {
-        label: "Pro-Life",
-        url: "https://okhouse.gov/representatives/chris-sneed",
-      },
       {
         label: "Utility Rate Protection",
         url: "https://okhouse.gov/representatives/chris-sneed",
       },
       {
         label: "Law Enforcement Support",
+        url: "https://okhouse.gov/representatives/chris-sneed",
+      },
+      {
+        label: "Pro-Life",
         url: "https://okhouse.gov/representatives/chris-sneed",
       },
     ],
@@ -4156,10 +4164,6 @@ const existingPositions: Record<
         url: "https://okhouse.gov/representatives/jonathan-wilk",
       },
       {
-        label: "Pro-Life",
-        url: "https://okhouse.gov/representatives/jonathan-wilk",
-      },
-      {
         label: "Energy Development",
         url: "https://okhouse.gov/representatives/jonathan-wilk",
       },
@@ -4167,14 +4171,14 @@ const existingPositions: Record<
         label: "Law Enforcement Support",
         url: "https://okhouse.gov/representatives/jonathan-wilk",
       },
+      {
+        label: "Pro-Life",
+        url: "https://okhouse.gov/representatives/jonathan-wilk",
+      },
     ],
   },
   "DANNY STERLING": {
     supports: [
-      {
-        label: "Pro-Life",
-        url: "https://okhouse.gov/representatives/danny-sterling",
-      },
       {
         label: "Agriculture Support",
         url: "https://okhouse.gov/representatives/danny-sterling",
@@ -4183,26 +4187,26 @@ const existingPositions: Record<
         label: "Law Enforcement Support",
         url: "https://okhouse.gov/representatives/danny-sterling",
       },
+      {
+        label: "Pro-Life",
+        url: "https://okhouse.gov/representatives/danny-sterling",
+      },
     ],
   },
   "JOHN GEORGE": {
     supports: [
       {
-        label: "Pro-Life",
+        label: "Law Enforcement Support",
         url: "https://okhouse.gov/representatives/john-george",
       },
       {
-        label: "Law Enforcement Support",
+        label: "Pro-Life",
         url: "https://okhouse.gov/representatives/john-george",
       },
     ],
   },
   "CINDY ROE": {
     supports: [
-      {
-        label: "Pro-Life",
-        url: "https://okhouse.gov/representatives/cynthia-roe",
-      },
       {
         label: "Rural Healthcare",
         url: "https://okhouse.gov/representatives/cynthia-roe",
@@ -4213,6 +4217,10 @@ const existingPositions: Record<
       },
       {
         label: "Energy Development",
+        url: "https://okhouse.gov/representatives/cynthia-roe",
+      },
+      {
+        label: "Pro-Life",
         url: "https://okhouse.gov/representatives/cynthia-roe",
       },
     ],
@@ -4232,10 +4240,6 @@ const existingPositions: Record<
   "JASON BLAIR": {
     supports: [
       {
-        label: "Pro-Life",
-        url: "https://okhouse.gov/representatives/jason-blair",
-      },
-      {
         label: "Second Amendment",
         url: "https://okhouse.gov/representatives/jason-blair",
       },
@@ -4245,6 +4249,10 @@ const existingPositions: Record<
       },
       {
         label: "Law Enforcement Support",
+        url: "https://okhouse.gov/representatives/jason-blair",
+      },
+      {
+        label: "Pro-Life",
         url: "https://okhouse.gov/representatives/jason-blair",
       },
     ],
@@ -4273,10 +4281,6 @@ const existingPositions: Record<
       },
       {
         label: "Girls Sports Protection",
-        url: "https://www.kennysmithforsenate.com",
-      },
-      {
-        label: "Pro-Life",
         url: "https://www.kennysmithforsenate.com",
       },
       {
@@ -4309,6 +4313,10 @@ const existingPositions: Record<
       },
       {
         label: "Conservative Values",
+        url: "https://www.kennysmithforsenate.com",
+      },
+      {
+        label: "Pro-Life",
         url: "https://www.kennysmithforsenate.com",
       },
     ],
@@ -4376,10 +4384,6 @@ const existingPositions: Record<
         url: "https://votederekporter.com",
       },
       {
-        label: "Pro-Life",
-        url: "https://votederekporter.com",
-      },
-      {
         label: "Second Amendment",
         url: "https://votederekporter.com",
       },
@@ -4389,6 +4393,10 @@ const existingPositions: Record<
       },
       {
         label: "Small Business Support",
+        url: "https://votederekporter.com",
+      },
+      {
+        label: "Pro-Life",
         url: "https://votederekporter.com",
       },
     ],
@@ -4420,10 +4428,6 @@ const existingPositions: Record<
         url: "https://rickkoch.com",
       },
       {
-        label: "Pro-Life",
-        url: "https://rickkoch.com",
-      },
-      {
         label: "Second Amendment",
         url: "https://rickkoch.com",
       },
@@ -4445,6 +4449,10 @@ const existingPositions: Record<
       },
       {
         label: "Conservative Values",
+        url: "https://rickkoch.com",
+      },
+      {
+        label: "Pro-Life",
         url: "https://rickkoch.com",
       },
     ],
@@ -4472,10 +4480,6 @@ const existingPositions: Record<
         url: "https://carlaforhouse.com",
       },
       {
-        label: "Pro-Life",
-        url: "https://carlaforhouse.com",
-      },
-      {
         label: "Second Amendment",
         url: "https://carlaforhouse.com",
       },
@@ -4489,6 +4493,10 @@ const existingPositions: Record<
       },
       {
         label: "Conservative Values",
+        url: "https://carlaforhouse.com",
+      },
+      {
+        label: "Pro-Life",
         url: "https://carlaforhouse.com",
       },
     ],
@@ -4520,10 +4528,6 @@ const existingPositions: Record<
         url: "https://tylerherring.com",
       },
       {
-        label: "Pro-Life",
-        url: "https://tylerherring.com",
-      },
-      {
         label: "Second Amendment",
         url: "https://tylerherring.com",
       },
@@ -4545,6 +4549,10 @@ const existingPositions: Record<
       },
       {
         label: "Rural Healthcare",
+        url: "https://tylerherring.com",
+      },
+      {
+        label: "Pro-Life",
         url: "https://tylerherring.com",
       },
     ],
@@ -4588,10 +4596,6 @@ const existingPositions: Record<
         url: "https://www.tobyforthehouse.com",
       },
       {
-        label: "Pro-Life",
-        url: "https://www.tobyforthehouse.com",
-      },
-      {
         label: "Second Amendment",
         url: "https://www.tobyforthehouse.com",
       },
@@ -4609,6 +4613,10 @@ const existingPositions: Record<
       },
       {
         label: "Conservative Values",
+        url: "https://www.tobyforthehouse.com",
+      },
+      {
+        label: "Pro-Life",
         url: "https://www.tobyforthehouse.com",
       },
     ],
@@ -4644,10 +4652,6 @@ const existingPositions: Record<
         url: "https://roytimmons.com",
       },
       {
-        label: "Pro-Life",
-        url: "https://roytimmons.com",
-      },
-      {
         label: "Second Amendment",
         url: "https://roytimmons.com",
       },
@@ -4657,6 +4661,10 @@ const existingPositions: Record<
       },
       {
         label: "Utility Rate Protection",
+        url: "https://roytimmons.com",
+      },
+      {
+        label: "Pro-Life",
         url: "https://roytimmons.com",
       },
     ],
@@ -4752,10 +4760,6 @@ const existingPositions: Record<
         url: "https://tammididlot.com",
       },
       {
-        label: "Pro-Life",
-        url: "https://tammididlot.com",
-      },
-      {
         label: "Agriculture Support",
         url: "https://tammididlot.com",
       },
@@ -4779,6 +4783,10 @@ const existingPositions: Record<
         label: "Small Business Support",
         url: "https://tammididlot.com",
       },
+      {
+        label: "Pro-Life",
+        url: "https://tammididlot.com",
+      },
     ],
   },
   "JON PAINTER": {
@@ -4793,10 +4801,6 @@ const existingPositions: Record<
       },
       {
         label: "Parental Rights",
-        url: "http://drjohnpainter.com",
-      },
-      {
-        label: "Pro-Life",
         url: "http://drjohnpainter.com",
       },
       {
@@ -4817,6 +4821,10 @@ const existingPositions: Record<
       },
       {
         label: "Conservative Values",
+        url: "http://drjohnpainter.com",
+      },
+      {
+        label: "Pro-Life",
         url: "http://drjohnpainter.com",
       },
     ],
@@ -4880,15 +4888,15 @@ const existingPositions: Record<
         url: "https://www.lewisfor27.com",
       },
       {
-        label: "Pro-Life",
-        url: "https://www.lewisfor27.com",
-      },
-      {
         label: "Second Amendment",
         url: "https://www.lewisfor27.com",
       },
       {
         label: "Law Enforcement Support",
+        url: "https://www.lewisfor27.com",
+      },
+      {
+        label: "Pro-Life",
         url: "https://www.lewisfor27.com",
       },
     ],
@@ -4924,10 +4932,6 @@ const existingPositions: Record<
         url: "https://www.jenniwhiteforhd36.com",
       },
       {
-        label: "Pro-Life",
-        url: "https://www.jenniwhiteforhd36.com",
-      },
-      {
         label: "Second Amendment",
         url: "https://www.jenniwhiteforhd36.com",
       },
@@ -4946,6 +4950,10 @@ const existingPositions: Record<
       {
         label: "Government Efficiency",
         url: "https://oklahomavoice.com/voter-guides/contests/state-representative-district-36-republican/",
+      },
+      {
+        label: "Pro-Life",
+        url: "https://www.jenniwhiteforhd36.com",
       },
     ],
   },
@@ -4984,10 +4992,6 @@ const existingPositions: Record<
   "HEATH KUFAHL": {
     supports: [
       {
-        label: "Pro-Life",
-        url: "https://heathkufahl.com",
-      },
-      {
         label: "Second Amendment",
         url: "https://heathkufahl.com",
       },
@@ -5007,6 +5011,10 @@ const existingPositions: Record<
         label: "Conservative Values",
         url: "https://heathkufahl.com",
       },
+      {
+        label: "Pro-Life",
+        url: "https://heathkufahl.com",
+      },
     ],
   },
   "DEBBIE SHULTZ": {
@@ -5023,10 +5031,6 @@ const existingPositions: Record<
   },
   "TERESA STERLING": {
     supports: [
-      {
-        label: "Pro-Life",
-        url: "https://teresasterling.com",
-      },
       {
         label: "Girls Sports Protection",
         url: "https://teresasterling.com",
@@ -5055,6 +5059,10 @@ const existingPositions: Record<
         label: "Nursing Home Reform",
         url: "https://teresasterling.com",
       },
+      {
+        label: "Pro-Life",
+        url: "https://teresasterling.com",
+      },
     ],
   },
   "BRENT RINEHART": {
@@ -5065,10 +5073,6 @@ const existingPositions: Record<
       },
       {
         label: "Parental Rights",
-        url: "https://www.rinehartforhouse.com",
-      },
-      {
-        label: "Pro-Life",
         url: "https://www.rinehartforhouse.com",
       },
       {
@@ -5093,6 +5097,10 @@ const existingPositions: Record<
       },
       {
         label: "Girls Sports Protection",
+        url: "https://www.rinehartforhouse.com",
+      },
+      {
+        label: "Pro-Life",
         url: "https://www.rinehartforhouse.com",
       },
     ],
@@ -5172,10 +5180,6 @@ const existingPositions: Record<
   "JEAN HAUSHEER": {
     supports: [
       {
-        label: "Pro-Life",
-        url: "https://www.drjeanhausheerforsenate.com",
-      },
-      {
         label: "Second Amendment",
         url: "https://www.drjeanhausheerforsenate.com",
       },
@@ -5201,6 +5205,10 @@ const existingPositions: Record<
       },
       {
         label: "Support Trump",
+        url: "https://www.drjeanhausheerforsenate.com",
+      },
+      {
+        label: "Pro-Life",
         url: "https://www.drjeanhausheerforsenate.com",
       },
     ],
@@ -5324,11 +5332,11 @@ const existingPositions: Record<
         url: "https://gollihare.com",
       },
       {
-        label: "Pro-Life",
+        label: "Second Amendment",
         url: "https://gollihare.com",
       },
       {
-        label: "Second Amendment",
+        label: "Pro-Life",
         url: "https://gollihare.com",
       },
     ],
@@ -5341,10 +5349,6 @@ const existingPositions: Record<
       },
       {
         label: "Government Transparency",
-        url: "https://www.craigstump2026.com/issues",
-      },
-      {
-        label: "Criminalize Abortion",
         url: "https://www.craigstump2026.com/issues",
       },
       {
@@ -5365,6 +5369,10 @@ const existingPositions: Record<
       },
       {
         label: "Medical Conscience",
+        url: "https://www.craigstump2026.com/issues",
+      },
+      {
+        label: "Pro-Life",
         url: "https://www.craigstump2026.com/issues",
       },
     ],
@@ -5410,10 +5418,6 @@ const existingPositions: Record<
   "CHRIS BANNING": {
     supports: [
       {
-        label: "Pro-Life",
-        url: "https://www.banningforoklahoma.com/issues",
-      },
-      {
         label: "Second Amendment",
         url: "https://www.banningforoklahoma.com/issues",
       },
@@ -5427,6 +5431,10 @@ const existingPositions: Record<
       },
       {
         label: "Lower Taxes (Everyone)",
+        url: "https://www.banningforoklahoma.com/issues",
+      },
+      {
+        label: "Pro-Life",
         url: "https://www.banningforoklahoma.com/issues",
       },
     ],
@@ -5488,15 +5496,15 @@ const existingPositions: Record<
         url: "https://www.brianjacksontakesaction.com",
       },
       {
-        label: "Pro-Life",
-        url: "https://www.brianjacksontakesaction.com",
-      },
-      {
         label: "Economic Opportunity",
         url: "https://www.brianjacksontakesaction.com",
       },
       {
         label: "Local Leadership",
+        url: "https://www.brianjacksontakesaction.com",
+      },
+      {
+        label: "Pro-Life",
         url: "https://www.brianjacksontakesaction.com",
       },
     ],
@@ -5572,15 +5580,15 @@ const existingPositions: Record<
         url: "https://www.wrightforstaterep.com",
       },
       {
-        label: "Pro-Life",
-        url: "https://www.wrightforstaterep.com",
-      },
-      {
         label: "Law Enforcement",
         url: "https://www.wrightforstaterep.com",
       },
       {
         label: "Education Reform",
+        url: "https://www.wrightforstaterep.com",
+      },
+      {
+        label: "Pro-Life",
         url: "https://www.wrightforstaterep.com",
       },
     ],
@@ -5706,10 +5714,6 @@ const existingPositions: Record<
         url: "https://jordanforoklahoma.com",
       },
       {
-        label: "Pro-Life",
-        url: "https://jordanforoklahoma.com",
-      },
-      {
         label: "Second Amendment",
         url: "https://jordanforoklahoma.com",
       },
@@ -5741,6 +5745,10 @@ const existingPositions: Record<
         label: "Law Enforcement",
         url: "https://jordanforoklahoma.com",
       },
+      {
+        label: "Pro-Life",
+        url: "https://jordanforoklahoma.com",
+      },
     ],
   },
   "TORRY TURNBOW": {
@@ -5766,21 +5774,17 @@ const existingPositions: Record<
         url: "https://torryforhouse.com",
       },
       {
-        label: "Pro-Life",
+        label: "Trump Agenda",
         url: "https://torryforhouse.com",
       },
       {
-        label: "Trump Agenda",
+        label: "Pro-Life",
         url: "https://torryforhouse.com",
       },
     ],
   },
   "JADAN A. TERRAZAS": {
     supports: [
-      {
-        label: "Pro-Life",
-        url: "https://jadanterrazas.com",
-      },
       {
         label: "Lower Income Tax",
         url: "https://jadanterrazas.com",
@@ -5801,6 +5805,10 @@ const existingPositions: Record<
         label: "Immigration Enforcement",
         url: "https://jadanterrazas.com",
       },
+      {
+        label: "Pro-Life",
+        url: "https://jadanterrazas.com",
+      },
     ],
     against: [
       {
@@ -5813,10 +5821,6 @@ const existingPositions: Record<
     supports: [
       {
         label: "Lower Taxes (Everyone)",
-        url: "https://colemanforoklahoma.com",
-      },
-      {
-        label: "Pro-Life",
         url: "https://colemanforoklahoma.com",
       },
       {
@@ -5843,6 +5847,10 @@ const existingPositions: Record<
         label: "Law Enforcement",
         url: "https://colemanforoklahoma.com",
       },
+      {
+        label: "Pro-Life",
+        url: "https://colemanforoklahoma.com",
+      },
     ],
     against: [
       {
@@ -5862,10 +5870,6 @@ const existingPositions: Record<
         url: "https://votespencergrace.com",
       },
       {
-        label: "Pro-Life",
-        url: "https://votespencergrace.com",
-      },
-      {
         label: "Special Needs Families",
         url: "https://votespencergrace.com",
       },
@@ -5879,6 +5883,10 @@ const existingPositions: Record<
       },
       {
         label: "Property Rights",
+        url: "https://votespencergrace.com",
+      },
+      {
+        label: "Pro-Life",
         url: "https://votespencergrace.com",
       },
     ],
@@ -5968,10 +5976,6 @@ const existingPositions: Record<
         url: "https://www.gannforhouse.com",
       },
       {
-        label: "Pro-Life",
-        url: "https://www.gannforhouse.com",
-      },
-      {
         label: "Second Amendment",
         url: "https://www.gannforhouse.com",
       },
@@ -5981,6 +5985,10 @@ const existingPositions: Record<
       },
       {
         label: "Local Control",
+        url: "https://www.gannforhouse.com",
+      },
+      {
+        label: "Pro-Life",
         url: "https://www.gannforhouse.com",
       },
     ],
@@ -6050,21 +6058,17 @@ const existingPositions: Record<
         url: "http://senatorbrendastanley.com",
       },
       {
-        label: "Pro-Life",
+        label: "Energy Independence",
         url: "http://senatorbrendastanley.com",
       },
       {
-        label: "Energy Independence",
+        label: "Pro-Life",
         url: "http://senatorbrendastanley.com",
       },
     ],
   },
   "MALANA BRACHT": {
     supports: [
-      {
-        label: "Pro-Life",
-        url: "https://www.centraloklahomaweeklies.com/2026/06/12/stanley-bracht-face-off-in-district-42-gop-primary/",
-      },
       {
         label: "Law and Order",
         url: "https://www.centraloklahomaweeklies.com/2026/06/12/stanley-bracht-face-off-in-district-42-gop-primary/",
@@ -6083,6 +6087,10 @@ const existingPositions: Record<
       },
       {
         label: "Road Repairs",
+        url: "https://www.centraloklahomaweeklies.com/2026/06/12/stanley-bracht-face-off-in-district-42-gop-primary/",
+      },
+      {
+        label: "Pro-Life",
         url: "https://www.centraloklahomaweeklies.com/2026/06/12/stanley-bracht-face-off-in-district-42-gop-primary/",
       },
     ],
@@ -6196,15 +6204,15 @@ const existingPositions: Record<
         url: "https://nondoc.com/2026/05/23/cheat-sheet-republicans-running-for-hd-81-open-seat-talk-taxes-education/",
       },
       {
-        label: "Pro-Life",
-        url: "https://nondoc.com/2026/05/23/cheat-sheet-republicans-running-for-hd-81-open-seat-talk-taxes-education/",
-      },
-      {
         label: "Second Amendment",
         url: "https://nondoc.com/2026/05/23/cheat-sheet-republicans-running-for-hd-81-open-seat-talk-taxes-education/",
       },
       {
         label: "Parental Choice",
+        url: "https://nondoc.com/2026/05/23/cheat-sheet-republicans-running-for-hd-81-open-seat-talk-taxes-education/",
+      },
+      {
+        label: "Pro-Life",
         url: "https://nondoc.com/2026/05/23/cheat-sheet-republicans-running-for-hd-81-open-seat-talk-taxes-education/",
       },
     ],
@@ -6252,10 +6260,6 @@ const existingPositions: Record<
         url: "https://nondoc.com/2026/06/10/cheat-sheet-3-democrats-run-to-succeed-cyndi-munson-in-hd-85/",
       },
       {
-        label: "Reproductive Rights",
-        url: "https://nondoc.com/2026/06/10/cheat-sheet-3-democrats-run-to-succeed-cyndi-munson-in-hd-85/",
-      },
-      {
         label: "Affordable Childcare",
         url: "https://nondoc.com/2026/06/10/cheat-sheet-3-democrats-run-to-succeed-cyndi-munson-in-hd-85/",
       },
@@ -6277,6 +6281,10 @@ const existingPositions: Record<
       },
       {
         label: "Oppose ICE Detention",
+        url: "https://nondoc.com/2026/06/10/cheat-sheet-3-democrats-run-to-succeed-cyndi-munson-in-hd-85/",
+      },
+      {
+        label: "Abortion Rights",
         url: "https://nondoc.com/2026/06/10/cheat-sheet-3-democrats-run-to-succeed-cyndi-munson-in-hd-85/",
       },
     ],
@@ -6726,10 +6734,6 @@ const existingPositions: Record<
         url: "https://www.longforstatehouse.com",
       },
       {
-        label: "Pro-Life",
-        url: "https://www.longforstatehouse.com",
-      },
-      {
         label: "Second Amendment",
         url: "https://www.longforstatehouse.com",
       },
@@ -6765,6 +6769,10 @@ const existingPositions: Record<
         label: "Rural Funding",
         url: "https://nondoc.com/2026/06/06/cheat-sheet-3-republicans-compete-for-open-seat-in-northeast-oklahomas-hd-9/",
       },
+      {
+        label: "Pro-Life",
+        url: "https://www.longforstatehouse.com",
+      },
     ],
   },
   "CRYSTAL CAMPBELL": {
@@ -6779,10 +6787,6 @@ const existingPositions: Record<
       },
       {
         label: "Parental Rights",
-        url: "https://votecrystalcampbell.com",
-      },
-      {
-        label: "Pro-Life",
         url: "https://votecrystalcampbell.com",
       },
       {
@@ -6808,6 +6812,10 @@ const existingPositions: Record<
       {
         label: "Roads Infrastructure",
         url: "https://nondoc.com/2026/06/06/cheat-sheet-3-republicans-compete-for-open-seat-in-northeast-oklahomas-hd-9/",
+      },
+      {
+        label: "Pro-Life",
+        url: "https://votecrystalcampbell.com",
       },
     ],
   },
@@ -6878,10 +6886,6 @@ const existingPositions: Record<
   "SHEILA VANCUREN": {
     supports: [
       {
-        label: "Pro-Life",
-        url: "https://votevancuren.com",
-      },
-      {
         label: "Second Amendment",
         url: "https://votevancuren.com",
       },
@@ -6891,6 +6895,10 @@ const existingPositions: Record<
       },
       {
         label: "Child Advocacy",
+        url: "https://votevancuren.com",
+      },
+      {
+        label: "Pro-Life",
         url: "https://votevancuren.com",
       },
     ],
@@ -6974,10 +6982,6 @@ const existingPositions: Record<
         url: "http://kenttaylorok.com",
       },
       {
-        label: "Pro-Life",
-        url: "http://kenttaylorok.com",
-      },
-      {
         label: "Second Amendment",
         url: "http://kenttaylorok.com",
       },
@@ -6987,6 +6991,10 @@ const existingPositions: Record<
       },
       {
         label: "Rural Healthcare",
+        url: "http://kenttaylorok.com",
+      },
+      {
+        label: "Pro-Life",
         url: "http://kenttaylorok.com",
       },
     ],
@@ -6999,10 +7007,6 @@ const existingPositions: Record<
       },
       {
         label: "Parental Rights",
-        url: "https://brentdriskill.com",
-      },
-      {
-        label: "Pro-Life",
         url: "https://brentdriskill.com",
       },
       {
@@ -7033,6 +7037,10 @@ const existingPositions: Record<
         label: "Child Advocacy",
         url: "https://brentdriskill.com",
       },
+      {
+        label: "Pro-Life",
+        url: "https://brentdriskill.com",
+      },
     ],
   },
   "JOHN HASTE": {
@@ -7043,10 +7051,6 @@ const existingPositions: Record<
       },
       {
         label: "Girls Sports Protection",
-        url: "https://hasteforsenate.com",
-      },
-      {
-        label: "Pro-Life",
         url: "https://hasteforsenate.com",
       },
       {
@@ -7084,6 +7088,10 @@ const existingPositions: Record<
       {
         label: "Reading Proficiency",
         url: "https://nondoc.com/2026/06/14/senate-district-36-incumbent-john-haste-faces-phillip-weiland-republican-primary/",
+      },
+      {
+        label: "Pro-Life",
+        url: "https://hasteforsenate.com",
       },
     ],
   },
@@ -7126,10 +7134,6 @@ const existingPositions: Record<
         url: "https://stearmanforhouse.vote",
       },
       {
-        label: "Pro-Life",
-        url: "https://stearmanforhouse.vote",
-      },
-      {
         label: "Second Amendment",
         url: "https://stearmanforhouse.vote",
       },
@@ -7139,6 +7143,10 @@ const existingPositions: Record<
       },
       {
         label: "Property Rights",
+        url: "https://stearmanforhouse.vote",
+      },
+      {
+        label: "Pro-Life",
         url: "https://stearmanforhouse.vote",
       },
     ],
@@ -7186,10 +7194,6 @@ const existingPositions: Record<
         url: "https://www.angelastrohm.com",
       },
       {
-        label: "Pro-Life",
-        url: "https://www.angelastrohm.com",
-      },
-      {
         label: "Second Amendment",
         url: "https://www.angelastrohm.com",
       },
@@ -7225,16 +7229,16 @@ const existingPositions: Record<
         label: "Conservative Values",
         url: "https://www.angelastrohm.com",
       },
+      {
+        label: "Pro-Life",
+        url: "https://www.angelastrohm.com",
+      },
     ],
   },
   "CODY NICHOLS": {
     supports: [
       {
         label: "Religious Liberty",
-        url: "https://nondoc.com/2026/06/03/cheat-sheet-familiar-faces-newcomers-seek-open-hd-69-republican-primary/",
-      },
-      {
-        label: "Pro-Life",
         url: "https://nondoc.com/2026/06/03/cheat-sheet-familiar-faces-newcomers-seek-open-hd-69-republican-primary/",
       },
       {
@@ -7257,6 +7261,10 @@ const existingPositions: Record<
         label: "Limit Government",
         url: "https://nondoc.com/2026/06/03/cheat-sheet-familiar-faces-newcomers-seek-open-hd-69-republican-primary/",
       },
+      {
+        label: "Pro-Life",
+        url: "https://nondoc.com/2026/06/03/cheat-sheet-familiar-faces-newcomers-seek-open-hd-69-republican-primary/",
+      },
     ],
     against: [
       {
@@ -7273,10 +7281,6 @@ const existingPositions: Record<
       },
       {
         label: "Education Funding",
-        url: "https://www.carrieforthehouse.com",
-      },
-      {
-        label: "Pro-Life",
         url: "https://www.carrieforthehouse.com",
       },
       {
@@ -7323,6 +7327,10 @@ const existingPositions: Record<
         label: "Responsible Government",
         url: "https://nondoc.com/2026/06/03/cheat-sheet-familiar-faces-newcomers-seek-open-hd-69-republican-primary/",
       },
+      {
+        label: "Pro-Life",
+        url: "https://www.carrieforthehouse.com",
+      },
     ],
   },
   "KRISTINA GABRIEL": {
@@ -7337,10 +7345,6 @@ const existingPositions: Record<
     supports: [
       {
         label: "Lower Taxes (Everyone)",
-        url: "https://www.woolleyforstatehouse.com",
-      },
-      {
-        label: "Pro-Life",
         url: "https://www.woolleyforstatehouse.com",
       },
       {
@@ -7361,6 +7365,10 @@ const existingPositions: Record<
       },
       {
         label: "Conservative Values",
+        url: "https://www.woolleyforstatehouse.com",
+      },
+      {
+        label: "Pro-Life",
         url: "https://www.woolleyforstatehouse.com",
       },
     ],

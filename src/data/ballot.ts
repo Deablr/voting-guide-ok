@@ -127,11 +127,11 @@ const state_officersSection: BallotSection = {
           ],
           against: [
             {
-              label: "Abortion Ban",
+              label: "School Vouchers",
               url: "https://www.cyndimunson.com/Priorities",
             },
             {
-              label: "School Vouchers",
+              label: "Abortion Ban",
               url: "https://www.cyndimunson.com/Priorities",
             },
           ],
@@ -248,11 +248,11 @@ const state_officersSection: BallotSection = {
           ],
           against: [
             {
-              label: "Abortion",
+              label: "Vaccine Mandates",
               url: "https://oklahomavoice.com/voter-guides/contests/governor-republican/",
             },
             {
-              label: "Vaccine Mandates",
+              label: "Abortion",
               url: "https://oklahomavoice.com/voter-guides/contests/governor-republican/",
             },
           ],
@@ -291,7 +291,6 @@ const state_officersSection: BallotSection = {
               label: "Workforce Development",
               url: "https://www.keating2026.com/issues",
             },
-            { label: "Pro-Life", url: "https://www.keating2026.com/issues" },
             {
               label: "Second Amendment",
               url: "https://www.keating2026.com/issues",
@@ -313,6 +312,7 @@ const state_officersSection: BallotSection = {
               label: "Domestic Manufacturing",
               url: "https://www.keating2026.com/issues",
             },
+            { label: "Pro-Life", url: "https://www.keating2026.com/issues" },
           ],
           against: [
             { label: "CBDCs", url: "https://www.keating2026.com/issues" },
@@ -363,7 +363,6 @@ const state_officersSection: BallotSection = {
           website: "https://jakemerrickforgovernor.com/",
           endorsements: [{ name: "Deab Endorsed" }],
           supports: [
-            { label: "Pro-Life", url: "https://jakemerrickforgovernor.com/" },
             { label: "DHS Reform", url: "https://jakemerrickforgovernor.com/" },
             {
               label: "Teacher Pay",
@@ -377,6 +376,7 @@ const state_officersSection: BallotSection = {
               label: "Parental Rights",
               url: "https://oklahomavoice.com/voter-guides/contests/governor-republican/",
             },
+            { label: "Abolition", url: "https://jakemerrickforgovernor.com/" },
           ],
           against: [
             {
@@ -657,7 +657,6 @@ const state_officersSection: BallotSection = {
           party: "REPUBLICAN",
           website: "https://www.hillforlg.com/",
           supports: [
-            { label: "Pro-Life", url: "https://www.hillforlg.com/" },
             { label: "Second Amendment", url: "https://www.hillforlg.com/" },
             { label: "Border Security", url: "https://www.hillforlg.com/" },
             { label: "School Choice", url: "https://www.hillforlg.com/" },
@@ -668,6 +667,7 @@ const state_officersSection: BallotSection = {
             { label: "Energy", url: "https://www.hillforlg.com/" },
             { label: "Religious Freedom", url: "https://www.hillforlg.com/" },
             { label: "Workforce Reentry", url: "https://www.hillforlg.com/" },
+            { label: "Pro-Life", url: "https://www.hillforlg.com/" },
           ],
           against: [
             { label: "Government Bloat", url: "https://www.hillforlg.com/" },
@@ -731,10 +731,10 @@ const state_officersSection: BallotSection = {
           supports: [
             { label: "Law Enforcement", url: "https://jeffstarling.com/" },
             { label: "Second Amendment", url: "https://jeffstarling.com/" },
-            { label: "Pro-Life", url: "https://jeffstarling.com/" },
             { label: "Border Security", url: "https://jeffstarling.com/" },
             { label: "Energy", url: "https://jeffstarling.com/" },
             { label: "Fentanyl Crisis", url: "https://jeffstarling.com/" },
+            { label: "Pro-Life", url: "https://jeffstarling.com/" },
           ],
           against: [
             { label: "CCP Influence", url: "https://jeffstarling.com/" },
@@ -889,13 +889,13 @@ const state_officersSection: BallotSection = {
           supports: [
             { label: "School Choice", url: "https://www.toniforok.com/" },
             { label: "Parental Rights", url: "https://www.toniforok.com/" },
-            { label: "Pro-Life", url: "https://www.toniforok.com/" },
             { label: "Second Amendment", url: "https://www.toniforok.com/" },
             { label: "Religious Freedom", url: "https://www.toniforok.com/" },
             { label: "Teacher Pay", url: "https://www.toniforok.com/" },
             { label: "Workforce Training", url: "https://www.toniforok.com/" },
             { label: "School Safety", url: "https://www.toniforok.com/" },
             { label: "Women's Sports", url: "https://www.toniforok.com/" },
+            { label: "Pro-Life", url: "https://www.toniforok.com/" },
           ],
           against: [
             { label: "DEI Programs", url: "https://www.toniforok.com/" },
@@ -1289,8 +1289,8 @@ const state_officersSection: BallotSection = {
               label: "Homeowner Protection",
               url: "https://votebobsullivan.com",
             },
-            { label: "Pro-Life", url: "https://votebobsullivan.com" },
             { label: "Second Amendment", url: "https://votebobsullivan.com" },
+            { label: "Pro-Life", url: "https://votebobsullivan.com" },
           ],
           against: [
             { label: "Big Insurance", url: "https://votebobsullivan.com" },
@@ -1507,10 +1507,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                 website: "https://yenforsenate.com/",
                 supports: [
                   {
-                    label: "Protect Abortion Rights",
-                    url: "https://yenforsenate.com/",
-                  },
-                  {
                     label: "Defend Medical Autonomy",
                     url: "https://yenforsenate.com/",
                   },
@@ -1560,6 +1556,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Federal Accountability",
+                    url: "https://yenforsenate.com/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://yenforsenate.com/",
                   },
                 ],
@@ -1621,10 +1621,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                   {
-                    label: "Restore Abortion Rights",
-                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
-                  },
-                  {
                     label: "Autism Services",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
@@ -1650,6 +1646,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "LGBTQ Rights",
+                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                 ],
@@ -1866,7 +1866,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "SAVE America Act",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
                   },
-                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                   {
                     label: "Born-Alive Protection",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
@@ -1891,6 +1890,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Second Amendment",
                     url: "https://hernforsenate.com/",
                   },
+                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                 ],
               },
               {
@@ -2042,10 +2042,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://brandon4congress.com/",
                   },
                   {
-                    label: "Protect Abortion Rights",
-                    url: "https://brandon4congress.com/",
-                  },
-                  {
                     label: "Fund Public Schools",
                     url: "https://brandon4congress.com/",
                   },
@@ -2088,6 +2084,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   {
                     label: "Richard Star Act",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-democrats-go-head-to-head-in-2nd-3rd-4th-congressional-district-primaries/",
+                  },
+                  {
+                    label: "Abortion Rights",
+                    url: "https://brandon4congress.com/",
                   },
                 ],
                 against: [
@@ -2155,15 +2155,15 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                   {
-                    label: "Pro-Life",
-                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
-                  },
-                  {
                     label: "Second Amendment",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                   {
                     label: "Fund National Defense",
+                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
+                  },
+                  {
+                    label: "Pro-Life",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                 ],
@@ -2273,10 +2273,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://www.kennysmithforsenate.com",
                   },
                   {
-                    label: "Pro-Life",
-                    url: "https://www.kennysmithforsenate.com",
-                  },
-                  {
                     label: "Second Amendment",
                     url: "https://www.kennysmithforsenate.com",
                   },
@@ -2306,6 +2302,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Conservative Values",
+                    url: "https://www.kennysmithforsenate.com",
+                  },
+                  {
+                    label: "Pro-Life",
                     url: "https://www.kennysmithforsenate.com",
                   },
                 ],
@@ -2547,10 +2547,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                 website: "https://yenforsenate.com/",
                 supports: [
                   {
-                    label: "Protect Abortion Rights",
-                    url: "https://yenforsenate.com/",
-                  },
-                  {
                     label: "Defend Medical Autonomy",
                     url: "https://yenforsenate.com/",
                   },
@@ -2600,6 +2596,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Federal Accountability",
+                    url: "https://yenforsenate.com/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://yenforsenate.com/",
                   },
                 ],
@@ -2661,10 +2661,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                   {
-                    label: "Restore Abortion Rights",
-                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
-                  },
-                  {
                     label: "Autism Services",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
@@ -2690,6 +2686,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "LGBTQ Rights",
+                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                 ],
@@ -2906,7 +2906,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "SAVE America Act",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
                   },
-                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                   {
                     label: "Born-Alive Protection",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
@@ -2931,6 +2930,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Second Amendment",
                     url: "https://hernforsenate.com/",
                   },
+                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                 ],
               },
               {
@@ -3126,10 +3126,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://www.oklahomafight.com/",
                   },
                   {
-                    label: "Reproductive Rights",
-                    url: "https://www.oklahomafight.com/",
-                  },
-                  {
                     label: "Protect Democracy",
                     url: "https://www.oklahomafight.com/",
                   },
@@ -3139,6 +3135,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Green Energy",
+                    url: "https://www.oklahomafight.com/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://www.oklahomafight.com/",
                   },
                 ],
@@ -3194,10 +3194,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                   {
-                    label: "Pro-Life",
-                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
-                  },
-                  {
                     label: "Hyde Amendment",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
@@ -3215,6 +3211,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Fort Reno Protection",
+                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
+                  },
+                  {
+                    label: "Pro-Life",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                 ],
@@ -3348,10 +3348,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                 website: "https://yenforsenate.com/",
                 supports: [
                   {
-                    label: "Protect Abortion Rights",
-                    url: "https://yenforsenate.com/",
-                  },
-                  {
                     label: "Defend Medical Autonomy",
                     url: "https://yenforsenate.com/",
                   },
@@ -3401,6 +3397,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Federal Accountability",
+                    url: "https://yenforsenate.com/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://yenforsenate.com/",
                   },
                 ],
@@ -3462,10 +3462,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                   {
-                    label: "Restore Abortion Rights",
-                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
-                  },
-                  {
                     label: "Autism Services",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
@@ -3491,6 +3487,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "LGBTQ Rights",
+                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                 ],
@@ -3707,7 +3707,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "SAVE America Act",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
                   },
-                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                   {
                     label: "Born-Alive Protection",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
@@ -3732,6 +3731,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Second Amendment",
                     url: "https://hernforsenate.com/",
                   },
+                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                 ],
               },
               {
@@ -3883,10 +3883,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://brandon4congress.com/",
                   },
                   {
-                    label: "Protect Abortion Rights",
-                    url: "https://brandon4congress.com/",
-                  },
-                  {
                     label: "Fund Public Schools",
                     url: "https://brandon4congress.com/",
                   },
@@ -3929,6 +3925,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   {
                     label: "Richard Star Act",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-democrats-go-head-to-head-in-2nd-3rd-4th-congressional-district-primaries/",
+                  },
+                  {
+                    label: "Abortion Rights",
+                    url: "https://brandon4congress.com/",
                   },
                 ],
                 against: [
@@ -3996,15 +3996,15 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                   {
-                    label: "Pro-Life",
-                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
-                  },
-                  {
                     label: "Second Amendment",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                   {
                     label: "Fund National Defense",
+                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
+                  },
+                  {
+                    label: "Pro-Life",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                 ],
@@ -4169,7 +4169,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Education Funding",
                     url: "https://votederekporter.com",
                   },
-                  { label: "Pro-Life", url: "https://votederekporter.com" },
                   {
                     label: "Second Amendment",
                     url: "https://votederekporter.com",
@@ -4182,6 +4181,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Small Business Support",
                     url: "https://votederekporter.com",
                   },
+                  { label: "Pro-Life", url: "https://votederekporter.com" },
                 ],
               },
             ],
@@ -4332,10 +4332,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                 website: "https://yenforsenate.com/",
                 supports: [
                   {
-                    label: "Protect Abortion Rights",
-                    url: "https://yenforsenate.com/",
-                  },
-                  {
                     label: "Defend Medical Autonomy",
                     url: "https://yenforsenate.com/",
                   },
@@ -4385,6 +4381,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Federal Accountability",
+                    url: "https://yenforsenate.com/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://yenforsenate.com/",
                   },
                 ],
@@ -4446,10 +4446,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                   {
-                    label: "Restore Abortion Rights",
-                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
-                  },
-                  {
                     label: "Autism Services",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
@@ -4475,6 +4471,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "LGBTQ Rights",
+                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                 ],
@@ -4691,7 +4691,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "SAVE America Act",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
                   },
-                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                   {
                     label: "Born-Alive Protection",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
@@ -4716,6 +4715,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Second Amendment",
                     url: "https://hernforsenate.com/",
                   },
+                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                 ],
               },
               {
@@ -4911,10 +4911,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://www.oklahomafight.com/",
                   },
                   {
-                    label: "Reproductive Rights",
-                    url: "https://www.oklahomafight.com/",
-                  },
-                  {
                     label: "Protect Democracy",
                     url: "https://www.oklahomafight.com/",
                   },
@@ -4924,6 +4920,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Green Energy",
+                    url: "https://www.oklahomafight.com/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://www.oklahomafight.com/",
                   },
                 ],
@@ -4979,10 +4979,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                   {
-                    label: "Pro-Life",
-                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
-                  },
-                  {
                     label: "Hyde Amendment",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
@@ -5000,6 +4996,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Fort Reno Protection",
+                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
+                  },
+                  {
+                    label: "Pro-Life",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                 ],
@@ -5108,10 +5108,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                 website: "https://yenforsenate.com/",
                 supports: [
                   {
-                    label: "Protect Abortion Rights",
-                    url: "https://yenforsenate.com/",
-                  },
-                  {
                     label: "Defend Medical Autonomy",
                     url: "https://yenforsenate.com/",
                   },
@@ -5161,6 +5157,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Federal Accountability",
+                    url: "https://yenforsenate.com/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://yenforsenate.com/",
                   },
                 ],
@@ -5222,10 +5222,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                   {
-                    label: "Restore Abortion Rights",
-                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
-                  },
-                  {
                     label: "Autism Services",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
@@ -5251,6 +5247,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "LGBTQ Rights",
+                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                 ],
@@ -5467,7 +5467,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "SAVE America Act",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
                   },
-                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                   {
                     label: "Born-Alive Protection",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
@@ -5492,6 +5491,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Second Amendment",
                     url: "https://hernforsenate.com/",
                   },
+                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                 ],
               },
               {
@@ -5687,10 +5687,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://www.oklahomafight.com/",
                   },
                   {
-                    label: "Reproductive Rights",
-                    url: "https://www.oklahomafight.com/",
-                  },
-                  {
                     label: "Protect Democracy",
                     url: "https://www.oklahomafight.com/",
                   },
@@ -5700,6 +5696,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Green Energy",
+                    url: "https://www.oklahomafight.com/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://www.oklahomafight.com/",
                   },
                 ],
@@ -5755,10 +5755,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                   {
-                    label: "Pro-Life",
-                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
-                  },
-                  {
                     label: "Hyde Amendment",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
@@ -5776,6 +5772,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Fort Reno Protection",
+                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
+                  },
+                  {
+                    label: "Pro-Life",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                 ],
@@ -5972,10 +5972,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                 website: "https://yenforsenate.com/",
                 supports: [
                   {
-                    label: "Protect Abortion Rights",
-                    url: "https://yenforsenate.com/",
-                  },
-                  {
                     label: "Defend Medical Autonomy",
                     url: "https://yenforsenate.com/",
                   },
@@ -6025,6 +6021,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Federal Accountability",
+                    url: "https://yenforsenate.com/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://yenforsenate.com/",
                   },
                 ],
@@ -6086,10 +6086,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                   {
-                    label: "Restore Abortion Rights",
-                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
-                  },
-                  {
                     label: "Autism Services",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
@@ -6115,6 +6111,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "LGBTQ Rights",
+                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                 ],
@@ -6331,7 +6331,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "SAVE America Act",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
                   },
-                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                   {
                     label: "Born-Alive Protection",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
@@ -6356,6 +6355,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Second Amendment",
                     url: "https://hernforsenate.com/",
                   },
+                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                 ],
               },
               {
@@ -6551,10 +6551,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://www.oklahomafight.com/",
                   },
                   {
-                    label: "Reproductive Rights",
-                    url: "https://www.oklahomafight.com/",
-                  },
-                  {
                     label: "Protect Democracy",
                     url: "https://www.oklahomafight.com/",
                   },
@@ -6564,6 +6560,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Green Energy",
+                    url: "https://www.oklahomafight.com/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://www.oklahomafight.com/",
                   },
                 ],
@@ -6619,10 +6619,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                   {
-                    label: "Pro-Life",
-                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
-                  },
-                  {
                     label: "Hyde Amendment",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
@@ -6640,6 +6636,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Fort Reno Protection",
+                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
+                  },
+                  {
+                    label: "Pro-Life",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                 ],
@@ -6689,7 +6689,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Lower Taxes (Everyone)",
                     url: "https://rickkoch.com",
                   },
-                  { label: "Pro-Life", url: "https://rickkoch.com" },
                   { label: "Second Amendment", url: "https://rickkoch.com" },
                   {
                     label: "Immigration Enforcement",
@@ -6705,6 +6704,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://rickkoch.com",
                   },
                   { label: "Conservative Values", url: "https://rickkoch.com" },
+                  { label: "Pro-Life", url: "https://rickkoch.com" },
                 ],
               },
               {
@@ -6861,10 +6861,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                 website: "https://yenforsenate.com/",
                 supports: [
                   {
-                    label: "Protect Abortion Rights",
-                    url: "https://yenforsenate.com/",
-                  },
-                  {
                     label: "Defend Medical Autonomy",
                     url: "https://yenforsenate.com/",
                   },
@@ -6914,6 +6910,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Federal Accountability",
+                    url: "https://yenforsenate.com/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://yenforsenate.com/",
                   },
                 ],
@@ -6975,10 +6975,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                   {
-                    label: "Restore Abortion Rights",
-                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
-                  },
-                  {
                     label: "Autism Services",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
@@ -7004,6 +7000,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "LGBTQ Rights",
+                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                 ],
@@ -7220,7 +7220,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "SAVE America Act",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
                   },
-                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                   {
                     label: "Born-Alive Protection",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
@@ -7245,6 +7244,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Second Amendment",
                     url: "https://hernforsenate.com/",
                   },
+                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                 ],
               },
               {
@@ -7396,10 +7396,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://brandon4congress.com/",
                   },
                   {
-                    label: "Protect Abortion Rights",
-                    url: "https://brandon4congress.com/",
-                  },
-                  {
                     label: "Fund Public Schools",
                     url: "https://brandon4congress.com/",
                   },
@@ -7442,6 +7438,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   {
                     label: "Richard Star Act",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-democrats-go-head-to-head-in-2nd-3rd-4th-congressional-district-primaries/",
+                  },
+                  {
+                    label: "Abortion Rights",
+                    url: "https://brandon4congress.com/",
                   },
                 ],
                 against: [
@@ -7509,15 +7509,15 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                   {
-                    label: "Pro-Life",
-                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
-                  },
-                  {
                     label: "Second Amendment",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                   {
                     label: "Fund National Defense",
+                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
+                  },
+                  {
+                    label: "Pro-Life",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                 ],
@@ -7682,7 +7682,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Education Funding",
                     url: "https://votederekporter.com",
                   },
-                  { label: "Pro-Life", url: "https://votederekporter.com" },
                   {
                     label: "Second Amendment",
                     url: "https://votederekporter.com",
@@ -7695,6 +7694,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Small Business Support",
                     url: "https://votederekporter.com",
                   },
+                  { label: "Pro-Life", url: "https://votederekporter.com" },
                 ],
               },
             ],
@@ -7817,10 +7817,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                 website: "https://yenforsenate.com/",
                 supports: [
                   {
-                    label: "Protect Abortion Rights",
-                    url: "https://yenforsenate.com/",
-                  },
-                  {
                     label: "Defend Medical Autonomy",
                     url: "https://yenforsenate.com/",
                   },
@@ -7870,6 +7866,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Federal Accountability",
+                    url: "https://yenforsenate.com/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://yenforsenate.com/",
                   },
                 ],
@@ -7931,10 +7931,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                   {
-                    label: "Restore Abortion Rights",
-                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
-                  },
-                  {
                     label: "Autism Services",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
@@ -7960,6 +7956,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "LGBTQ Rights",
+                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                 ],
@@ -8176,7 +8176,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "SAVE America Act",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
                   },
-                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                   {
                     label: "Born-Alive Protection",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
@@ -8201,6 +8200,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Second Amendment",
                     url: "https://hernforsenate.com/",
                   },
+                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                 ],
               },
               {
@@ -8396,10 +8396,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://www.oklahomafight.com/",
                   },
                   {
-                    label: "Reproductive Rights",
-                    url: "https://www.oklahomafight.com/",
-                  },
-                  {
                     label: "Protect Democracy",
                     url: "https://www.oklahomafight.com/",
                   },
@@ -8409,6 +8405,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Green Energy",
+                    url: "https://www.oklahomafight.com/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://www.oklahomafight.com/",
                   },
                 ],
@@ -8464,10 +8464,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                   {
-                    label: "Pro-Life",
-                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
-                  },
-                  {
                     label: "Hyde Amendment",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
@@ -8485,6 +8481,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Fort Reno Protection",
+                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
+                  },
+                  {
+                    label: "Pro-Life",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                 ],
@@ -8534,7 +8534,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Lower Taxes (Everyone)",
                     url: "https://rickkoch.com",
                   },
-                  { label: "Pro-Life", url: "https://rickkoch.com" },
                   { label: "Second Amendment", url: "https://rickkoch.com" },
                   {
                     label: "Immigration Enforcement",
@@ -8550,6 +8549,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://rickkoch.com",
                   },
                   { label: "Conservative Values", url: "https://rickkoch.com" },
+                  { label: "Pro-Life", url: "https://rickkoch.com" },
                 ],
               },
               {
@@ -8591,7 +8591,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Education Funding",
                     url: "https://carlaforhouse.com",
                   },
-                  { label: "Pro-Life", url: "https://carlaforhouse.com" },
                   {
                     label: "Second Amendment",
                     url: "https://carlaforhouse.com",
@@ -8608,6 +8607,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Conservative Values",
                     url: "https://carlaforhouse.com",
                   },
+                  { label: "Pro-Life", url: "https://carlaforhouse.com" },
                 ],
               },
               {
@@ -8748,10 +8748,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                 website: "https://yenforsenate.com/",
                 supports: [
                   {
-                    label: "Protect Abortion Rights",
-                    url: "https://yenforsenate.com/",
-                  },
-                  {
                     label: "Defend Medical Autonomy",
                     url: "https://yenforsenate.com/",
                   },
@@ -8801,6 +8797,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Federal Accountability",
+                    url: "https://yenforsenate.com/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://yenforsenate.com/",
                   },
                 ],
@@ -8862,10 +8862,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                   {
-                    label: "Restore Abortion Rights",
-                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
-                  },
-                  {
                     label: "Autism Services",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
@@ -8891,6 +8887,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "LGBTQ Rights",
+                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                 ],
@@ -9107,7 +9107,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "SAVE America Act",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
                   },
-                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                   {
                     label: "Born-Alive Protection",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
@@ -9132,6 +9131,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Second Amendment",
                     url: "https://hernforsenate.com/",
                   },
+                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                 ],
               },
               {
@@ -9327,10 +9327,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://www.oklahomafight.com/",
                   },
                   {
-                    label: "Reproductive Rights",
-                    url: "https://www.oklahomafight.com/",
-                  },
-                  {
                     label: "Protect Democracy",
                     url: "https://www.oklahomafight.com/",
                   },
@@ -9340,6 +9336,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Green Energy",
+                    url: "https://www.oklahomafight.com/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://www.oklahomafight.com/",
                   },
                 ],
@@ -9395,10 +9395,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                   {
-                    label: "Pro-Life",
-                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
-                  },
-                  {
                     label: "Hyde Amendment",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
@@ -9416,6 +9412,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Fort Reno Protection",
+                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
+                  },
+                  {
+                    label: "Pro-Life",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                 ],
@@ -9502,6 +9502,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   {
                     label: "Workers' Rights",
                     url: "https://nondoc.com/2026/06/04/cd-5-democratic-primary-trey-martin-jena-nelson-fight-for-right-to-face-bice/",
+                  },
+                  {
+                    label: "Abortion Rights",
+                    url: "https://www.treyforoklahoma.com/platform",
                   },
                 ],
                 against: [
@@ -9632,7 +9636,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://tylerherring.com",
                   },
                   { label: "Parental Rights", url: "https://tylerherring.com" },
-                  { label: "Pro-Life", url: "https://tylerherring.com" },
                   {
                     label: "Second Amendment",
                     url: "https://tylerherring.com",
@@ -9657,6 +9660,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Rural Healthcare",
                     url: "https://tylerherring.com",
                   },
+                  { label: "Pro-Life", url: "https://tylerherring.com" },
                 ],
               },
               {
@@ -9704,7 +9708,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Lower Taxes (Everyone)",
                     url: "https://rickkoch.com",
                   },
-                  { label: "Pro-Life", url: "https://rickkoch.com" },
                   { label: "Second Amendment", url: "https://rickkoch.com" },
                   {
                     label: "Immigration Enforcement",
@@ -9720,6 +9723,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://rickkoch.com",
                   },
                   { label: "Conservative Values", url: "https://rickkoch.com" },
+                  { label: "Pro-Life", url: "https://rickkoch.com" },
                 ],
               },
               {
@@ -9793,7 +9797,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Parental Rights",
                     url: "https://www.tobyforthehouse.com",
                   },
-                  { label: "Pro-Life", url: "https://www.tobyforthehouse.com" },
                   {
                     label: "Second Amendment",
                     url: "https://www.tobyforthehouse.com",
@@ -9814,6 +9817,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Conservative Values",
                     url: "https://www.tobyforthehouse.com",
                   },
+                  { label: "Pro-Life", url: "https://www.tobyforthehouse.com" },
                 ],
               },
               {
@@ -9872,15 +9876,15 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://okhouse.gov/representatives/mike-kelley",
                   },
                   {
-                    label: "Pro-Life",
-                    url: "https://okhouse.gov/representatives/mike-kelley",
-                  },
-                  {
                     label: "Property Rights",
                     url: "https://okhouse.gov/representatives/mike-kelley",
                   },
                   {
                     label: "Law Enforcement Support",
+                    url: "https://okhouse.gov/representatives/mike-kelley",
+                  },
+                  {
+                    label: "Pro-Life",
                     url: "https://okhouse.gov/representatives/mike-kelley",
                   },
                 ],
@@ -9989,10 +9993,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                 website: "https://yenforsenate.com/",
                 supports: [
                   {
-                    label: "Protect Abortion Rights",
-                    url: "https://yenforsenate.com/",
-                  },
-                  {
                     label: "Defend Medical Autonomy",
                     url: "https://yenforsenate.com/",
                   },
@@ -10042,6 +10042,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Federal Accountability",
+                    url: "https://yenforsenate.com/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://yenforsenate.com/",
                   },
                 ],
@@ -10103,10 +10107,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                   {
-                    label: "Restore Abortion Rights",
-                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
-                  },
-                  {
                     label: "Autism Services",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
@@ -10132,6 +10132,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "LGBTQ Rights",
+                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                 ],
@@ -10348,7 +10352,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "SAVE America Act",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
                   },
-                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                   {
                     label: "Born-Alive Protection",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
@@ -10373,6 +10376,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Second Amendment",
                     url: "https://hernforsenate.com/",
                   },
+                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                 ],
               },
               {
@@ -10558,10 +10562,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://www.mitchelljacob.com/",
                   },
                   {
-                    label: "Pro-Choice",
-                    url: "https://www.mitchelljacob.com/",
-                  },
-                  {
                     label: "Tribal Sovereignty",
                     url: "https://www.mitchelljacob.com/",
                   },
@@ -10576,6 +10576,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "No PAC Money",
+                    url: "https://www.mitchelljacob.com/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://www.mitchelljacob.com/",
                   },
                 ],
@@ -10741,16 +10745,16 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                   {
-                    label: "Pro-Life",
-                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
-                  },
-                  {
                     label: "Truth Commission",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                   {
                     label: "Trump Agenda",
                     url: "https://tomcoleforcongress.com/",
+                  },
+                  {
+                    label: "Pro-Life",
+                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                 ],
                 against: [
@@ -10760,6 +10764,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Iran Nuclear Deal",
+                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                 ],
@@ -10921,10 +10929,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                 website: "https://yenforsenate.com/",
                 supports: [
                   {
-                    label: "Protect Abortion Rights",
-                    url: "https://yenforsenate.com/",
-                  },
-                  {
                     label: "Defend Medical Autonomy",
                     url: "https://yenforsenate.com/",
                   },
@@ -10974,6 +10978,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Federal Accountability",
+                    url: "https://yenforsenate.com/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://yenforsenate.com/",
                   },
                 ],
@@ -11035,10 +11043,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                   {
-                    label: "Restore Abortion Rights",
-                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
-                  },
-                  {
                     label: "Autism Services",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
@@ -11064,6 +11068,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "LGBTQ Rights",
+                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                 ],
@@ -11280,7 +11288,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "SAVE America Act",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
                   },
-                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                   {
                     label: "Born-Alive Protection",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
@@ -11305,6 +11312,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Second Amendment",
                     url: "https://hernforsenate.com/",
                   },
+                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                 ],
               },
               {
@@ -11456,10 +11464,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://brandon4congress.com/",
                   },
                   {
-                    label: "Protect Abortion Rights",
-                    url: "https://brandon4congress.com/",
-                  },
-                  {
                     label: "Fund Public Schools",
                     url: "https://brandon4congress.com/",
                   },
@@ -11502,6 +11506,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   {
                     label: "Richard Star Act",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-democrats-go-head-to-head-in-2nd-3rd-4th-congressional-district-primaries/",
+                  },
+                  {
+                    label: "Abortion Rights",
+                    url: "https://brandon4congress.com/",
                   },
                 ],
                 against: [
@@ -11569,15 +11577,15 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                   {
-                    label: "Pro-Life",
-                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
-                  },
-                  {
                     label: "Second Amendment",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                   {
                     label: "Fund National Defense",
+                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
+                  },
+                  {
+                    label: "Pro-Life",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                 ],
@@ -11687,10 +11695,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://www.kennysmithforsenate.com",
                   },
                   {
-                    label: "Pro-Life",
-                    url: "https://www.kennysmithforsenate.com",
-                  },
-                  {
                     label: "Second Amendment",
                     url: "https://www.kennysmithforsenate.com",
                   },
@@ -11720,6 +11724,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Conservative Values",
+                    url: "https://www.kennysmithforsenate.com",
+                  },
+                  {
+                    label: "Pro-Life",
                     url: "https://www.kennysmithforsenate.com",
                   },
                 ],
@@ -11764,15 +11772,15 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                 party: "REPUBLICAN",
                 supports: [
                   {
-                    label: "Pro-Life",
-                    url: "https://okhouse.gov/representatives/chris-sneed",
-                  },
-                  {
                     label: "Utility Rate Protection",
                     url: "https://okhouse.gov/representatives/chris-sneed",
                   },
                   {
                     label: "Law Enforcement Support",
+                    url: "https://okhouse.gov/representatives/chris-sneed",
+                  },
+                  {
+                    label: "Pro-Life",
                     url: "https://okhouse.gov/representatives/chris-sneed",
                   },
                 ],
@@ -11786,13 +11794,13 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://roytimmons.com",
                   },
                   { label: "Parental Rights", url: "https://roytimmons.com" },
-                  { label: "Pro-Life", url: "https://roytimmons.com" },
                   { label: "Second Amendment", url: "https://roytimmons.com" },
                   { label: "Property Rights", url: "https://roytimmons.com" },
                   {
                     label: "Utility Rate Protection",
                     url: "https://roytimmons.com",
                   },
+                  { label: "Pro-Life", url: "https://roytimmons.com" },
                 ],
               },
             ],
@@ -11932,10 +11940,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                 website: "https://yenforsenate.com/",
                 supports: [
                   {
-                    label: "Protect Abortion Rights",
-                    url: "https://yenforsenate.com/",
-                  },
-                  {
                     label: "Defend Medical Autonomy",
                     url: "https://yenforsenate.com/",
                   },
@@ -11985,6 +11989,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Federal Accountability",
+                    url: "https://yenforsenate.com/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://yenforsenate.com/",
                   },
                 ],
@@ -12046,10 +12054,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                   {
-                    label: "Restore Abortion Rights",
-                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
-                  },
-                  {
                     label: "Autism Services",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
@@ -12075,6 +12079,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "LGBTQ Rights",
+                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                 ],
@@ -12291,7 +12299,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "SAVE America Act",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
                   },
-                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                   {
                     label: "Born-Alive Protection",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
@@ -12316,6 +12323,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Second Amendment",
                     url: "https://hernforsenate.com/",
                   },
+                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                 ],
               },
               {
@@ -12467,10 +12475,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://brandon4congress.com/",
                   },
                   {
-                    label: "Protect Abortion Rights",
-                    url: "https://brandon4congress.com/",
-                  },
-                  {
                     label: "Fund Public Schools",
                     url: "https://brandon4congress.com/",
                   },
@@ -12513,6 +12517,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   {
                     label: "Richard Star Act",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-democrats-go-head-to-head-in-2nd-3rd-4th-congressional-district-primaries/",
+                  },
+                  {
+                    label: "Abortion Rights",
+                    url: "https://brandon4congress.com/",
                   },
                 ],
                 against: [
@@ -12580,15 +12588,15 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                   {
-                    label: "Pro-Life",
-                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
-                  },
-                  {
                     label: "Second Amendment",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                   {
                     label: "Fund National Defense",
+                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
+                  },
+                  {
+                    label: "Pro-Life",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                 ],
@@ -12753,7 +12761,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Education Funding",
                     url: "https://votederekporter.com",
                   },
-                  { label: "Pro-Life", url: "https://votederekporter.com" },
                   {
                     label: "Second Amendment",
                     url: "https://votederekporter.com",
@@ -12766,6 +12773,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Small Business Support",
                     url: "https://votederekporter.com",
                   },
+                  { label: "Pro-Life", url: "https://votederekporter.com" },
                 ],
               },
             ],
@@ -12886,10 +12894,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                 website: "https://yenforsenate.com/",
                 supports: [
                   {
-                    label: "Protect Abortion Rights",
-                    url: "https://yenforsenate.com/",
-                  },
-                  {
                     label: "Defend Medical Autonomy",
                     url: "https://yenforsenate.com/",
                   },
@@ -12939,6 +12943,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Federal Accountability",
+                    url: "https://yenforsenate.com/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://yenforsenate.com/",
                   },
                 ],
@@ -13000,10 +13008,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                   {
-                    label: "Restore Abortion Rights",
-                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
-                  },
-                  {
                     label: "Autism Services",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
@@ -13029,6 +13033,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "LGBTQ Rights",
+                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                 ],
@@ -13245,7 +13253,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "SAVE America Act",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
                   },
-                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                   {
                     label: "Born-Alive Protection",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
@@ -13270,6 +13277,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Second Amendment",
                     url: "https://hernforsenate.com/",
                   },
+                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                 ],
               },
               {
@@ -13465,10 +13473,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://www.oklahomafight.com/",
                   },
                   {
-                    label: "Reproductive Rights",
-                    url: "https://www.oklahomafight.com/",
-                  },
-                  {
                     label: "Protect Democracy",
                     url: "https://www.oklahomafight.com/",
                   },
@@ -13478,6 +13482,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Green Energy",
+                    url: "https://www.oklahomafight.com/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://www.oklahomafight.com/",
                   },
                 ],
@@ -13533,10 +13541,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                   {
-                    label: "Pro-Life",
-                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
-                  },
-                  {
                     label: "Hyde Amendment",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
@@ -13554,6 +13558,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Fort Reno Protection",
+                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
+                  },
+                  {
+                    label: "Pro-Life",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                 ],
@@ -13684,10 +13692,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                 website: "https://yenforsenate.com/",
                 supports: [
                   {
-                    label: "Protect Abortion Rights",
-                    url: "https://yenforsenate.com/",
-                  },
-                  {
                     label: "Defend Medical Autonomy",
                     url: "https://yenforsenate.com/",
                   },
@@ -13737,6 +13741,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Federal Accountability",
+                    url: "https://yenforsenate.com/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://yenforsenate.com/",
                   },
                 ],
@@ -13798,10 +13806,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                   {
-                    label: "Restore Abortion Rights",
-                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
-                  },
-                  {
                     label: "Autism Services",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
@@ -13827,6 +13831,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "LGBTQ Rights",
+                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                 ],
@@ -14043,7 +14051,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "SAVE America Act",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
                   },
-                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                   {
                     label: "Born-Alive Protection",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
@@ -14068,6 +14075,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Second Amendment",
                     url: "https://hernforsenate.com/",
                   },
+                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                 ],
               },
               {
@@ -14253,10 +14261,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://www.mitchelljacob.com/",
                   },
                   {
-                    label: "Pro-Choice",
-                    url: "https://www.mitchelljacob.com/",
-                  },
-                  {
                     label: "Tribal Sovereignty",
                     url: "https://www.mitchelljacob.com/",
                   },
@@ -14271,6 +14275,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "No PAC Money",
+                    url: "https://www.mitchelljacob.com/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://www.mitchelljacob.com/",
                   },
                 ],
@@ -14436,16 +14444,16 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                   {
-                    label: "Pro-Life",
-                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
-                  },
-                  {
                     label: "Truth Commission",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                   {
                     label: "Trump Agenda",
                     url: "https://tomcoleforcongress.com/",
+                  },
+                  {
+                    label: "Pro-Life",
+                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                 ],
                 against: [
@@ -14455,6 +14463,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Iran Nuclear Deal",
+                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                 ],
@@ -14575,7 +14587,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://tammididlot.com",
                   },
                   { label: "Parental Rights", url: "https://tammididlot.com" },
-                  { label: "Pro-Life", url: "https://tammididlot.com" },
                   {
                     label: "Agriculture Support",
                     url: "https://tammididlot.com",
@@ -14594,6 +14605,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Small Business Support",
                     url: "https://tammididlot.com",
                   },
+                  { label: "Pro-Life", url: "https://tammididlot.com" },
                 ],
               },
               {
@@ -14609,7 +14621,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "http://drjohnpainter.com",
                   },
                   { label: "Parental Rights", url: "http://drjohnpainter.com" },
-                  { label: "Pro-Life", url: "http://drjohnpainter.com" },
                   {
                     label: "Second Amendment",
                     url: "http://drjohnpainter.com",
@@ -14630,6 +14641,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Conservative Values",
                     url: "http://drjohnpainter.com",
                   },
+                  { label: "Pro-Life", url: "http://drjohnpainter.com" },
                 ],
               },
               {
@@ -14701,15 +14713,15 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://okhouse.gov/representatives/jonathan-wilk",
                   },
                   {
-                    label: "Pro-Life",
-                    url: "https://okhouse.gov/representatives/jonathan-wilk",
-                  },
-                  {
                     label: "Energy Development",
                     url: "https://okhouse.gov/representatives/jonathan-wilk",
                   },
                   {
                     label: "Law Enforcement Support",
+                    url: "https://okhouse.gov/representatives/jonathan-wilk",
+                  },
+                  {
+                    label: "Pro-Life",
                     url: "https://okhouse.gov/representatives/jonathan-wilk",
                   },
                 ],
@@ -14732,15 +14744,15 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                 party: "REPUBLICAN",
                 supports: [
                   {
-                    label: "Pro-Life",
-                    url: "https://okhouse.gov/representatives/danny-sterling",
-                  },
-                  {
                     label: "Agriculture Support",
                     url: "https://okhouse.gov/representatives/danny-sterling",
                   },
                   {
                     label: "Law Enforcement Support",
+                    url: "https://okhouse.gov/representatives/danny-sterling",
+                  },
+                  {
+                    label: "Pro-Life",
                     url: "https://okhouse.gov/representatives/danny-sterling",
                   },
                 ],
@@ -14757,7 +14769,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Lower Taxes (Property)",
                     url: "https://www.lewisfor27.com",
                   },
-                  { label: "Pro-Life", url: "https://www.lewisfor27.com" },
                   {
                     label: "Second Amendment",
                     url: "https://www.lewisfor27.com",
@@ -14766,6 +14777,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Law Enforcement Support",
                     url: "https://www.lewisfor27.com",
                   },
+                  { label: "Pro-Life", url: "https://www.lewisfor27.com" },
                 ],
               },
               {
@@ -14816,10 +14828,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://www.jenniwhiteforhd36.com",
                   },
                   {
-                    label: "Pro-Life",
-                    url: "https://www.jenniwhiteforhd36.com",
-                  },
-                  {
                     label: "Second Amendment",
                     url: "https://www.jenniwhiteforhd36.com",
                   },
@@ -14839,6 +14847,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Government Efficiency",
                     url: "https://oklahomavoice.com/voter-guides/contests/state-representative-district-36-republican/",
                   },
+                  {
+                    label: "Pro-Life",
+                    url: "https://www.jenniwhiteforhd36.com",
+                  },
                 ],
               },
               {
@@ -14846,11 +14858,11 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                 party: "REPUBLICAN",
                 supports: [
                   {
-                    label: "Pro-Life",
+                    label: "Law Enforcement Support",
                     url: "https://okhouse.gov/representatives/john-george",
                   },
                   {
-                    label: "Law Enforcement Support",
+                    label: "Pro-Life",
                     url: "https://okhouse.gov/representatives/john-george",
                   },
                 ],
@@ -14869,10 +14881,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                 party: "REPUBLICAN",
                 supports: [
                   {
-                    label: "Pro-Life",
-                    url: "https://okhouse.gov/representatives/cynthia-roe",
-                  },
-                  {
                     label: "Rural Healthcare",
                     url: "https://okhouse.gov/representatives/cynthia-roe",
                   },
@@ -14882,6 +14890,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Energy Development",
+                    url: "https://okhouse.gov/representatives/cynthia-roe",
+                  },
+                  {
+                    label: "Pro-Life",
                     url: "https://okhouse.gov/representatives/cynthia-roe",
                   },
                 ],
@@ -14963,10 +14975,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                 party: "REPUBLICAN",
                 supports: [
                   {
-                    label: "Pro-Life",
-                    url: "https://okhouse.gov/representatives/jason-blair",
-                  },
-                  {
                     label: "Second Amendment",
                     url: "https://okhouse.gov/representatives/jason-blair",
                   },
@@ -14976,6 +14984,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Law Enforcement Support",
+                    url: "https://okhouse.gov/representatives/jason-blair",
+                  },
+                  {
+                    label: "Pro-Life",
                     url: "https://okhouse.gov/representatives/jason-blair",
                   },
                 ],
@@ -14993,7 +15005,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                 name: "HEATH KUFAHL",
                 party: "REPUBLICAN",
                 supports: [
-                  { label: "Pro-Life", url: "https://heathkufahl.com" },
                   { label: "Second Amendment", url: "https://heathkufahl.com" },
                   {
                     label: "Immigration Enforcement",
@@ -15011,6 +15022,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Conservative Values",
                     url: "https://heathkufahl.com",
                   },
+                  { label: "Pro-Life", url: "https://heathkufahl.com" },
                 ],
               },
               {
@@ -15034,7 +15046,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                 name: "TERESA STERLING",
                 party: "REPUBLICAN",
                 supports: [
-                  { label: "Pro-Life", url: "https://teresasterling.com" },
                   {
                     label: "Girls Sports Protection",
                     url: "https://teresasterling.com",
@@ -15063,6 +15074,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Nursing Home Reform",
                     url: "https://teresasterling.com",
                   },
+                  { label: "Pro-Life", url: "https://teresasterling.com" },
                 ],
               },
               {
@@ -15123,10 +15135,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://www.rinehartforhouse.com",
                   },
                   {
-                    label: "Pro-Life",
-                    url: "https://www.rinehartforhouse.com",
-                  },
-                  {
                     label: "Second Amendment",
                     url: "https://www.rinehartforhouse.com",
                   },
@@ -15148,6 +15156,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Girls Sports Protection",
+                    url: "https://www.rinehartforhouse.com",
+                  },
+                  {
+                    label: "Pro-Life",
                     url: "https://www.rinehartforhouse.com",
                   },
                 ],
@@ -15264,10 +15276,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                 website: "https://yenforsenate.com/",
                 supports: [
                   {
-                    label: "Protect Abortion Rights",
-                    url: "https://yenforsenate.com/",
-                  },
-                  {
                     label: "Defend Medical Autonomy",
                     url: "https://yenforsenate.com/",
                   },
@@ -15317,6 +15325,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Federal Accountability",
+                    url: "https://yenforsenate.com/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://yenforsenate.com/",
                   },
                 ],
@@ -15378,10 +15390,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                   {
-                    label: "Restore Abortion Rights",
-                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
-                  },
-                  {
                     label: "Autism Services",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
@@ -15407,6 +15415,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "LGBTQ Rights",
+                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                 ],
@@ -15623,7 +15635,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "SAVE America Act",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
                   },
-                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                   {
                     label: "Born-Alive Protection",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
@@ -15648,6 +15659,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Second Amendment",
                     url: "https://hernforsenate.com/",
                   },
+                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                 ],
               },
               {
@@ -15799,10 +15811,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://brandon4congress.com/",
                   },
                   {
-                    label: "Protect Abortion Rights",
-                    url: "https://brandon4congress.com/",
-                  },
-                  {
                     label: "Fund Public Schools",
                     url: "https://brandon4congress.com/",
                   },
@@ -15845,6 +15853,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   {
                     label: "Richard Star Act",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-democrats-go-head-to-head-in-2nd-3rd-4th-congressional-district-primaries/",
+                  },
+                  {
+                    label: "Abortion Rights",
+                    url: "https://brandon4congress.com/",
                   },
                 ],
                 against: [
@@ -15912,15 +15924,15 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                   {
-                    label: "Pro-Life",
-                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
-                  },
-                  {
                     label: "Second Amendment",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                   {
                     label: "Fund National Defense",
+                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
+                  },
+                  {
+                    label: "Pro-Life",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                 ],
@@ -16152,10 +16164,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                 website: "https://yenforsenate.com/",
                 supports: [
                   {
-                    label: "Protect Abortion Rights",
-                    url: "https://yenforsenate.com/",
-                  },
-                  {
                     label: "Defend Medical Autonomy",
                     url: "https://yenforsenate.com/",
                   },
@@ -16205,6 +16213,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Federal Accountability",
+                    url: "https://yenforsenate.com/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://yenforsenate.com/",
                   },
                 ],
@@ -16266,10 +16278,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                   {
-                    label: "Restore Abortion Rights",
-                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
-                  },
-                  {
                     label: "Autism Services",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
@@ -16295,6 +16303,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "LGBTQ Rights",
+                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                 ],
@@ -16511,7 +16523,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "SAVE America Act",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
                   },
-                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                   {
                     label: "Born-Alive Protection",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
@@ -16536,6 +16547,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Second Amendment",
                     url: "https://hernforsenate.com/",
                   },
+                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                 ],
               },
               {
@@ -16721,10 +16733,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://www.mitchelljacob.com/",
                   },
                   {
-                    label: "Pro-Choice",
-                    url: "https://www.mitchelljacob.com/",
-                  },
-                  {
                     label: "Tribal Sovereignty",
                     url: "https://www.mitchelljacob.com/",
                   },
@@ -16739,6 +16747,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "No PAC Money",
+                    url: "https://www.mitchelljacob.com/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://www.mitchelljacob.com/",
                   },
                 ],
@@ -16904,16 +16916,16 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                   {
-                    label: "Pro-Life",
-                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
-                  },
-                  {
                     label: "Truth Commission",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                   {
                     label: "Trump Agenda",
                     url: "https://tomcoleforcongress.com/",
+                  },
+                  {
+                    label: "Pro-Life",
+                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                 ],
                 against: [
@@ -16923,6 +16935,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Iran Nuclear Deal",
+                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                 ],
@@ -16946,10 +16962,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                 name: "JEAN HAUSHEER",
                 party: "REPUBLICAN",
                 supports: [
-                  {
-                    label: "Pro-Life",
-                    url: "https://www.drjeanhausheerforsenate.com",
-                  },
                   {
                     label: "Second Amendment",
                     url: "https://www.drjeanhausheerforsenate.com",
@@ -16976,6 +16988,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Support Trump",
+                    url: "https://www.drjeanhausheerforsenate.com",
+                  },
+                  {
+                    label: "Pro-Life",
                     url: "https://www.drjeanhausheerforsenate.com",
                   },
                 ],
@@ -17059,7 +17075,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Education Funding",
                     url: "https://carlaforhouse.com",
                   },
-                  { label: "Pro-Life", url: "https://carlaforhouse.com" },
                   {
                     label: "Second Amendment",
                     url: "https://carlaforhouse.com",
@@ -17076,6 +17091,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Conservative Values",
                     url: "https://carlaforhouse.com",
                   },
+                  { label: "Pro-Life", url: "https://carlaforhouse.com" },
                 ],
               },
               {
@@ -17249,10 +17265,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                 website: "https://yenforsenate.com/",
                 supports: [
                   {
-                    label: "Protect Abortion Rights",
-                    url: "https://yenforsenate.com/",
-                  },
-                  {
                     label: "Defend Medical Autonomy",
                     url: "https://yenforsenate.com/",
                   },
@@ -17302,6 +17314,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Federal Accountability",
+                    url: "https://yenforsenate.com/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://yenforsenate.com/",
                   },
                 ],
@@ -17363,10 +17379,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                   {
-                    label: "Restore Abortion Rights",
-                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
-                  },
-                  {
                     label: "Autism Services",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
@@ -17392,6 +17404,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "LGBTQ Rights",
+                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                 ],
@@ -17608,7 +17624,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "SAVE America Act",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
                   },
-                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                   {
                     label: "Born-Alive Protection",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
@@ -17633,6 +17648,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Second Amendment",
                     url: "https://hernforsenate.com/",
                   },
+                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                 ],
               },
               {
@@ -17818,10 +17834,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://www.mitchelljacob.com/",
                   },
                   {
-                    label: "Pro-Choice",
-                    url: "https://www.mitchelljacob.com/",
-                  },
-                  {
                     label: "Tribal Sovereignty",
                     url: "https://www.mitchelljacob.com/",
                   },
@@ -17836,6 +17848,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "No PAC Money",
+                    url: "https://www.mitchelljacob.com/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://www.mitchelljacob.com/",
                   },
                 ],
@@ -18001,16 +18017,16 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                   {
-                    label: "Pro-Life",
-                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
-                  },
-                  {
                     label: "Truth Commission",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                   {
                     label: "Trump Agenda",
                     url: "https://tomcoleforcongress.com/",
+                  },
+                  {
+                    label: "Pro-Life",
+                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                 ],
                 against: [
@@ -18020,6 +18036,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Iran Nuclear Deal",
+                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                 ],
@@ -18179,10 +18199,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                 website: "https://yenforsenate.com/",
                 supports: [
                   {
-                    label: "Protect Abortion Rights",
-                    url: "https://yenforsenate.com/",
-                  },
-                  {
                     label: "Defend Medical Autonomy",
                     url: "https://yenforsenate.com/",
                   },
@@ -18232,6 +18248,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Federal Accountability",
+                    url: "https://yenforsenate.com/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://yenforsenate.com/",
                   },
                 ],
@@ -18293,10 +18313,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                   {
-                    label: "Restore Abortion Rights",
-                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
-                  },
-                  {
                     label: "Autism Services",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
@@ -18322,6 +18338,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "LGBTQ Rights",
+                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                 ],
@@ -18538,7 +18558,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "SAVE America Act",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
                   },
-                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                   {
                     label: "Born-Alive Protection",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
@@ -18563,6 +18582,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Second Amendment",
                     url: "https://hernforsenate.com/",
                   },
+                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                 ],
               },
               {
@@ -18714,10 +18734,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://brandon4congress.com/",
                   },
                   {
-                    label: "Protect Abortion Rights",
-                    url: "https://brandon4congress.com/",
-                  },
-                  {
                     label: "Fund Public Schools",
                     url: "https://brandon4congress.com/",
                   },
@@ -18760,6 +18776,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   {
                     label: "Richard Star Act",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-democrats-go-head-to-head-in-2nd-3rd-4th-congressional-district-primaries/",
+                  },
+                  {
+                    label: "Abortion Rights",
+                    url: "https://brandon4congress.com/",
                   },
                 ],
                 against: [
@@ -18827,15 +18847,15 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                   {
-                    label: "Pro-Life",
-                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
-                  },
-                  {
                     label: "Second Amendment",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                   {
                     label: "Fund National Defense",
+                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
+                  },
+                  {
+                    label: "Pro-Life",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                 ],
@@ -19102,10 +19122,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                 website: "https://yenforsenate.com/",
                 supports: [
                   {
-                    label: "Protect Abortion Rights",
-                    url: "https://yenforsenate.com/",
-                  },
-                  {
                     label: "Defend Medical Autonomy",
                     url: "https://yenforsenate.com/",
                   },
@@ -19155,6 +19171,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Federal Accountability",
+                    url: "https://yenforsenate.com/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://yenforsenate.com/",
                   },
                 ],
@@ -19216,10 +19236,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                   {
-                    label: "Restore Abortion Rights",
-                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
-                  },
-                  {
                     label: "Autism Services",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
@@ -19245,6 +19261,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "LGBTQ Rights",
+                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                 ],
@@ -19461,7 +19481,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "SAVE America Act",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
                   },
-                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                   {
                     label: "Born-Alive Protection",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
@@ -19486,6 +19505,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Second Amendment",
                     url: "https://hernforsenate.com/",
                   },
+                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                 ],
               },
               {
@@ -19680,7 +19700,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Strengthen Medicare",
                     url: "https://paulroyse.com",
                   },
-                  { label: "Pro-Life", url: "https://paulroyse.com" },
                   { label: "Religious Liberty", url: "https://paulroyse.com" },
                   { label: "Term Limits", url: "https://paulroyse.com" },
                   { label: "Eight-Year Limit", url: "https://paulroyse.com" },
@@ -19689,6 +19708,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "National Debt Reduction",
                     url: "https://paulroyse.com",
                   },
+                  { label: "Pro-Life", url: "https://paulroyse.com" },
                 ],
                 against: [
                   { label: "FISA Surveillance", url: "https://paulroyse.com" },
@@ -19850,10 +19870,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://www.tedfordforcongress.com/",
                   },
                   {
-                    label: "Pro-Life",
-                    url: "https://www.tedfordforcongress.com/",
-                  },
-                  {
                     label: "Second Amendment",
                     url: "https://www.tedfordforcongress.com/",
                   },
@@ -19867,6 +19883,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Veterans Support",
+                    url: "https://www.tedfordforcongress.com/",
+                  },
+                  {
+                    label: "Pro-Life",
                     url: "https://www.tedfordforcongress.com/",
                   },
                 ],
@@ -19916,14 +19936,14 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/05/25/cheat-sheet-hern-decision-draws-9-to-oklahomas-1st-congressional-district-gop-primary/",
                   },
                   {
-                    label: "Pro-Life",
-                    url: "https://nondoc.com/2026/05/25/cheat-sheet-hern-decision-draws-9-to-oklahomas-1st-congressional-district-gop-primary/",
-                  },
-                  {
                     label: "Ban CRT",
                     url: "https://nondoc.com/2026/05/25/cheat-sheet-hern-decision-draws-9-to-oklahomas-1st-congressional-district-gop-primary/",
                   },
                   { label: "Trump Agenda", url: "https://votekimdavid.com" },
+                  {
+                    label: "Pro-Life",
+                    url: "https://nondoc.com/2026/05/25/cheat-sheet-hern-decision-draws-9-to-oklahomas-1st-congressional-district-gop-primary/",
+                  },
                 ],
               },
               {
@@ -20002,7 +20022,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Second Amendment",
                     url: "https://nathanbutterfield.com",
                   },
-                  { label: "Pro-Life", url: "https://nathanbutterfield.com" },
                   {
                     label: "Small Government",
                     url: "https://nathanbutterfield.com",
@@ -20035,6 +20054,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Local Control",
                     url: "https://nathanbutterfield.com",
                   },
+                  { label: "Pro-Life", url: "https://nathanbutterfield.com" },
                 ],
                 against: [
                   {
@@ -20141,10 +20161,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://www.oklahomafight.com/",
                   },
                   {
-                    label: "Reproductive Rights",
-                    url: "https://www.oklahomafight.com/",
-                  },
-                  {
                     label: "Protect Democracy",
                     url: "https://www.oklahomafight.com/",
                   },
@@ -20154,6 +20170,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Green Energy",
+                    url: "https://www.oklahomafight.com/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://www.oklahomafight.com/",
                   },
                 ],
@@ -20209,10 +20229,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                   {
-                    label: "Pro-Life",
-                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
-                  },
-                  {
                     label: "Hyde Amendment",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
@@ -20230,6 +20246,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Fort Reno Protection",
+                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
+                  },
+                  {
+                    label: "Pro-Life",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                 ],
@@ -20290,8 +20310,8 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://gollihare.com",
                   },
                   { label: "Insurance Reform", url: "https://gollihare.com" },
-                  { label: "Pro-Life", url: "https://gollihare.com" },
                   { label: "Second Amendment", url: "https://gollihare.com" },
+                  { label: "Pro-Life", url: "https://gollihare.com" },
                 ],
               },
               {
@@ -20305,10 +20325,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Government Transparency",
-                    url: "https://www.craigstump2026.com/issues",
-                  },
-                  {
-                    label: "Criminalize Abortion",
                     url: "https://www.craigstump2026.com/issues",
                   },
                   {
@@ -20329,6 +20345,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Medical Conscience",
+                    url: "https://www.craigstump2026.com/issues",
+                  },
+                  {
+                    label: "Pro-Life",
                     url: "https://www.craigstump2026.com/issues",
                   },
                 ],
@@ -20392,10 +20412,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                 website: "https://www.banningforoklahoma.com",
                 supports: [
                   {
-                    label: "Pro-Life",
-                    url: "https://www.banningforoklahoma.com/issues",
-                  },
-                  {
                     label: "Second Amendment",
                     url: "https://www.banningforoklahoma.com/issues",
                   },
@@ -20409,6 +20425,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Lower Taxes (Everyone)",
+                    url: "https://www.banningforoklahoma.com/issues",
+                  },
+                  {
+                    label: "Pro-Life",
                     url: "https://www.banningforoklahoma.com/issues",
                   },
                 ],
@@ -20485,15 +20505,15 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://www.brianjacksontakesaction.com",
                   },
                   {
-                    label: "Pro-Life",
-                    url: "https://www.brianjacksontakesaction.com",
-                  },
-                  {
                     label: "Economic Opportunity",
                     url: "https://www.brianjacksontakesaction.com",
                   },
                   {
                     label: "Local Leadership",
+                    url: "https://www.brianjacksontakesaction.com",
+                  },
+                  {
+                    label: "Pro-Life",
                     url: "https://www.brianjacksontakesaction.com",
                   },
                 ],
@@ -20565,15 +20585,15 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://www.wrightforstaterep.com",
                   },
                   {
-                    label: "Pro-Life",
-                    url: "https://www.wrightforstaterep.com",
-                  },
-                  {
                     label: "Law Enforcement",
                     url: "https://www.wrightforstaterep.com",
                   },
                   {
                     label: "Education Reform",
+                    url: "https://www.wrightforstaterep.com",
+                  },
+                  {
+                    label: "Pro-Life",
                     url: "https://www.wrightforstaterep.com",
                   },
                 ],
@@ -20720,10 +20740,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                 website: "https://yenforsenate.com/",
                 supports: [
                   {
-                    label: "Protect Abortion Rights",
-                    url: "https://yenforsenate.com/",
-                  },
-                  {
                     label: "Defend Medical Autonomy",
                     url: "https://yenforsenate.com/",
                   },
@@ -20773,6 +20789,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Federal Accountability",
+                    url: "https://yenforsenate.com/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://yenforsenate.com/",
                   },
                 ],
@@ -20834,10 +20854,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                   {
-                    label: "Restore Abortion Rights",
-                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
-                  },
-                  {
                     label: "Autism Services",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
@@ -20863,6 +20879,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "LGBTQ Rights",
+                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                 ],
@@ -21079,7 +21099,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "SAVE America Act",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
                   },
-                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                   {
                     label: "Born-Alive Protection",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
@@ -21104,6 +21123,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Second Amendment",
                     url: "https://hernforsenate.com/",
                   },
+                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                 ],
               },
               {
@@ -21299,10 +21319,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://www.oklahomafight.com/",
                   },
                   {
-                    label: "Reproductive Rights",
-                    url: "https://www.oklahomafight.com/",
-                  },
-                  {
                     label: "Protect Democracy",
                     url: "https://www.oklahomafight.com/",
                   },
@@ -21312,6 +21328,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Green Energy",
+                    url: "https://www.oklahomafight.com/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://www.oklahomafight.com/",
                   },
                 ],
@@ -21367,10 +21387,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                   {
-                    label: "Pro-Life",
-                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
-                  },
-                  {
                     label: "Hyde Amendment",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
@@ -21388,6 +21404,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Fort Reno Protection",
+                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
+                  },
+                  {
+                    label: "Pro-Life",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                 ],
@@ -21437,7 +21457,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Lower Taxes (Everyone)",
                     url: "https://rickkoch.com",
                   },
-                  { label: "Pro-Life", url: "https://rickkoch.com" },
                   { label: "Second Amendment", url: "https://rickkoch.com" },
                   {
                     label: "Immigration Enforcement",
@@ -21453,6 +21472,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://rickkoch.com",
                   },
                   { label: "Conservative Values", url: "https://rickkoch.com" },
+                  { label: "Pro-Life", url: "https://rickkoch.com" },
                 ],
               },
               {
@@ -21577,10 +21597,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                 website: "https://yenforsenate.com/",
                 supports: [
                   {
-                    label: "Protect Abortion Rights",
-                    url: "https://yenforsenate.com/",
-                  },
-                  {
                     label: "Defend Medical Autonomy",
                     url: "https://yenforsenate.com/",
                   },
@@ -21630,6 +21646,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Federal Accountability",
+                    url: "https://yenforsenate.com/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://yenforsenate.com/",
                   },
                 ],
@@ -21691,10 +21711,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                   {
-                    label: "Restore Abortion Rights",
-                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
-                  },
-                  {
                     label: "Autism Services",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
@@ -21720,6 +21736,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "LGBTQ Rights",
+                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                 ],
@@ -21936,7 +21956,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "SAVE America Act",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
                   },
-                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                   {
                     label: "Born-Alive Protection",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
@@ -21961,6 +21980,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Second Amendment",
                     url: "https://hernforsenate.com/",
                   },
+                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                 ],
               },
               {
@@ -22112,10 +22132,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://brandon4congress.com/",
                   },
                   {
-                    label: "Protect Abortion Rights",
-                    url: "https://brandon4congress.com/",
-                  },
-                  {
                     label: "Fund Public Schools",
                     url: "https://brandon4congress.com/",
                   },
@@ -22158,6 +22174,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   {
                     label: "Richard Star Act",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-democrats-go-head-to-head-in-2nd-3rd-4th-congressional-district-primaries/",
+                  },
+                  {
+                    label: "Abortion Rights",
+                    url: "https://brandon4congress.com/",
                   },
                 ],
                 against: [
@@ -22225,15 +22245,15 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                   {
-                    label: "Pro-Life",
-                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
-                  },
-                  {
                     label: "Second Amendment",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                   {
                     label: "Fund National Defense",
+                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
+                  },
+                  {
+                    label: "Pro-Life",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                 ],
@@ -22343,10 +22363,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://www.kennysmithforsenate.com",
                   },
                   {
-                    label: "Pro-Life",
-                    url: "https://www.kennysmithforsenate.com",
-                  },
-                  {
                     label: "Second Amendment",
                     url: "https://www.kennysmithforsenate.com",
                   },
@@ -22376,6 +22392,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Conservative Values",
+                    url: "https://www.kennysmithforsenate.com",
+                  },
+                  {
+                    label: "Pro-Life",
                     url: "https://www.kennysmithforsenate.com",
                   },
                 ],
@@ -22535,10 +22555,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                 website: "https://yenforsenate.com/",
                 supports: [
                   {
-                    label: "Protect Abortion Rights",
-                    url: "https://yenforsenate.com/",
-                  },
-                  {
                     label: "Defend Medical Autonomy",
                     url: "https://yenforsenate.com/",
                   },
@@ -22588,6 +22604,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Federal Accountability",
+                    url: "https://yenforsenate.com/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://yenforsenate.com/",
                   },
                 ],
@@ -22649,10 +22669,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                   {
-                    label: "Restore Abortion Rights",
-                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
-                  },
-                  {
                     label: "Autism Services",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
@@ -22678,6 +22694,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "LGBTQ Rights",
+                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                 ],
@@ -22894,7 +22914,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "SAVE America Act",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
                   },
-                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                   {
                     label: "Born-Alive Protection",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
@@ -22919,6 +22938,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Second Amendment",
                     url: "https://hernforsenate.com/",
                   },
+                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                 ],
               },
               {
@@ -23114,10 +23134,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://www.oklahomafight.com/",
                   },
                   {
-                    label: "Reproductive Rights",
-                    url: "https://www.oklahomafight.com/",
-                  },
-                  {
                     label: "Protect Democracy",
                     url: "https://www.oklahomafight.com/",
                   },
@@ -23127,6 +23143,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Green Energy",
+                    url: "https://www.oklahomafight.com/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://www.oklahomafight.com/",
                   },
                 ],
@@ -23182,10 +23202,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                   {
-                    label: "Pro-Life",
-                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
-                  },
-                  {
                     label: "Hyde Amendment",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
@@ -23203,6 +23219,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Fort Reno Protection",
+                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
+                  },
+                  {
+                    label: "Pro-Life",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                 ],
@@ -23343,10 +23363,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                 website: "https://yenforsenate.com/",
                 supports: [
                   {
-                    label: "Protect Abortion Rights",
-                    url: "https://yenforsenate.com/",
-                  },
-                  {
                     label: "Defend Medical Autonomy",
                     url: "https://yenforsenate.com/",
                   },
@@ -23396,6 +23412,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Federal Accountability",
+                    url: "https://yenforsenate.com/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://yenforsenate.com/",
                   },
                 ],
@@ -23457,10 +23477,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                   {
-                    label: "Restore Abortion Rights",
-                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
-                  },
-                  {
                     label: "Autism Services",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
@@ -23486,6 +23502,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "LGBTQ Rights",
+                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                 ],
@@ -23702,7 +23722,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "SAVE America Act",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
                   },
-                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                   {
                     label: "Born-Alive Protection",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
@@ -23727,6 +23746,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Second Amendment",
                     url: "https://hernforsenate.com/",
                   },
+                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                 ],
               },
               {
@@ -23922,10 +23942,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://www.oklahomafight.com/",
                   },
                   {
-                    label: "Reproductive Rights",
-                    url: "https://www.oklahomafight.com/",
-                  },
-                  {
                     label: "Protect Democracy",
                     url: "https://www.oklahomafight.com/",
                   },
@@ -23935,6 +23951,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Green Energy",
+                    url: "https://www.oklahomafight.com/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://www.oklahomafight.com/",
                   },
                 ],
@@ -23990,10 +24010,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                   {
-                    label: "Pro-Life",
-                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
-                  },
-                  {
                     label: "Hyde Amendment",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
@@ -24011,6 +24027,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Fort Reno Protection",
+                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
+                  },
+                  {
+                    label: "Pro-Life",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                 ],
@@ -24141,10 +24161,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                 website: "https://yenforsenate.com/",
                 supports: [
                   {
-                    label: "Protect Abortion Rights",
-                    url: "https://yenforsenate.com/",
-                  },
-                  {
                     label: "Defend Medical Autonomy",
                     url: "https://yenforsenate.com/",
                   },
@@ -24194,6 +24210,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Federal Accountability",
+                    url: "https://yenforsenate.com/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://yenforsenate.com/",
                   },
                 ],
@@ -24255,10 +24275,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                   {
-                    label: "Restore Abortion Rights",
-                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
-                  },
-                  {
                     label: "Autism Services",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
@@ -24284,6 +24300,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "LGBTQ Rights",
+                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                 ],
@@ -24500,7 +24520,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "SAVE America Act",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
                   },
-                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                   {
                     label: "Born-Alive Protection",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
@@ -24525,6 +24544,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Second Amendment",
                     url: "https://hernforsenate.com/",
                   },
+                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                 ],
               },
               {
@@ -24720,10 +24740,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://www.oklahomafight.com/",
                   },
                   {
-                    label: "Reproductive Rights",
-                    url: "https://www.oklahomafight.com/",
-                  },
-                  {
                     label: "Protect Democracy",
                     url: "https://www.oklahomafight.com/",
                   },
@@ -24733,6 +24749,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Green Energy",
+                    url: "https://www.oklahomafight.com/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://www.oklahomafight.com/",
                   },
                 ],
@@ -24788,10 +24808,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                   {
-                    label: "Pro-Life",
-                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
-                  },
-                  {
                     label: "Hyde Amendment",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
@@ -24809,6 +24825,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Fort Reno Protection",
+                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
+                  },
+                  {
+                    label: "Pro-Life",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                 ],
@@ -24965,7 +24985,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Lower Taxes (Everyone)",
                     url: "https://jordanforoklahoma.com",
                   },
-                  { label: "Pro-Life", url: "https://jordanforoklahoma.com" },
                   {
                     label: "Second Amendment",
                     url: "https://jordanforoklahoma.com",
@@ -24995,6 +25014,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Law Enforcement",
                     url: "https://jordanforoklahoma.com",
                   },
+                  { label: "Pro-Life", url: "https://jordanforoklahoma.com" },
                 ],
               },
               {
@@ -25018,8 +25038,8 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Second Amendment",
                     url: "https://torryforhouse.com",
                   },
-                  { label: "Pro-Life", url: "https://torryforhouse.com" },
                   { label: "Trump Agenda", url: "https://torryforhouse.com" },
+                  { label: "Pro-Life", url: "https://torryforhouse.com" },
                 ],
               },
             ],
@@ -25146,10 +25166,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                 website: "https://yenforsenate.com/",
                 supports: [
                   {
-                    label: "Protect Abortion Rights",
-                    url: "https://yenforsenate.com/",
-                  },
-                  {
                     label: "Defend Medical Autonomy",
                     url: "https://yenforsenate.com/",
                   },
@@ -25199,6 +25215,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Federal Accountability",
+                    url: "https://yenforsenate.com/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://yenforsenate.com/",
                   },
                 ],
@@ -25260,10 +25280,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                   {
-                    label: "Restore Abortion Rights",
-                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
-                  },
-                  {
                     label: "Autism Services",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
@@ -25289,6 +25305,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "LGBTQ Rights",
+                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                 ],
@@ -25505,7 +25525,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "SAVE America Act",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
                   },
-                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                   {
                     label: "Born-Alive Protection",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
@@ -25530,6 +25549,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Second Amendment",
                     url: "https://hernforsenate.com/",
                   },
+                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                 ],
               },
               {
@@ -25715,10 +25735,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://www.mitchelljacob.com/",
                   },
                   {
-                    label: "Pro-Choice",
-                    url: "https://www.mitchelljacob.com/",
-                  },
-                  {
                     label: "Tribal Sovereignty",
                     url: "https://www.mitchelljacob.com/",
                   },
@@ -25733,6 +25749,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "No PAC Money",
+                    url: "https://www.mitchelljacob.com/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://www.mitchelljacob.com/",
                   },
                 ],
@@ -25898,16 +25918,16 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                   {
-                    label: "Pro-Life",
-                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
-                  },
-                  {
                     label: "Truth Commission",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                   {
                     label: "Trump Agenda",
                     url: "https://tomcoleforcongress.com/",
+                  },
+                  {
+                    label: "Pro-Life",
+                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                 ],
                 against: [
@@ -25917,6 +25937,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Iran Nuclear Deal",
+                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                 ],
@@ -25941,10 +25965,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                 party: "REPUBLICAN",
                 supports: [
                   {
-                    label: "Pro-Life",
-                    url: "https://okhouse.gov/representatives/cynthia-roe",
-                  },
-                  {
                     label: "Rural Healthcare",
                     url: "https://okhouse.gov/representatives/cynthia-roe",
                   },
@@ -25954,6 +25974,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Energy Development",
+                    url: "https://okhouse.gov/representatives/cynthia-roe",
+                  },
+                  {
+                    label: "Pro-Life",
                     url: "https://okhouse.gov/representatives/cynthia-roe",
                   },
                 ],
@@ -26078,10 +26102,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                 website: "https://yenforsenate.com/",
                 supports: [
                   {
-                    label: "Protect Abortion Rights",
-                    url: "https://yenforsenate.com/",
-                  },
-                  {
                     label: "Defend Medical Autonomy",
                     url: "https://yenforsenate.com/",
                   },
@@ -26131,6 +26151,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Federal Accountability",
+                    url: "https://yenforsenate.com/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://yenforsenate.com/",
                   },
                 ],
@@ -26192,10 +26216,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                   {
-                    label: "Restore Abortion Rights",
-                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
-                  },
-                  {
                     label: "Autism Services",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
@@ -26221,6 +26241,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "LGBTQ Rights",
+                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                 ],
@@ -26437,7 +26461,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "SAVE America Act",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
                   },
-                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                   {
                     label: "Born-Alive Protection",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
@@ -26462,6 +26485,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Second Amendment",
                     url: "https://hernforsenate.com/",
                   },
+                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                 ],
               },
               {
@@ -26647,10 +26671,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://www.mitchelljacob.com/",
                   },
                   {
-                    label: "Pro-Choice",
-                    url: "https://www.mitchelljacob.com/",
-                  },
-                  {
                     label: "Tribal Sovereignty",
                     url: "https://www.mitchelljacob.com/",
                   },
@@ -26665,6 +26685,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "No PAC Money",
+                    url: "https://www.mitchelljacob.com/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://www.mitchelljacob.com/",
                   },
                 ],
@@ -26830,16 +26854,16 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                   {
-                    label: "Pro-Life",
-                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
-                  },
-                  {
                     label: "Truth Commission",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                   {
                     label: "Trump Agenda",
                     url: "https://tomcoleforcongress.com/",
+                  },
+                  {
+                    label: "Pro-Life",
+                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                 ],
                 against: [
@@ -26849,6 +26873,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Iran Nuclear Deal",
+                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                 ],
@@ -27048,10 +27076,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                 website: "https://yenforsenate.com/",
                 supports: [
                   {
-                    label: "Protect Abortion Rights",
-                    url: "https://yenforsenate.com/",
-                  },
-                  {
                     label: "Defend Medical Autonomy",
                     url: "https://yenforsenate.com/",
                   },
@@ -27101,6 +27125,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Federal Accountability",
+                    url: "https://yenforsenate.com/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://yenforsenate.com/",
                   },
                 ],
@@ -27162,10 +27190,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                   {
-                    label: "Restore Abortion Rights",
-                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
-                  },
-                  {
                     label: "Autism Services",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
@@ -27191,6 +27215,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "LGBTQ Rights",
+                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                 ],
@@ -27407,7 +27435,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "SAVE America Act",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
                   },
-                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                   {
                     label: "Born-Alive Protection",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
@@ -27432,6 +27459,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Second Amendment",
                     url: "https://hernforsenate.com/",
                   },
+                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                 ],
               },
               {
@@ -27627,10 +27655,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://www.oklahomafight.com/",
                   },
                   {
-                    label: "Reproductive Rights",
-                    url: "https://www.oklahomafight.com/",
-                  },
-                  {
                     label: "Protect Democracy",
                     url: "https://www.oklahomafight.com/",
                   },
@@ -27640,6 +27664,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Green Energy",
+                    url: "https://www.oklahomafight.com/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://www.oklahomafight.com/",
                   },
                 ],
@@ -27695,10 +27723,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                   {
-                    label: "Pro-Life",
-                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
-                  },
-                  {
                     label: "Hyde Amendment",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
@@ -27716,6 +27740,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Fort Reno Protection",
+                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
+                  },
+                  {
+                    label: "Pro-Life",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                 ],
@@ -27975,10 +28003,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                 website: "https://yenforsenate.com/",
                 supports: [
                   {
-                    label: "Protect Abortion Rights",
-                    url: "https://yenforsenate.com/",
-                  },
-                  {
                     label: "Defend Medical Autonomy",
                     url: "https://yenforsenate.com/",
                   },
@@ -28028,6 +28052,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Federal Accountability",
+                    url: "https://yenforsenate.com/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://yenforsenate.com/",
                   },
                 ],
@@ -28089,10 +28117,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                   {
-                    label: "Restore Abortion Rights",
-                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
-                  },
-                  {
                     label: "Autism Services",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
@@ -28118,6 +28142,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "LGBTQ Rights",
+                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                 ],
@@ -28334,7 +28362,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "SAVE America Act",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
                   },
-                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                   {
                     label: "Born-Alive Protection",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
@@ -28359,6 +28386,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Second Amendment",
                     url: "https://hernforsenate.com/",
                   },
+                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                 ],
               },
               {
@@ -28554,10 +28582,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://www.oklahomafight.com/",
                   },
                   {
-                    label: "Reproductive Rights",
-                    url: "https://www.oklahomafight.com/",
-                  },
-                  {
                     label: "Protect Democracy",
                     url: "https://www.oklahomafight.com/",
                   },
@@ -28567,6 +28591,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Green Energy",
+                    url: "https://www.oklahomafight.com/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://www.oklahomafight.com/",
                   },
                 ],
@@ -28622,10 +28650,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                   {
-                    label: "Pro-Life",
-                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
-                  },
-                  {
                     label: "Hyde Amendment",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
@@ -28643,6 +28667,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Fort Reno Protection",
+                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
+                  },
+                  {
+                    label: "Pro-Life",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                 ],
@@ -28916,10 +28944,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                 website: "https://yenforsenate.com/",
                 supports: [
                   {
-                    label: "Protect Abortion Rights",
-                    url: "https://yenforsenate.com/",
-                  },
-                  {
                     label: "Defend Medical Autonomy",
                     url: "https://yenforsenate.com/",
                   },
@@ -28969,6 +28993,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Federal Accountability",
+                    url: "https://yenforsenate.com/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://yenforsenate.com/",
                   },
                 ],
@@ -29030,10 +29058,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                   {
-                    label: "Restore Abortion Rights",
-                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
-                  },
-                  {
                     label: "Autism Services",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
@@ -29059,6 +29083,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "LGBTQ Rights",
+                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                 ],
@@ -29275,7 +29303,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "SAVE America Act",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
                   },
-                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                   {
                     label: "Born-Alive Protection",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
@@ -29300,6 +29327,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Second Amendment",
                     url: "https://hernforsenate.com/",
                   },
+                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                 ],
               },
               {
@@ -29495,10 +29523,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://www.oklahomafight.com/",
                   },
                   {
-                    label: "Reproductive Rights",
-                    url: "https://www.oklahomafight.com/",
-                  },
-                  {
                     label: "Protect Democracy",
                     url: "https://www.oklahomafight.com/",
                   },
@@ -29508,6 +29532,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Green Energy",
+                    url: "https://www.oklahomafight.com/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://www.oklahomafight.com/",
                   },
                 ],
@@ -29563,10 +29591,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                   {
-                    label: "Pro-Life",
-                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
-                  },
-                  {
                     label: "Hyde Amendment",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
@@ -29584,6 +29608,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Fort Reno Protection",
+                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
+                  },
+                  {
+                    label: "Pro-Life",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                 ],
@@ -29734,10 +29762,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                 website: "https://yenforsenate.com/",
                 supports: [
                   {
-                    label: "Protect Abortion Rights",
-                    url: "https://yenforsenate.com/",
-                  },
-                  {
                     label: "Defend Medical Autonomy",
                     url: "https://yenforsenate.com/",
                   },
@@ -29787,6 +29811,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Federal Accountability",
+                    url: "https://yenforsenate.com/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://yenforsenate.com/",
                   },
                 ],
@@ -29848,10 +29876,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                   {
-                    label: "Restore Abortion Rights",
-                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
-                  },
-                  {
                     label: "Autism Services",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
@@ -29877,6 +29901,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "LGBTQ Rights",
+                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                 ],
@@ -30093,7 +30121,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "SAVE America Act",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
                   },
-                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                   {
                     label: "Born-Alive Protection",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
@@ -30118,6 +30145,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Second Amendment",
                     url: "https://hernforsenate.com/",
                   },
+                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                 ],
               },
               {
@@ -30313,10 +30341,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://www.oklahomafight.com/",
                   },
                   {
-                    label: "Reproductive Rights",
-                    url: "https://www.oklahomafight.com/",
-                  },
-                  {
                     label: "Protect Democracy",
                     url: "https://www.oklahomafight.com/",
                   },
@@ -30326,6 +30350,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Green Energy",
+                    url: "https://www.oklahomafight.com/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://www.oklahomafight.com/",
                   },
                 ],
@@ -30381,10 +30409,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                   {
-                    label: "Pro-Life",
-                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
-                  },
-                  {
                     label: "Hyde Amendment",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
@@ -30402,6 +30426,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Fort Reno Protection",
+                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
+                  },
+                  {
+                    label: "Pro-Life",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                 ],
@@ -30538,10 +30566,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                 website: "https://yenforsenate.com/",
                 supports: [
                   {
-                    label: "Protect Abortion Rights",
-                    url: "https://yenforsenate.com/",
-                  },
-                  {
                     label: "Defend Medical Autonomy",
                     url: "https://yenforsenate.com/",
                   },
@@ -30591,6 +30615,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Federal Accountability",
+                    url: "https://yenforsenate.com/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://yenforsenate.com/",
                   },
                 ],
@@ -30652,10 +30680,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                   {
-                    label: "Restore Abortion Rights",
-                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
-                  },
-                  {
                     label: "Autism Services",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
@@ -30681,6 +30705,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "LGBTQ Rights",
+                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                 ],
@@ -30897,7 +30925,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "SAVE America Act",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
                   },
-                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                   {
                     label: "Born-Alive Protection",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
@@ -30922,6 +30949,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Second Amendment",
                     url: "https://hernforsenate.com/",
                   },
+                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                 ],
               },
               {
@@ -31073,10 +31101,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://brandon4congress.com/",
                   },
                   {
-                    label: "Protect Abortion Rights",
-                    url: "https://brandon4congress.com/",
-                  },
-                  {
                     label: "Fund Public Schools",
                     url: "https://brandon4congress.com/",
                   },
@@ -31119,6 +31143,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   {
                     label: "Richard Star Act",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-democrats-go-head-to-head-in-2nd-3rd-4th-congressional-district-primaries/",
+                  },
+                  {
+                    label: "Abortion Rights",
+                    url: "https://brandon4congress.com/",
                   },
                 ],
                 against: [
@@ -31186,15 +31214,15 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                   {
-                    label: "Pro-Life",
-                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
-                  },
-                  {
                     label: "Second Amendment",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                   {
                     label: "Fund National Defense",
+                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
+                  },
+                  {
+                    label: "Pro-Life",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                 ],
@@ -31435,10 +31463,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                 website: "https://yenforsenate.com/",
                 supports: [
                   {
-                    label: "Protect Abortion Rights",
-                    url: "https://yenforsenate.com/",
-                  },
-                  {
                     label: "Defend Medical Autonomy",
                     url: "https://yenforsenate.com/",
                   },
@@ -31488,6 +31512,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Federal Accountability",
+                    url: "https://yenforsenate.com/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://yenforsenate.com/",
                   },
                 ],
@@ -31549,10 +31577,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                   {
-                    label: "Restore Abortion Rights",
-                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
-                  },
-                  {
                     label: "Autism Services",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
@@ -31578,6 +31602,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "LGBTQ Rights",
+                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                 ],
@@ -31794,7 +31822,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "SAVE America Act",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
                   },
-                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                   {
                     label: "Born-Alive Protection",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
@@ -31819,6 +31846,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Second Amendment",
                     url: "https://hernforsenate.com/",
                   },
+                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                 ],
               },
               {
@@ -31970,10 +31998,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://brandon4congress.com/",
                   },
                   {
-                    label: "Protect Abortion Rights",
-                    url: "https://brandon4congress.com/",
-                  },
-                  {
                     label: "Fund Public Schools",
                     url: "https://brandon4congress.com/",
                   },
@@ -32016,6 +32040,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   {
                     label: "Richard Star Act",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-democrats-go-head-to-head-in-2nd-3rd-4th-congressional-district-primaries/",
+                  },
+                  {
+                    label: "Abortion Rights",
+                    url: "https://brandon4congress.com/",
                   },
                 ],
                 against: [
@@ -32083,15 +32111,15 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                   {
-                    label: "Pro-Life",
-                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
-                  },
-                  {
                     label: "Second Amendment",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                   {
                     label: "Fund National Defense",
+                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
+                  },
+                  {
+                    label: "Pro-Life",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                 ],
@@ -32329,10 +32357,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                 website: "https://yenforsenate.com/",
                 supports: [
                   {
-                    label: "Protect Abortion Rights",
-                    url: "https://yenforsenate.com/",
-                  },
-                  {
                     label: "Defend Medical Autonomy",
                     url: "https://yenforsenate.com/",
                   },
@@ -32382,6 +32406,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Federal Accountability",
+                    url: "https://yenforsenate.com/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://yenforsenate.com/",
                   },
                 ],
@@ -32443,10 +32471,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                   {
-                    label: "Restore Abortion Rights",
-                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
-                  },
-                  {
                     label: "Autism Services",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
@@ -32472,6 +32496,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "LGBTQ Rights",
+                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                 ],
@@ -32688,7 +32716,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "SAVE America Act",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
                   },
-                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                   {
                     label: "Born-Alive Protection",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
@@ -32713,6 +32740,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Second Amendment",
                     url: "https://hernforsenate.com/",
                   },
+                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                 ],
               },
               {
@@ -32908,10 +32936,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://www.oklahomafight.com/",
                   },
                   {
-                    label: "Reproductive Rights",
-                    url: "https://www.oklahomafight.com/",
-                  },
-                  {
                     label: "Protect Democracy",
                     url: "https://www.oklahomafight.com/",
                   },
@@ -32921,6 +32945,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Green Energy",
+                    url: "https://www.oklahomafight.com/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://www.oklahomafight.com/",
                   },
                 ],
@@ -32976,10 +33004,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                   {
-                    label: "Pro-Life",
-                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
-                  },
-                  {
                     label: "Hyde Amendment",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
@@ -32997,6 +33021,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Fort Reno Protection",
+                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
+                  },
+                  {
+                    label: "Pro-Life",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                 ],
@@ -33163,10 +33191,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                 website: "https://yenforsenate.com/",
                 supports: [
                   {
-                    label: "Protect Abortion Rights",
-                    url: "https://yenforsenate.com/",
-                  },
-                  {
                     label: "Defend Medical Autonomy",
                     url: "https://yenforsenate.com/",
                   },
@@ -33216,6 +33240,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Federal Accountability",
+                    url: "https://yenforsenate.com/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://yenforsenate.com/",
                   },
                 ],
@@ -33277,10 +33305,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                   {
-                    label: "Restore Abortion Rights",
-                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
-                  },
-                  {
                     label: "Autism Services",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
@@ -33306,6 +33330,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "LGBTQ Rights",
+                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                 ],
@@ -33522,7 +33550,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "SAVE America Act",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
                   },
-                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                   {
                     label: "Born-Alive Protection",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
@@ -33547,6 +33574,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Second Amendment",
                     url: "https://hernforsenate.com/",
                   },
+                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                 ],
               },
               {
@@ -33732,10 +33760,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://www.mitchelljacob.com/",
                   },
                   {
-                    label: "Pro-Choice",
-                    url: "https://www.mitchelljacob.com/",
-                  },
-                  {
                     label: "Tribal Sovereignty",
                     url: "https://www.mitchelljacob.com/",
                   },
@@ -33750,6 +33774,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "No PAC Money",
+                    url: "https://www.mitchelljacob.com/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://www.mitchelljacob.com/",
                   },
                 ],
@@ -33915,16 +33943,16 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                   {
-                    label: "Pro-Life",
-                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
-                  },
-                  {
                     label: "Truth Commission",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                   {
                     label: "Trump Agenda",
                     url: "https://tomcoleforcongress.com/",
+                  },
+                  {
+                    label: "Pro-Life",
+                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                 ],
                 against: [
@@ -33934,6 +33962,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Iran Nuclear Deal",
+                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                 ],
@@ -34071,10 +34103,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                 website: "https://yenforsenate.com/",
                 supports: [
                   {
-                    label: "Protect Abortion Rights",
-                    url: "https://yenforsenate.com/",
-                  },
-                  {
                     label: "Defend Medical Autonomy",
                     url: "https://yenforsenate.com/",
                   },
@@ -34124,6 +34152,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Federal Accountability",
+                    url: "https://yenforsenate.com/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://yenforsenate.com/",
                   },
                 ],
@@ -34185,10 +34217,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                   {
-                    label: "Restore Abortion Rights",
-                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
-                  },
-                  {
                     label: "Autism Services",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
@@ -34214,6 +34242,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "LGBTQ Rights",
+                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                 ],
@@ -34430,7 +34462,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "SAVE America Act",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
                   },
-                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                   {
                     label: "Born-Alive Protection",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
@@ -34455,6 +34486,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Second Amendment",
                     url: "https://hernforsenate.com/",
                   },
+                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                 ],
               },
               {
@@ -34606,10 +34638,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://brandon4congress.com/",
                   },
                   {
-                    label: "Protect Abortion Rights",
-                    url: "https://brandon4congress.com/",
-                  },
-                  {
                     label: "Fund Public Schools",
                     url: "https://brandon4congress.com/",
                   },
@@ -34652,6 +34680,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   {
                     label: "Richard Star Act",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-democrats-go-head-to-head-in-2nd-3rd-4th-congressional-district-primaries/",
+                  },
+                  {
+                    label: "Abortion Rights",
+                    url: "https://brandon4congress.com/",
                   },
                 ],
                 against: [
@@ -34719,15 +34751,15 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                   {
-                    label: "Pro-Life",
-                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
-                  },
-                  {
                     label: "Second Amendment",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                   {
                     label: "Fund National Defense",
+                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
+                  },
+                  {
+                    label: "Pro-Life",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                 ],
@@ -34950,10 +34982,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                 website: "https://yenforsenate.com/",
                 supports: [
                   {
-                    label: "Protect Abortion Rights",
-                    url: "https://yenforsenate.com/",
-                  },
-                  {
                     label: "Defend Medical Autonomy",
                     url: "https://yenforsenate.com/",
                   },
@@ -35003,6 +35031,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Federal Accountability",
+                    url: "https://yenforsenate.com/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://yenforsenate.com/",
                   },
                 ],
@@ -35064,10 +35096,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                   {
-                    label: "Restore Abortion Rights",
-                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
-                  },
-                  {
                     label: "Autism Services",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
@@ -35093,6 +35121,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "LGBTQ Rights",
+                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                 ],
@@ -35309,7 +35341,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "SAVE America Act",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
                   },
-                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                   {
                     label: "Born-Alive Protection",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
@@ -35334,6 +35365,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Second Amendment",
                     url: "https://hernforsenate.com/",
                   },
+                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                 ],
               },
               {
@@ -35529,10 +35561,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://www.oklahomafight.com/",
                   },
                   {
-                    label: "Reproductive Rights",
-                    url: "https://www.oklahomafight.com/",
-                  },
-                  {
                     label: "Protect Democracy",
                     url: "https://www.oklahomafight.com/",
                   },
@@ -35542,6 +35570,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Green Energy",
+                    url: "https://www.oklahomafight.com/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://www.oklahomafight.com/",
                   },
                 ],
@@ -35597,10 +35629,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                   {
-                    label: "Pro-Life",
-                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
-                  },
-                  {
                     label: "Hyde Amendment",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
@@ -35618,6 +35646,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Fort Reno Protection",
+                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
+                  },
+                  {
+                    label: "Pro-Life",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                 ],
@@ -35664,7 +35696,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                 party: "REPUBLICAN",
                 website: "https://jadanterrazas.com",
                 supports: [
-                  { label: "Pro-Life", url: "https://jadanterrazas.com" },
                   {
                     label: "Lower Income Tax",
                     url: "https://jadanterrazas.com",
@@ -35685,6 +35716,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Immigration Enforcement",
                     url: "https://jadanterrazas.com",
                   },
+                  { label: "Pro-Life", url: "https://jadanterrazas.com" },
                 ],
                 against: [
                   { label: "Lobbyist Money", url: "https://jadanterrazas.com" },
@@ -35699,7 +35731,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Lower Taxes (Everyone)",
                     url: "https://colemanforoklahoma.com",
                   },
-                  { label: "Pro-Life", url: "https://colemanforoklahoma.com" },
                   {
                     label: "Second Amendment",
                     url: "https://colemanforoklahoma.com",
@@ -35724,6 +35755,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Law Enforcement",
                     url: "https://colemanforoklahoma.com",
                   },
+                  { label: "Pro-Life", url: "https://colemanforoklahoma.com" },
                 ],
                 against: [
                   {
@@ -35764,7 +35796,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Second Amendment",
                     url: "https://votespencergrace.com",
                   },
-                  { label: "Pro-Life", url: "https://votespencergrace.com" },
                   {
                     label: "Special Needs Families",
                     url: "https://votespencergrace.com",
@@ -35781,6 +35812,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Property Rights",
                     url: "https://votespencergrace.com",
                   },
+                  { label: "Pro-Life", url: "https://votespencergrace.com" },
                 ],
               },
               {
@@ -36027,10 +36059,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                 website: "https://yenforsenate.com/",
                 supports: [
                   {
-                    label: "Protect Abortion Rights",
-                    url: "https://yenforsenate.com/",
-                  },
-                  {
                     label: "Defend Medical Autonomy",
                     url: "https://yenforsenate.com/",
                   },
@@ -36080,6 +36108,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Federal Accountability",
+                    url: "https://yenforsenate.com/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://yenforsenate.com/",
                   },
                 ],
@@ -36141,10 +36173,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                   {
-                    label: "Restore Abortion Rights",
-                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
-                  },
-                  {
                     label: "Autism Services",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
@@ -36170,6 +36198,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "LGBTQ Rights",
+                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                 ],
@@ -36386,7 +36418,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "SAVE America Act",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
                   },
-                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                   {
                     label: "Born-Alive Protection",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
@@ -36411,6 +36442,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Second Amendment",
                     url: "https://hernforsenate.com/",
                   },
+                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                 ],
               },
               {
@@ -36606,10 +36638,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://www.oklahomafight.com/",
                   },
                   {
-                    label: "Reproductive Rights",
-                    url: "https://www.oklahomafight.com/",
-                  },
-                  {
                     label: "Protect Democracy",
                     url: "https://www.oklahomafight.com/",
                   },
@@ -36619,6 +36647,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Green Energy",
+                    url: "https://www.oklahomafight.com/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://www.oklahomafight.com/",
                   },
                 ],
@@ -36674,10 +36706,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                   {
-                    label: "Pro-Life",
-                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
-                  },
-                  {
                     label: "Hyde Amendment",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
@@ -36695,6 +36723,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Fort Reno Protection",
+                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
+                  },
+                  {
+                    label: "Pro-Life",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                 ],
@@ -36761,7 +36793,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Lower Taxes (Everyone)",
                     url: "https://rickkoch.com",
                   },
-                  { label: "Pro-Life", url: "https://rickkoch.com" },
                   { label: "Second Amendment", url: "https://rickkoch.com" },
                   {
                     label: "Immigration Enforcement",
@@ -36777,6 +36808,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://rickkoch.com",
                   },
                   { label: "Conservative Values", url: "https://rickkoch.com" },
+                  { label: "Pro-Life", url: "https://rickkoch.com" },
                 ],
               },
               {
@@ -36879,10 +36911,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                 website: "https://yenforsenate.com/",
                 supports: [
                   {
-                    label: "Protect Abortion Rights",
-                    url: "https://yenforsenate.com/",
-                  },
-                  {
                     label: "Defend Medical Autonomy",
                     url: "https://yenforsenate.com/",
                   },
@@ -36932,6 +36960,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Federal Accountability",
+                    url: "https://yenforsenate.com/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://yenforsenate.com/",
                   },
                 ],
@@ -36993,10 +37025,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                   {
-                    label: "Restore Abortion Rights",
-                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
-                  },
-                  {
                     label: "Autism Services",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
@@ -37022,6 +37050,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "LGBTQ Rights",
+                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                 ],
@@ -37238,7 +37270,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "SAVE America Act",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
                   },
-                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                   {
                     label: "Born-Alive Protection",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
@@ -37263,6 +37294,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Second Amendment",
                     url: "https://hernforsenate.com/",
                   },
+                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                 ],
               },
               {
@@ -37458,10 +37490,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://www.oklahomafight.com/",
                   },
                   {
-                    label: "Reproductive Rights",
-                    url: "https://www.oklahomafight.com/",
-                  },
-                  {
                     label: "Protect Democracy",
                     url: "https://www.oklahomafight.com/",
                   },
@@ -37471,6 +37499,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Green Energy",
+                    url: "https://www.oklahomafight.com/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://www.oklahomafight.com/",
                   },
                 ],
@@ -37526,10 +37558,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                   {
-                    label: "Pro-Life",
-                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
-                  },
-                  {
                     label: "Hyde Amendment",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
@@ -37547,6 +37575,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Fort Reno Protection",
+                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
+                  },
+                  {
+                    label: "Pro-Life",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                 ],
@@ -37719,10 +37751,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                 website: "https://yenforsenate.com/",
                 supports: [
                   {
-                    label: "Protect Abortion Rights",
-                    url: "https://yenforsenate.com/",
-                  },
-                  {
                     label: "Defend Medical Autonomy",
                     url: "https://yenforsenate.com/",
                   },
@@ -37772,6 +37800,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Federal Accountability",
+                    url: "https://yenforsenate.com/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://yenforsenate.com/",
                   },
                 ],
@@ -37833,10 +37865,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                   {
-                    label: "Restore Abortion Rights",
-                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
-                  },
-                  {
                     label: "Autism Services",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
@@ -37862,6 +37890,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "LGBTQ Rights",
+                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                 ],
@@ -38078,7 +38110,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "SAVE America Act",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
                   },
-                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                   {
                     label: "Born-Alive Protection",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
@@ -38103,6 +38134,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Second Amendment",
                     url: "https://hernforsenate.com/",
                   },
+                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                 ],
               },
               {
@@ -38254,10 +38286,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://brandon4congress.com/",
                   },
                   {
-                    label: "Protect Abortion Rights",
-                    url: "https://brandon4congress.com/",
-                  },
-                  {
                     label: "Fund Public Schools",
                     url: "https://brandon4congress.com/",
                   },
@@ -38300,6 +38328,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   {
                     label: "Richard Star Act",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-democrats-go-head-to-head-in-2nd-3rd-4th-congressional-district-primaries/",
+                  },
+                  {
+                    label: "Abortion Rights",
+                    url: "https://brandon4congress.com/",
                   },
                 ],
                 against: [
@@ -38367,15 +38399,15 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                   {
-                    label: "Pro-Life",
-                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
-                  },
-                  {
                     label: "Second Amendment",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                   {
                     label: "Fund National Defense",
+                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
+                  },
+                  {
+                    label: "Pro-Life",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                 ],
@@ -38539,10 +38571,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                 website: "https://yenforsenate.com/",
                 supports: [
                   {
-                    label: "Protect Abortion Rights",
-                    url: "https://yenforsenate.com/",
-                  },
-                  {
                     label: "Defend Medical Autonomy",
                     url: "https://yenforsenate.com/",
                   },
@@ -38592,6 +38620,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Federal Accountability",
+                    url: "https://yenforsenate.com/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://yenforsenate.com/",
                   },
                 ],
@@ -38653,10 +38685,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                   {
-                    label: "Restore Abortion Rights",
-                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
-                  },
-                  {
                     label: "Autism Services",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
@@ -38682,6 +38710,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "LGBTQ Rights",
+                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                 ],
@@ -38898,7 +38930,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "SAVE America Act",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
                   },
-                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                   {
                     label: "Born-Alive Protection",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
@@ -38923,6 +38954,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Second Amendment",
                     url: "https://hernforsenate.com/",
                   },
+                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                 ],
               },
               {
@@ -39074,10 +39106,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://brandon4congress.com/",
                   },
                   {
-                    label: "Protect Abortion Rights",
-                    url: "https://brandon4congress.com/",
-                  },
-                  {
                     label: "Fund Public Schools",
                     url: "https://brandon4congress.com/",
                   },
@@ -39120,6 +39148,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   {
                     label: "Richard Star Act",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-democrats-go-head-to-head-in-2nd-3rd-4th-congressional-district-primaries/",
+                  },
+                  {
+                    label: "Abortion Rights",
+                    url: "https://brandon4congress.com/",
                   },
                 ],
                 against: [
@@ -39187,15 +39219,15 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                   {
-                    label: "Pro-Life",
-                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
-                  },
-                  {
                     label: "Second Amendment",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                   {
                     label: "Fund National Defense",
+                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
+                  },
+                  {
+                    label: "Pro-Life",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                 ],
@@ -39453,10 +39485,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                 website: "https://yenforsenate.com/",
                 supports: [
                   {
-                    label: "Protect Abortion Rights",
-                    url: "https://yenforsenate.com/",
-                  },
-                  {
                     label: "Defend Medical Autonomy",
                     url: "https://yenforsenate.com/",
                   },
@@ -39506,6 +39534,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Federal Accountability",
+                    url: "https://yenforsenate.com/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://yenforsenate.com/",
                   },
                 ],
@@ -39567,10 +39599,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                   {
-                    label: "Restore Abortion Rights",
-                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
-                  },
-                  {
                     label: "Autism Services",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
@@ -39596,6 +39624,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "LGBTQ Rights",
+                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                 ],
@@ -39812,7 +39844,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "SAVE America Act",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
                   },
-                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                   {
                     label: "Born-Alive Protection",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
@@ -39837,6 +39868,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Second Amendment",
                     url: "https://hernforsenate.com/",
                   },
+                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                 ],
               },
               {
@@ -39998,6 +40030,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   {
                     label: "Workers' Rights",
                     url: "https://nondoc.com/2026/06/04/cd-5-democratic-primary-trey-martin-jena-nelson-fight-for-right-to-face-bice/",
+                  },
+                  {
+                    label: "Abortion Rights",
+                    url: "https://www.treyforoklahoma.com/platform",
                   },
                 ],
                 against: [
@@ -40311,10 +40347,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                 website: "https://yenforsenate.com/",
                 supports: [
                   {
-                    label: "Protect Abortion Rights",
-                    url: "https://yenforsenate.com/",
-                  },
-                  {
                     label: "Defend Medical Autonomy",
                     url: "https://yenforsenate.com/",
                   },
@@ -40364,6 +40396,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Federal Accountability",
+                    url: "https://yenforsenate.com/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://yenforsenate.com/",
                   },
                 ],
@@ -40425,10 +40461,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                   {
-                    label: "Restore Abortion Rights",
-                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
-                  },
-                  {
                     label: "Autism Services",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
@@ -40454,6 +40486,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "LGBTQ Rights",
+                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                 ],
@@ -40670,7 +40706,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "SAVE America Act",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
                   },
-                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                   {
                     label: "Born-Alive Protection",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
@@ -40695,6 +40730,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Second Amendment",
                     url: "https://hernforsenate.com/",
                   },
+                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                 ],
               },
               {
@@ -40890,10 +40926,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://www.oklahomafight.com/",
                   },
                   {
-                    label: "Reproductive Rights",
-                    url: "https://www.oklahomafight.com/",
-                  },
-                  {
                     label: "Protect Democracy",
                     url: "https://www.oklahomafight.com/",
                   },
@@ -40903,6 +40935,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Green Energy",
+                    url: "https://www.oklahomafight.com/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://www.oklahomafight.com/",
                   },
                 ],
@@ -40958,10 +40994,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                   {
-                    label: "Pro-Life",
-                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
-                  },
-                  {
                     label: "Hyde Amendment",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
@@ -40979,6 +41011,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Fort Reno Protection",
+                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
+                  },
+                  {
+                    label: "Pro-Life",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                 ],
@@ -41065,6 +41101,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   {
                     label: "Workers' Rights",
                     url: "https://nondoc.com/2026/06/04/cd-5-democratic-primary-trey-martin-jena-nelson-fight-for-right-to-face-bice/",
+                  },
+                  {
+                    label: "Abortion Rights",
+                    url: "https://www.treyforoklahoma.com/platform",
                   },
                 ],
                 against: [
@@ -41485,10 +41525,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                 website: "https://yenforsenate.com/",
                 supports: [
                   {
-                    label: "Protect Abortion Rights",
-                    url: "https://yenforsenate.com/",
-                  },
-                  {
                     label: "Defend Medical Autonomy",
                     url: "https://yenforsenate.com/",
                   },
@@ -41538,6 +41574,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Federal Accountability",
+                    url: "https://yenforsenate.com/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://yenforsenate.com/",
                   },
                 ],
@@ -41599,10 +41639,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                   {
-                    label: "Restore Abortion Rights",
-                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
-                  },
-                  {
                     label: "Autism Services",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
@@ -41628,6 +41664,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "LGBTQ Rights",
+                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                 ],
@@ -41844,7 +41884,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "SAVE America Act",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
                   },
-                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                   {
                     label: "Born-Alive Protection",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
@@ -41869,6 +41908,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Second Amendment",
                     url: "https://hernforsenate.com/",
                   },
+                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                 ],
               },
               {
@@ -42054,10 +42094,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://www.mitchelljacob.com/",
                   },
                   {
-                    label: "Pro-Choice",
-                    url: "https://www.mitchelljacob.com/",
-                  },
-                  {
                     label: "Tribal Sovereignty",
                     url: "https://www.mitchelljacob.com/",
                   },
@@ -42072,6 +42108,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "No PAC Money",
+                    url: "https://www.mitchelljacob.com/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://www.mitchelljacob.com/",
                   },
                 ],
@@ -42237,16 +42277,16 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                   {
-                    label: "Pro-Life",
-                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
-                  },
-                  {
                     label: "Truth Commission",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                   {
                     label: "Trump Agenda",
                     url: "https://tomcoleforcongress.com/",
+                  },
+                  {
+                    label: "Pro-Life",
+                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                 ],
                 against: [
@@ -42256,6 +42296,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Iran Nuclear Deal",
+                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                 ],
@@ -42407,10 +42451,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                 website: "https://yenforsenate.com/",
                 supports: [
                   {
-                    label: "Protect Abortion Rights",
-                    url: "https://yenforsenate.com/",
-                  },
-                  {
                     label: "Defend Medical Autonomy",
                     url: "https://yenforsenate.com/",
                   },
@@ -42460,6 +42500,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Federal Accountability",
+                    url: "https://yenforsenate.com/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://yenforsenate.com/",
                   },
                 ],
@@ -42521,10 +42565,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                   {
-                    label: "Restore Abortion Rights",
-                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
-                  },
-                  {
                     label: "Autism Services",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
@@ -42550,6 +42590,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "LGBTQ Rights",
+                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                 ],
@@ -42766,7 +42810,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "SAVE America Act",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
                   },
-                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                   {
                     label: "Born-Alive Protection",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
@@ -42791,6 +42834,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Second Amendment",
                     url: "https://hernforsenate.com/",
                   },
+                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                 ],
               },
               {
@@ -42976,10 +43020,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://www.mitchelljacob.com/",
                   },
                   {
-                    label: "Pro-Choice",
-                    url: "https://www.mitchelljacob.com/",
-                  },
-                  {
                     label: "Tribal Sovereignty",
                     url: "https://www.mitchelljacob.com/",
                   },
@@ -42994,6 +43034,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "No PAC Money",
+                    url: "https://www.mitchelljacob.com/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://www.mitchelljacob.com/",
                   },
                 ],
@@ -43159,16 +43203,16 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                   {
-                    label: "Pro-Life",
-                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
-                  },
-                  {
                     label: "Truth Commission",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                   {
                     label: "Trump Agenda",
                     url: "https://tomcoleforcongress.com/",
+                  },
+                  {
+                    label: "Pro-Life",
+                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                 ],
                 against: [
@@ -43178,6 +43222,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Iran Nuclear Deal",
+                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                 ],
@@ -43206,15 +43254,15 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://okhouse.gov/representatives/jonathan-wilk",
                   },
                   {
-                    label: "Pro-Life",
-                    url: "https://okhouse.gov/representatives/jonathan-wilk",
-                  },
-                  {
                     label: "Energy Development",
                     url: "https://okhouse.gov/representatives/jonathan-wilk",
                   },
                   {
                     label: "Law Enforcement Support",
+                    url: "https://okhouse.gov/representatives/jonathan-wilk",
+                  },
+                  {
+                    label: "Pro-Life",
                     url: "https://okhouse.gov/representatives/jonathan-wilk",
                   },
                 ],
@@ -43237,10 +43285,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                 party: "REPUBLICAN",
                 supports: [
                   {
-                    label: "Pro-Life",
-                    url: "https://okhouse.gov/representatives/cynthia-roe",
-                  },
-                  {
                     label: "Rural Healthcare",
                     url: "https://okhouse.gov/representatives/cynthia-roe",
                   },
@@ -43250,6 +43294,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Energy Development",
+                    url: "https://okhouse.gov/representatives/cynthia-roe",
+                  },
+                  {
+                    label: "Pro-Life",
                     url: "https://okhouse.gov/representatives/cynthia-roe",
                   },
                 ],
@@ -43396,10 +43444,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                 website: "https://yenforsenate.com/",
                 supports: [
                   {
-                    label: "Protect Abortion Rights",
-                    url: "https://yenforsenate.com/",
-                  },
-                  {
                     label: "Defend Medical Autonomy",
                     url: "https://yenforsenate.com/",
                   },
@@ -43449,6 +43493,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Federal Accountability",
+                    url: "https://yenforsenate.com/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://yenforsenate.com/",
                   },
                 ],
@@ -43510,10 +43558,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                   {
-                    label: "Restore Abortion Rights",
-                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
-                  },
-                  {
                     label: "Autism Services",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
@@ -43539,6 +43583,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "LGBTQ Rights",
+                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                 ],
@@ -43755,7 +43803,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "SAVE America Act",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
                   },
-                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                   {
                     label: "Born-Alive Protection",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
@@ -43780,6 +43827,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Second Amendment",
                     url: "https://hernforsenate.com/",
                   },
+                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                 ],
               },
               {
@@ -43931,10 +43979,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://brandon4congress.com/",
                   },
                   {
-                    label: "Protect Abortion Rights",
-                    url: "https://brandon4congress.com/",
-                  },
-                  {
                     label: "Fund Public Schools",
                     url: "https://brandon4congress.com/",
                   },
@@ -43977,6 +44021,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   {
                     label: "Richard Star Act",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-democrats-go-head-to-head-in-2nd-3rd-4th-congressional-district-primaries/",
+                  },
+                  {
+                    label: "Abortion Rights",
+                    url: "https://brandon4congress.com/",
                   },
                 ],
                 against: [
@@ -44044,15 +44092,15 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                   {
-                    label: "Pro-Life",
-                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
-                  },
-                  {
                     label: "Second Amendment",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                   {
                     label: "Fund National Defense",
+                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
+                  },
+                  {
+                    label: "Pro-Life",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                 ],
@@ -44329,10 +44377,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                 website: "https://yenforsenate.com/",
                 supports: [
                   {
-                    label: "Protect Abortion Rights",
-                    url: "https://yenforsenate.com/",
-                  },
-                  {
                     label: "Defend Medical Autonomy",
                     url: "https://yenforsenate.com/",
                   },
@@ -44382,6 +44426,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Federal Accountability",
+                    url: "https://yenforsenate.com/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://yenforsenate.com/",
                   },
                 ],
@@ -44443,10 +44491,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                   {
-                    label: "Restore Abortion Rights",
-                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
-                  },
-                  {
                     label: "Autism Services",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
@@ -44472,6 +44516,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "LGBTQ Rights",
+                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                 ],
@@ -44688,7 +44736,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "SAVE America Act",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
                   },
-                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                   {
                     label: "Born-Alive Protection",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
@@ -44713,6 +44760,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Second Amendment",
                     url: "https://hernforsenate.com/",
                   },
+                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                 ],
               },
               {
@@ -44864,10 +44912,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://brandon4congress.com/",
                   },
                   {
-                    label: "Protect Abortion Rights",
-                    url: "https://brandon4congress.com/",
-                  },
-                  {
                     label: "Fund Public Schools",
                     url: "https://brandon4congress.com/",
                   },
@@ -44910,6 +44954,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   {
                     label: "Richard Star Act",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-democrats-go-head-to-head-in-2nd-3rd-4th-congressional-district-primaries/",
+                  },
+                  {
+                    label: "Abortion Rights",
+                    url: "https://brandon4congress.com/",
                   },
                 ],
                 against: [
@@ -44977,15 +45025,15 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                   {
-                    label: "Pro-Life",
-                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
-                  },
-                  {
                     label: "Second Amendment",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                   {
                     label: "Fund National Defense",
+                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
+                  },
+                  {
+                    label: "Pro-Life",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                 ],
@@ -45201,10 +45249,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                 website: "https://yenforsenate.com/",
                 supports: [
                   {
-                    label: "Protect Abortion Rights",
-                    url: "https://yenforsenate.com/",
-                  },
-                  {
                     label: "Defend Medical Autonomy",
                     url: "https://yenforsenate.com/",
                   },
@@ -45254,6 +45298,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Federal Accountability",
+                    url: "https://yenforsenate.com/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://yenforsenate.com/",
                   },
                 ],
@@ -45315,10 +45363,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                   {
-                    label: "Restore Abortion Rights",
-                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
-                  },
-                  {
                     label: "Autism Services",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
@@ -45344,6 +45388,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "LGBTQ Rights",
+                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                 ],
@@ -45560,7 +45608,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "SAVE America Act",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
                   },
-                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                   {
                     label: "Born-Alive Protection",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
@@ -45585,6 +45632,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Second Amendment",
                     url: "https://hernforsenate.com/",
                   },
+                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                 ],
               },
               {
@@ -45780,10 +45828,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://www.oklahomafight.com/",
                   },
                   {
-                    label: "Reproductive Rights",
-                    url: "https://www.oklahomafight.com/",
-                  },
-                  {
                     label: "Protect Democracy",
                     url: "https://www.oklahomafight.com/",
                   },
@@ -45793,6 +45837,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Green Energy",
+                    url: "https://www.oklahomafight.com/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://www.oklahomafight.com/",
                   },
                 ],
@@ -45848,10 +45896,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                   {
-                    label: "Pro-Life",
-                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
-                  },
-                  {
                     label: "Hyde Amendment",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
@@ -45869,6 +45913,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Fort Reno Protection",
+                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
+                  },
+                  {
+                    label: "Pro-Life",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                 ],
@@ -46011,10 +46059,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                 website: "https://yenforsenate.com/",
                 supports: [
                   {
-                    label: "Protect Abortion Rights",
-                    url: "https://yenforsenate.com/",
-                  },
-                  {
                     label: "Defend Medical Autonomy",
                     url: "https://yenforsenate.com/",
                   },
@@ -46064,6 +46108,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Federal Accountability",
+                    url: "https://yenforsenate.com/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://yenforsenate.com/",
                   },
                 ],
@@ -46125,10 +46173,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                   {
-                    label: "Restore Abortion Rights",
-                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
-                  },
-                  {
                     label: "Autism Services",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
@@ -46154,6 +46198,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "LGBTQ Rights",
+                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                 ],
@@ -46370,7 +46418,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "SAVE America Act",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
                   },
-                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                   {
                     label: "Born-Alive Protection",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
@@ -46395,6 +46442,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Second Amendment",
                     url: "https://hernforsenate.com/",
                   },
+                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                 ],
               },
               {
@@ -46546,10 +46594,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://brandon4congress.com/",
                   },
                   {
-                    label: "Protect Abortion Rights",
-                    url: "https://brandon4congress.com/",
-                  },
-                  {
                     label: "Fund Public Schools",
                     url: "https://brandon4congress.com/",
                   },
@@ -46592,6 +46636,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   {
                     label: "Richard Star Act",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-democrats-go-head-to-head-in-2nd-3rd-4th-congressional-district-primaries/",
+                  },
+                  {
+                    label: "Abortion Rights",
+                    url: "https://brandon4congress.com/",
                   },
                 ],
                 against: [
@@ -46659,15 +46707,15 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                   {
-                    label: "Pro-Life",
-                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
-                  },
-                  {
                     label: "Second Amendment",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                   {
                     label: "Fund National Defense",
+                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
+                  },
+                  {
+                    label: "Pro-Life",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                 ],
@@ -46916,10 +46964,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                 website: "https://yenforsenate.com/",
                 supports: [
                   {
-                    label: "Protect Abortion Rights",
-                    url: "https://yenforsenate.com/",
-                  },
-                  {
                     label: "Defend Medical Autonomy",
                     url: "https://yenforsenate.com/",
                   },
@@ -46969,6 +47013,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Federal Accountability",
+                    url: "https://yenforsenate.com/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://yenforsenate.com/",
                   },
                 ],
@@ -47030,10 +47078,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                   {
-                    label: "Restore Abortion Rights",
-                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
-                  },
-                  {
                     label: "Autism Services",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
@@ -47059,6 +47103,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "LGBTQ Rights",
+                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                 ],
@@ -47275,7 +47323,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "SAVE America Act",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
                   },
-                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                   {
                     label: "Born-Alive Protection",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
@@ -47300,6 +47347,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Second Amendment",
                     url: "https://hernforsenate.com/",
                   },
+                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                 ],
               },
               {
@@ -47451,10 +47499,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://brandon4congress.com/",
                   },
                   {
-                    label: "Protect Abortion Rights",
-                    url: "https://brandon4congress.com/",
-                  },
-                  {
                     label: "Fund Public Schools",
                     url: "https://brandon4congress.com/",
                   },
@@ -47497,6 +47541,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   {
                     label: "Richard Star Act",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-democrats-go-head-to-head-in-2nd-3rd-4th-congressional-district-primaries/",
+                  },
+                  {
+                    label: "Abortion Rights",
+                    url: "https://brandon4congress.com/",
                   },
                 ],
                 against: [
@@ -47564,15 +47612,15 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                   {
-                    label: "Pro-Life",
-                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
-                  },
-                  {
                     label: "Second Amendment",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                   {
                     label: "Fund National Defense",
+                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
+                  },
+                  {
+                    label: "Pro-Life",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                 ],
@@ -47757,7 +47805,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Rural Public Safety",
                     url: "https://www.gannforhouse.com",
                   },
-                  { label: "Pro-Life", url: "https://www.gannforhouse.com" },
                   {
                     label: "Second Amendment",
                     url: "https://www.gannforhouse.com",
@@ -47770,6 +47817,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Local Control",
                     url: "https://www.gannforhouse.com",
                   },
+                  { label: "Pro-Life", url: "https://www.gannforhouse.com" },
                 ],
                 against: [
                   {
@@ -47967,10 +48015,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                 website: "https://yenforsenate.com/",
                 supports: [
                   {
-                    label: "Protect Abortion Rights",
-                    url: "https://yenforsenate.com/",
-                  },
-                  {
                     label: "Defend Medical Autonomy",
                     url: "https://yenforsenate.com/",
                   },
@@ -48020,6 +48064,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Federal Accountability",
+                    url: "https://yenforsenate.com/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://yenforsenate.com/",
                   },
                 ],
@@ -48081,10 +48129,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                   {
-                    label: "Restore Abortion Rights",
-                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
-                  },
-                  {
                     label: "Autism Services",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
@@ -48110,6 +48154,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "LGBTQ Rights",
+                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                 ],
@@ -48326,7 +48374,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "SAVE America Act",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
                   },
-                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                   {
                     label: "Born-Alive Protection",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
@@ -48351,6 +48398,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Second Amendment",
                     url: "https://hernforsenate.com/",
                   },
+                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                 ],
               },
               {
@@ -48536,10 +48584,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://www.mitchelljacob.com/",
                   },
                   {
-                    label: "Pro-Choice",
-                    url: "https://www.mitchelljacob.com/",
-                  },
-                  {
                     label: "Tribal Sovereignty",
                     url: "https://www.mitchelljacob.com/",
                   },
@@ -48554,6 +48598,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "No PAC Money",
+                    url: "https://www.mitchelljacob.com/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://www.mitchelljacob.com/",
                   },
                 ],
@@ -48719,16 +48767,16 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                   {
-                    label: "Pro-Life",
-                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
-                  },
-                  {
                     label: "Truth Commission",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                   {
                     label: "Trump Agenda",
                     url: "https://tomcoleforcongress.com/",
+                  },
+                  {
+                    label: "Pro-Life",
+                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                 ],
                 against: [
@@ -48738,6 +48786,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Iran Nuclear Deal",
+                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                 ],
@@ -48867,10 +48919,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                 website: "https://yenforsenate.com/",
                 supports: [
                   {
-                    label: "Protect Abortion Rights",
-                    url: "https://yenforsenate.com/",
-                  },
-                  {
                     label: "Defend Medical Autonomy",
                     url: "https://yenforsenate.com/",
                   },
@@ -48920,6 +48968,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Federal Accountability",
+                    url: "https://yenforsenate.com/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://yenforsenate.com/",
                   },
                 ],
@@ -48981,10 +49033,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                   {
-                    label: "Restore Abortion Rights",
-                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
-                  },
-                  {
                     label: "Autism Services",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
@@ -49010,6 +49058,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "LGBTQ Rights",
+                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                 ],
@@ -49226,7 +49278,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "SAVE America Act",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
                   },
-                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                   {
                     label: "Born-Alive Protection",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
@@ -49251,6 +49302,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Second Amendment",
                     url: "https://hernforsenate.com/",
                   },
+                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                 ],
               },
               {
@@ -49402,10 +49454,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://brandon4congress.com/",
                   },
                   {
-                    label: "Protect Abortion Rights",
-                    url: "https://brandon4congress.com/",
-                  },
-                  {
                     label: "Fund Public Schools",
                     url: "https://brandon4congress.com/",
                   },
@@ -49448,6 +49496,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   {
                     label: "Richard Star Act",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-democrats-go-head-to-head-in-2nd-3rd-4th-congressional-district-primaries/",
+                  },
+                  {
+                    label: "Abortion Rights",
+                    url: "https://brandon4congress.com/",
                   },
                 ],
                 against: [
@@ -49515,15 +49567,15 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                   {
-                    label: "Pro-Life",
-                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
-                  },
-                  {
                     label: "Second Amendment",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                   {
                     label: "Fund National Defense",
+                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
+                  },
+                  {
+                    label: "Pro-Life",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                 ],
@@ -49625,15 +49677,15 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                 party: "REPUBLICAN",
                 supports: [
                   {
-                    label: "Pro-Life",
-                    url: "https://okhouse.gov/representatives/chris-sneed",
-                  },
-                  {
                     label: "Utility Rate Protection",
                     url: "https://okhouse.gov/representatives/chris-sneed",
                   },
                   {
                     label: "Law Enforcement Support",
+                    url: "https://okhouse.gov/representatives/chris-sneed",
+                  },
+                  {
+                    label: "Pro-Life",
                     url: "https://okhouse.gov/representatives/chris-sneed",
                   },
                 ],
@@ -49647,13 +49699,13 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://roytimmons.com",
                   },
                   { label: "Parental Rights", url: "https://roytimmons.com" },
-                  { label: "Pro-Life", url: "https://roytimmons.com" },
                   { label: "Second Amendment", url: "https://roytimmons.com" },
                   { label: "Property Rights", url: "https://roytimmons.com" },
                   {
                     label: "Utility Rate Protection",
                     url: "https://roytimmons.com",
                   },
+                  { label: "Pro-Life", url: "https://roytimmons.com" },
                 ],
               },
             ],
@@ -49804,10 +49856,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                 website: "https://yenforsenate.com/",
                 supports: [
                   {
-                    label: "Protect Abortion Rights",
-                    url: "https://yenforsenate.com/",
-                  },
-                  {
                     label: "Defend Medical Autonomy",
                     url: "https://yenforsenate.com/",
                   },
@@ -49857,6 +49905,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Federal Accountability",
+                    url: "https://yenforsenate.com/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://yenforsenate.com/",
                   },
                 ],
@@ -49918,10 +49970,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                   {
-                    label: "Restore Abortion Rights",
-                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
-                  },
-                  {
                     label: "Autism Services",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
@@ -49947,6 +49995,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "LGBTQ Rights",
+                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                 ],
@@ -50163,7 +50215,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "SAVE America Act",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
                   },
-                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                   {
                     label: "Born-Alive Protection",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
@@ -50188,6 +50239,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Second Amendment",
                     url: "https://hernforsenate.com/",
                   },
+                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                 ],
               },
               {
@@ -50383,10 +50435,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://www.oklahomafight.com/",
                   },
                   {
-                    label: "Reproductive Rights",
-                    url: "https://www.oklahomafight.com/",
-                  },
-                  {
                     label: "Protect Democracy",
                     url: "https://www.oklahomafight.com/",
                   },
@@ -50396,6 +50444,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Green Energy",
+                    url: "https://www.oklahomafight.com/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://www.oklahomafight.com/",
                   },
                 ],
@@ -50451,10 +50503,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                   {
-                    label: "Pro-Life",
-                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
-                  },
-                  {
                     label: "Hyde Amendment",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
@@ -50472,6 +50520,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Fort Reno Protection",
+                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
+                  },
+                  {
+                    label: "Pro-Life",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                 ],
@@ -50555,15 +50607,15 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://www.wrightforstaterep.com",
                   },
                   {
-                    label: "Pro-Life",
-                    url: "https://www.wrightforstaterep.com",
-                  },
-                  {
                     label: "Law Enforcement",
                     url: "https://www.wrightforstaterep.com",
                   },
                   {
                     label: "Education Reform",
+                    url: "https://www.wrightforstaterep.com",
+                  },
+                  {
+                    label: "Pro-Life",
                     url: "https://www.wrightforstaterep.com",
                   },
                 ],
@@ -50826,10 +50878,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                 website: "https://yenforsenate.com/",
                 supports: [
                   {
-                    label: "Protect Abortion Rights",
-                    url: "https://yenforsenate.com/",
-                  },
-                  {
                     label: "Defend Medical Autonomy",
                     url: "https://yenforsenate.com/",
                   },
@@ -50879,6 +50927,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Federal Accountability",
+                    url: "https://yenforsenate.com/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://yenforsenate.com/",
                   },
                 ],
@@ -50940,10 +50992,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                   {
-                    label: "Restore Abortion Rights",
-                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
-                  },
-                  {
                     label: "Autism Services",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
@@ -50969,6 +51017,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "LGBTQ Rights",
+                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                 ],
@@ -51185,7 +51237,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "SAVE America Act",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
                   },
-                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                   {
                     label: "Born-Alive Protection",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
@@ -51210,6 +51261,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Second Amendment",
                     url: "https://hernforsenate.com/",
                   },
+                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                 ],
               },
               {
@@ -51361,10 +51413,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://brandon4congress.com/",
                   },
                   {
-                    label: "Protect Abortion Rights",
-                    url: "https://brandon4congress.com/",
-                  },
-                  {
                     label: "Fund Public Schools",
                     url: "https://brandon4congress.com/",
                   },
@@ -51407,6 +51455,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   {
                     label: "Richard Star Act",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-democrats-go-head-to-head-in-2nd-3rd-4th-congressional-district-primaries/",
+                  },
+                  {
+                    label: "Abortion Rights",
+                    url: "https://brandon4congress.com/",
                   },
                 ],
                 against: [
@@ -51474,15 +51526,15 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                   {
-                    label: "Pro-Life",
-                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
-                  },
-                  {
                     label: "Second Amendment",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                   {
                     label: "Fund National Defense",
+                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
+                  },
+                  {
+                    label: "Pro-Life",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                 ],
@@ -51799,10 +51851,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                 website: "https://yenforsenate.com/",
                 supports: [
                   {
-                    label: "Protect Abortion Rights",
-                    url: "https://yenforsenate.com/",
-                  },
-                  {
                     label: "Defend Medical Autonomy",
                     url: "https://yenforsenate.com/",
                   },
@@ -51852,6 +51900,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Federal Accountability",
+                    url: "https://yenforsenate.com/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://yenforsenate.com/",
                   },
                 ],
@@ -51913,10 +51965,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                   {
-                    label: "Restore Abortion Rights",
-                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
-                  },
-                  {
                     label: "Autism Services",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
@@ -51942,6 +51990,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "LGBTQ Rights",
+                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                 ],
@@ -52158,7 +52210,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "SAVE America Act",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
                   },
-                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                   {
                     label: "Born-Alive Protection",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
@@ -52183,6 +52234,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Second Amendment",
                     url: "https://hernforsenate.com/",
                   },
+                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                 ],
               },
               {
@@ -52334,10 +52386,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://brandon4congress.com/",
                   },
                   {
-                    label: "Protect Abortion Rights",
-                    url: "https://brandon4congress.com/",
-                  },
-                  {
                     label: "Fund Public Schools",
                     url: "https://brandon4congress.com/",
                   },
@@ -52380,6 +52428,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   {
                     label: "Richard Star Act",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-democrats-go-head-to-head-in-2nd-3rd-4th-congressional-district-primaries/",
+                  },
+                  {
+                    label: "Abortion Rights",
+                    url: "https://brandon4congress.com/",
                   },
                 ],
                 against: [
@@ -52447,15 +52499,15 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                   {
-                    label: "Pro-Life",
-                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
-                  },
-                  {
                     label: "Second Amendment",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                   {
                     label: "Fund National Defense",
+                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
+                  },
+                  {
+                    label: "Pro-Life",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                 ],
@@ -52709,10 +52761,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                 website: "https://yenforsenate.com/",
                 supports: [
                   {
-                    label: "Protect Abortion Rights",
-                    url: "https://yenforsenate.com/",
-                  },
-                  {
                     label: "Defend Medical Autonomy",
                     url: "https://yenforsenate.com/",
                   },
@@ -52762,6 +52810,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Federal Accountability",
+                    url: "https://yenforsenate.com/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://yenforsenate.com/",
                   },
                 ],
@@ -52823,10 +52875,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                   {
-                    label: "Restore Abortion Rights",
-                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
-                  },
-                  {
                     label: "Autism Services",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
@@ -52852,6 +52900,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "LGBTQ Rights",
+                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                 ],
@@ -53068,7 +53120,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "SAVE America Act",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
                   },
-                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                   {
                     label: "Born-Alive Protection",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
@@ -53093,6 +53144,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Second Amendment",
                     url: "https://hernforsenate.com/",
                   },
+                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                 ],
               },
               {
@@ -53288,10 +53340,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://www.oklahomafight.com/",
                   },
                   {
-                    label: "Reproductive Rights",
-                    url: "https://www.oklahomafight.com/",
-                  },
-                  {
                     label: "Protect Democracy",
                     url: "https://www.oklahomafight.com/",
                   },
@@ -53301,6 +53349,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Green Energy",
+                    url: "https://www.oklahomafight.com/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://www.oklahomafight.com/",
                   },
                 ],
@@ -53356,10 +53408,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                   {
-                    label: "Pro-Life",
-                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
-                  },
-                  {
                     label: "Hyde Amendment",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
@@ -53377,6 +53425,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Fort Reno Protection",
+                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
+                  },
+                  {
+                    label: "Pro-Life",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                 ],
@@ -53487,10 +53539,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://www.mitchelljacob.com/",
                   },
                   {
-                    label: "Pro-Choice",
-                    url: "https://www.mitchelljacob.com/",
-                  },
-                  {
                     label: "Tribal Sovereignty",
                     url: "https://www.mitchelljacob.com/",
                   },
@@ -53505,6 +53553,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "No PAC Money",
+                    url: "https://www.mitchelljacob.com/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://www.mitchelljacob.com/",
                   },
                 ],
@@ -53670,16 +53722,16 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                   {
-                    label: "Pro-Life",
-                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
-                  },
-                  {
                     label: "Truth Commission",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                   {
                     label: "Trump Agenda",
                     url: "https://tomcoleforcongress.com/",
+                  },
+                  {
+                    label: "Pro-Life",
+                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                 ],
                 against: [
@@ -53689,6 +53741,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Iran Nuclear Deal",
+                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                 ],
@@ -53753,6 +53809,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   {
                     label: "Workers' Rights",
                     url: "https://nondoc.com/2026/06/04/cd-5-democratic-primary-trey-martin-jena-nelson-fight-for-right-to-face-bice/",
+                  },
+                  {
+                    label: "Abortion Rights",
+                    url: "https://www.treyforoklahoma.com/platform",
                   },
                 ],
                 against: [
@@ -53970,7 +54030,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://tylerherring.com",
                   },
                   { label: "Parental Rights", url: "https://tylerherring.com" },
-                  { label: "Pro-Life", url: "https://tylerherring.com" },
                   {
                     label: "Second Amendment",
                     url: "https://tylerherring.com",
@@ -53995,6 +54054,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Rural Healthcare",
                     url: "https://tylerherring.com",
                   },
+                  { label: "Pro-Life", url: "https://tylerherring.com" },
                 ],
               },
               {
@@ -54096,21 +54156,17 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Breast Cancer Screening",
                     url: "http://senatorbrendastanley.com",
                   },
-                  { label: "Pro-Life", url: "http://senatorbrendastanley.com" },
                   {
                     label: "Energy Independence",
                     url: "http://senatorbrendastanley.com",
                   },
+                  { label: "Pro-Life", url: "http://senatorbrendastanley.com" },
                 ],
               },
               {
                 name: "MALANA BRACHT",
                 party: "REPUBLICAN",
                 supports: [
-                  {
-                    label: "Pro-Life",
-                    url: "https://www.centraloklahomaweeklies.com/2026/06/12/stanley-bracht-face-off-in-district-42-gop-primary/",
-                  },
                   {
                     label: "Law and Order",
                     url: "https://www.centraloklahomaweeklies.com/2026/06/12/stanley-bracht-face-off-in-district-42-gop-primary/",
@@ -54129,6 +54185,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Road Repairs",
+                    url: "https://www.centraloklahomaweeklies.com/2026/06/12/stanley-bracht-face-off-in-district-42-gop-primary/",
+                  },
+                  {
+                    label: "Pro-Life",
                     url: "https://www.centraloklahomaweeklies.com/2026/06/12/stanley-bracht-face-off-in-district-42-gop-primary/",
                   },
                 ],
@@ -54178,10 +54238,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://www.jenniwhiteforhd36.com",
                   },
                   {
-                    label: "Pro-Life",
-                    url: "https://www.jenniwhiteforhd36.com",
-                  },
-                  {
                     label: "Second Amendment",
                     url: "https://www.jenniwhiteforhd36.com",
                   },
@@ -54201,6 +54257,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Government Efficiency",
                     url: "https://oklahomavoice.com/voter-guides/contests/state-representative-district-36-republican/",
                   },
+                  {
+                    label: "Pro-Life",
+                    url: "https://www.jenniwhiteforhd36.com",
+                  },
                 ],
               },
               {
@@ -54208,11 +54268,11 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                 party: "REPUBLICAN",
                 supports: [
                   {
-                    label: "Pro-Life",
+                    label: "Law Enforcement Support",
                     url: "https://okhouse.gov/representatives/john-george",
                   },
                   {
-                    label: "Law Enforcement Support",
+                    label: "Pro-Life",
                     url: "https://okhouse.gov/representatives/john-george",
                   },
                 ],
@@ -54247,7 +54307,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                 name: "HEATH KUFAHL",
                 party: "REPUBLICAN",
                 supports: [
-                  { label: "Pro-Life", url: "https://heathkufahl.com" },
                   { label: "Second Amendment", url: "https://heathkufahl.com" },
                   {
                     label: "Immigration Enforcement",
@@ -54265,6 +54324,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Conservative Values",
                     url: "https://heathkufahl.com",
                   },
+                  { label: "Pro-Life", url: "https://heathkufahl.com" },
                 ],
               },
               {
@@ -54404,15 +54464,15 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/05/23/cheat-sheet-republicans-running-for-hd-81-open-seat-talk-taxes-education/",
                   },
                   {
-                    label: "Pro-Life",
-                    url: "https://nondoc.com/2026/05/23/cheat-sheet-republicans-running-for-hd-81-open-seat-talk-taxes-education/",
-                  },
-                  {
                     label: "Second Amendment",
                     url: "https://nondoc.com/2026/05/23/cheat-sheet-republicans-running-for-hd-81-open-seat-talk-taxes-education/",
                   },
                   {
                     label: "Parental Choice",
+                    url: "https://nondoc.com/2026/05/23/cheat-sheet-republicans-running-for-hd-81-open-seat-talk-taxes-education/",
+                  },
+                  {
+                    label: "Pro-Life",
                     url: "https://nondoc.com/2026/05/23/cheat-sheet-republicans-running-for-hd-81-open-seat-talk-taxes-education/",
                   },
                 ],
@@ -54473,10 +54533,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/06/10/cheat-sheet-3-democrats-run-to-succeed-cyndi-munson-in-hd-85/",
                   },
                   {
-                    label: "Reproductive Rights",
-                    url: "https://nondoc.com/2026/06/10/cheat-sheet-3-democrats-run-to-succeed-cyndi-munson-in-hd-85/",
-                  },
-                  {
                     label: "Affordable Childcare",
                     url: "https://nondoc.com/2026/06/10/cheat-sheet-3-democrats-run-to-succeed-cyndi-munson-in-hd-85/",
                   },
@@ -54498,6 +54554,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Oppose ICE Detention",
+                    url: "https://nondoc.com/2026/06/10/cheat-sheet-3-democrats-run-to-succeed-cyndi-munson-in-hd-85/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://nondoc.com/2026/06/10/cheat-sheet-3-democrats-run-to-succeed-cyndi-munson-in-hd-85/",
                   },
                 ],
@@ -54750,10 +54810,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://www.rinehartforhouse.com",
                   },
                   {
-                    label: "Pro-Life",
-                    url: "https://www.rinehartforhouse.com",
-                  },
-                  {
                     label: "Second Amendment",
                     url: "https://www.rinehartforhouse.com",
                   },
@@ -54775,6 +54831,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Girls Sports Protection",
+                    url: "https://www.rinehartforhouse.com",
+                  },
+                  {
+                    label: "Pro-Life",
                     url: "https://www.rinehartforhouse.com",
                   },
                 ],
@@ -55263,10 +55323,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                 website: "https://yenforsenate.com/",
                 supports: [
                   {
-                    label: "Protect Abortion Rights",
-                    url: "https://yenforsenate.com/",
-                  },
-                  {
                     label: "Defend Medical Autonomy",
                     url: "https://yenforsenate.com/",
                   },
@@ -55316,6 +55372,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Federal Accountability",
+                    url: "https://yenforsenate.com/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://yenforsenate.com/",
                   },
                 ],
@@ -55377,10 +55437,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                   {
-                    label: "Restore Abortion Rights",
-                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
-                  },
-                  {
                     label: "Autism Services",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
@@ -55406,6 +55462,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "LGBTQ Rights",
+                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                 ],
@@ -55622,7 +55682,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "SAVE America Act",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
                   },
-                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                   {
                     label: "Born-Alive Protection",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
@@ -55647,6 +55706,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Second Amendment",
                     url: "https://hernforsenate.com/",
                   },
+                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                 ],
               },
               {
@@ -55798,10 +55858,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://brandon4congress.com/",
                   },
                   {
-                    label: "Protect Abortion Rights",
-                    url: "https://brandon4congress.com/",
-                  },
-                  {
                     label: "Fund Public Schools",
                     url: "https://brandon4congress.com/",
                   },
@@ -55844,6 +55900,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   {
                     label: "Richard Star Act",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-democrats-go-head-to-head-in-2nd-3rd-4th-congressional-district-primaries/",
+                  },
+                  {
+                    label: "Abortion Rights",
+                    url: "https://brandon4congress.com/",
                   },
                 ],
                 against: [
@@ -55911,15 +55971,15 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                   {
-                    label: "Pro-Life",
-                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
-                  },
-                  {
                     label: "Second Amendment",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                   {
                     label: "Fund National Defense",
+                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
+                  },
+                  {
+                    label: "Pro-Life",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                 ],
@@ -56022,10 +56082,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                 website: "https://www.banningforoklahoma.com",
                 supports: [
                   {
-                    label: "Pro-Life",
-                    url: "https://www.banningforoklahoma.com/issues",
-                  },
-                  {
                     label: "Second Amendment",
                     url: "https://www.banningforoklahoma.com/issues",
                   },
@@ -56039,6 +56095,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Lower Taxes (Everyone)",
+                    url: "https://www.banningforoklahoma.com/issues",
+                  },
+                  {
+                    label: "Pro-Life",
                     url: "https://www.banningforoklahoma.com/issues",
                   },
                 ],
@@ -56216,10 +56276,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                 website: "https://yenforsenate.com/",
                 supports: [
                   {
-                    label: "Protect Abortion Rights",
-                    url: "https://yenforsenate.com/",
-                  },
-                  {
                     label: "Defend Medical Autonomy",
                     url: "https://yenforsenate.com/",
                   },
@@ -56269,6 +56325,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Federal Accountability",
+                    url: "https://yenforsenate.com/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://yenforsenate.com/",
                   },
                 ],
@@ -56330,10 +56390,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                   {
-                    label: "Restore Abortion Rights",
-                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
-                  },
-                  {
                     label: "Autism Services",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
@@ -56359,6 +56415,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "LGBTQ Rights",
+                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                 ],
@@ -56575,7 +56635,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "SAVE America Act",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
                   },
-                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                   {
                     label: "Born-Alive Protection",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
@@ -56600,6 +56659,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Second Amendment",
                     url: "https://hernforsenate.com/",
                   },
+                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                 ],
               },
               {
@@ -56795,10 +56855,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://www.oklahomafight.com/",
                   },
                   {
-                    label: "Reproductive Rights",
-                    url: "https://www.oklahomafight.com/",
-                  },
-                  {
                     label: "Protect Democracy",
                     url: "https://www.oklahomafight.com/",
                   },
@@ -56808,6 +56864,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Green Energy",
+                    url: "https://www.oklahomafight.com/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://www.oklahomafight.com/",
                   },
                 ],
@@ -56863,10 +56923,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                   {
-                    label: "Pro-Life",
-                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
-                  },
-                  {
                     label: "Hyde Amendment",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
@@ -56884,6 +56940,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Fort Reno Protection",
+                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
+                  },
+                  {
+                    label: "Pro-Life",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                 ],
@@ -56930,7 +56990,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                 party: "REPUBLICAN",
                 website: "https://jadanterrazas.com",
                 supports: [
-                  { label: "Pro-Life", url: "https://jadanterrazas.com" },
                   {
                     label: "Lower Income Tax",
                     url: "https://jadanterrazas.com",
@@ -56951,6 +57010,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Immigration Enforcement",
                     url: "https://jadanterrazas.com",
                   },
+                  { label: "Pro-Life", url: "https://jadanterrazas.com" },
                 ],
                 against: [
                   { label: "Lobbyist Money", url: "https://jadanterrazas.com" },
@@ -56965,7 +57025,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Lower Taxes (Everyone)",
                     url: "https://colemanforoklahoma.com",
                   },
-                  { label: "Pro-Life", url: "https://colemanforoklahoma.com" },
                   {
                     label: "Second Amendment",
                     url: "https://colemanforoklahoma.com",
@@ -56990,6 +57049,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Law Enforcement",
                     url: "https://colemanforoklahoma.com",
                   },
+                  { label: "Pro-Life", url: "https://colemanforoklahoma.com" },
                 ],
                 against: [
                   {
@@ -57064,15 +57124,15 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://www.wrightforstaterep.com",
                   },
                   {
-                    label: "Pro-Life",
-                    url: "https://www.wrightforstaterep.com",
-                  },
-                  {
                     label: "Law Enforcement",
                     url: "https://www.wrightforstaterep.com",
                   },
                   {
                     label: "Education Reform",
+                    url: "https://www.wrightforstaterep.com",
+                  },
+                  {
+                    label: "Pro-Life",
                     url: "https://www.wrightforstaterep.com",
                   },
                 ],
@@ -57126,7 +57186,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Second Amendment",
                     url: "https://votespencergrace.com",
                   },
-                  { label: "Pro-Life", url: "https://votespencergrace.com" },
                   {
                     label: "Special Needs Families",
                     url: "https://votespencergrace.com",
@@ -57143,6 +57202,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Property Rights",
                     url: "https://votespencergrace.com",
                   },
+                  { label: "Pro-Life", url: "https://votespencergrace.com" },
                 ],
               },
               {
@@ -57310,10 +57370,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                 website: "https://yenforsenate.com/",
                 supports: [
                   {
-                    label: "Protect Abortion Rights",
-                    url: "https://yenforsenate.com/",
-                  },
-                  {
                     label: "Defend Medical Autonomy",
                     url: "https://yenforsenate.com/",
                   },
@@ -57363,6 +57419,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Federal Accountability",
+                    url: "https://yenforsenate.com/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://yenforsenate.com/",
                   },
                 ],
@@ -57424,10 +57484,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                   {
-                    label: "Restore Abortion Rights",
-                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
-                  },
-                  {
                     label: "Autism Services",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
@@ -57453,6 +57509,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "LGBTQ Rights",
+                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                 ],
@@ -57669,7 +57729,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "SAVE America Act",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
                   },
-                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                   {
                     label: "Born-Alive Protection",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
@@ -57694,6 +57753,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Second Amendment",
                     url: "https://hernforsenate.com/",
                   },
+                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                 ],
               },
               {
@@ -57845,10 +57905,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://brandon4congress.com/",
                   },
                   {
-                    label: "Protect Abortion Rights",
-                    url: "https://brandon4congress.com/",
-                  },
-                  {
                     label: "Fund Public Schools",
                     url: "https://brandon4congress.com/",
                   },
@@ -57891,6 +57947,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   {
                     label: "Richard Star Act",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-democrats-go-head-to-head-in-2nd-3rd-4th-congressional-district-primaries/",
+                  },
+                  {
+                    label: "Abortion Rights",
+                    url: "https://brandon4congress.com/",
                   },
                 ],
                 against: [
@@ -57958,15 +58018,15 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                   {
-                    label: "Pro-Life",
-                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
-                  },
-                  {
                     label: "Second Amendment",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                   {
                     label: "Fund National Defense",
+                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
+                  },
+                  {
+                    label: "Pro-Life",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                 ],
@@ -58158,10 +58218,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                 website: "https://yenforsenate.com/",
                 supports: [
                   {
-                    label: "Protect Abortion Rights",
-                    url: "https://yenforsenate.com/",
-                  },
-                  {
                     label: "Defend Medical Autonomy",
                     url: "https://yenforsenate.com/",
                   },
@@ -58211,6 +58267,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Federal Accountability",
+                    url: "https://yenforsenate.com/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://yenforsenate.com/",
                   },
                 ],
@@ -58272,10 +58332,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                   {
-                    label: "Restore Abortion Rights",
-                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
-                  },
-                  {
                     label: "Autism Services",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
@@ -58301,6 +58357,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "LGBTQ Rights",
+                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                 ],
@@ -58517,7 +58577,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "SAVE America Act",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
                   },
-                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                   {
                     label: "Born-Alive Protection",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
@@ -58542,6 +58601,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Second Amendment",
                     url: "https://hernforsenate.com/",
                   },
+                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                 ],
               },
               {
@@ -58737,10 +58797,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://www.oklahomafight.com/",
                   },
                   {
-                    label: "Reproductive Rights",
-                    url: "https://www.oklahomafight.com/",
-                  },
-                  {
                     label: "Protect Democracy",
                     url: "https://www.oklahomafight.com/",
                   },
@@ -58750,6 +58806,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Green Energy",
+                    url: "https://www.oklahomafight.com/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://www.oklahomafight.com/",
                   },
                 ],
@@ -58805,10 +58865,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                   {
-                    label: "Pro-Life",
-                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
-                  },
-                  {
                     label: "Hyde Amendment",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
@@ -58826,6 +58882,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Fort Reno Protection",
+                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
+                  },
+                  {
+                    label: "Pro-Life",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                 ],
@@ -58909,15 +58969,15 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://www.wrightforstaterep.com",
                   },
                   {
-                    label: "Pro-Life",
-                    url: "https://www.wrightforstaterep.com",
-                  },
-                  {
                     label: "Law Enforcement",
                     url: "https://www.wrightforstaterep.com",
                   },
                   {
                     label: "Education Reform",
+                    url: "https://www.wrightforstaterep.com",
+                  },
+                  {
+                    label: "Pro-Life",
                     url: "https://www.wrightforstaterep.com",
                   },
                 ],
@@ -59032,10 +59092,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                 website: "https://yenforsenate.com/",
                 supports: [
                   {
-                    label: "Protect Abortion Rights",
-                    url: "https://yenforsenate.com/",
-                  },
-                  {
                     label: "Defend Medical Autonomy",
                     url: "https://yenforsenate.com/",
                   },
@@ -59085,6 +59141,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Federal Accountability",
+                    url: "https://yenforsenate.com/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://yenforsenate.com/",
                   },
                 ],
@@ -59146,10 +59206,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                   {
-                    label: "Restore Abortion Rights",
-                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
-                  },
-                  {
                     label: "Autism Services",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
@@ -59175,6 +59231,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "LGBTQ Rights",
+                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                 ],
@@ -59391,7 +59451,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "SAVE America Act",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
                   },
-                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                   {
                     label: "Born-Alive Protection",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
@@ -59416,6 +59475,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Second Amendment",
                     url: "https://hernforsenate.com/",
                   },
+                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                 ],
               },
               {
@@ -59611,10 +59671,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://www.oklahomafight.com/",
                   },
                   {
-                    label: "Reproductive Rights",
-                    url: "https://www.oklahomafight.com/",
-                  },
-                  {
                     label: "Protect Democracy",
                     url: "https://www.oklahomafight.com/",
                   },
@@ -59624,6 +59680,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Green Energy",
+                    url: "https://www.oklahomafight.com/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://www.oklahomafight.com/",
                   },
                 ],
@@ -59679,10 +59739,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                   {
-                    label: "Pro-Life",
-                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
-                  },
-                  {
                     label: "Hyde Amendment",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
@@ -59700,6 +59756,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Fort Reno Protection",
+                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
+                  },
+                  {
+                    label: "Pro-Life",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                 ],
@@ -59835,15 +59895,15 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://www.wrightforstaterep.com",
                   },
                   {
-                    label: "Pro-Life",
-                    url: "https://www.wrightforstaterep.com",
-                  },
-                  {
                     label: "Law Enforcement",
                     url: "https://www.wrightforstaterep.com",
                   },
                   {
                     label: "Education Reform",
+                    url: "https://www.wrightforstaterep.com",
+                  },
+                  {
+                    label: "Pro-Life",
                     url: "https://www.wrightforstaterep.com",
                   },
                 ],
@@ -60000,10 +60060,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                 website: "https://yenforsenate.com/",
                 supports: [
                   {
-                    label: "Protect Abortion Rights",
-                    url: "https://yenforsenate.com/",
-                  },
-                  {
                     label: "Defend Medical Autonomy",
                     url: "https://yenforsenate.com/",
                   },
@@ -60053,6 +60109,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Federal Accountability",
+                    url: "https://yenforsenate.com/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://yenforsenate.com/",
                   },
                 ],
@@ -60114,10 +60174,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                   {
-                    label: "Restore Abortion Rights",
-                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
-                  },
-                  {
                     label: "Autism Services",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
@@ -60143,6 +60199,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "LGBTQ Rights",
+                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                 ],
@@ -60359,7 +60419,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "SAVE America Act",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
                   },
-                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                   {
                     label: "Born-Alive Protection",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
@@ -60384,6 +60443,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Second Amendment",
                     url: "https://hernforsenate.com/",
                   },
+                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                 ],
               },
               {
@@ -60535,10 +60595,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://brandon4congress.com/",
                   },
                   {
-                    label: "Protect Abortion Rights",
-                    url: "https://brandon4congress.com/",
-                  },
-                  {
                     label: "Fund Public Schools",
                     url: "https://brandon4congress.com/",
                   },
@@ -60581,6 +60637,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   {
                     label: "Richard Star Act",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-democrats-go-head-to-head-in-2nd-3rd-4th-congressional-district-primaries/",
+                  },
+                  {
+                    label: "Abortion Rights",
+                    url: "https://brandon4congress.com/",
                   },
                 ],
                 against: [
@@ -60648,15 +60708,15 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                   {
-                    label: "Pro-Life",
-                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
-                  },
-                  {
                     label: "Second Amendment",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                   {
                     label: "Fund National Defense",
+                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
+                  },
+                  {
+                    label: "Pro-Life",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                 ],
@@ -60920,10 +60980,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                 website: "https://yenforsenate.com/",
                 supports: [
                   {
-                    label: "Protect Abortion Rights",
-                    url: "https://yenforsenate.com/",
-                  },
-                  {
                     label: "Defend Medical Autonomy",
                     url: "https://yenforsenate.com/",
                   },
@@ -60973,6 +61029,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Federal Accountability",
+                    url: "https://yenforsenate.com/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://yenforsenate.com/",
                   },
                 ],
@@ -61034,10 +61094,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                   {
-                    label: "Restore Abortion Rights",
-                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
-                  },
-                  {
                     label: "Autism Services",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
@@ -61063,6 +61119,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "LGBTQ Rights",
+                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                 ],
@@ -61279,7 +61339,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "SAVE America Act",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
                   },
-                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                   {
                     label: "Born-Alive Protection",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
@@ -61304,6 +61363,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Second Amendment",
                     url: "https://hernforsenate.com/",
                   },
+                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                 ],
               },
               {
@@ -61489,10 +61549,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://www.mitchelljacob.com/",
                   },
                   {
-                    label: "Pro-Choice",
-                    url: "https://www.mitchelljacob.com/",
-                  },
-                  {
                     label: "Tribal Sovereignty",
                     url: "https://www.mitchelljacob.com/",
                   },
@@ -61507,6 +61563,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "No PAC Money",
+                    url: "https://www.mitchelljacob.com/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://www.mitchelljacob.com/",
                   },
                 ],
@@ -61672,16 +61732,16 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                   {
-                    label: "Pro-Life",
-                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
-                  },
-                  {
                     label: "Truth Commission",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                   {
                     label: "Trump Agenda",
                     url: "https://tomcoleforcongress.com/",
+                  },
+                  {
+                    label: "Pro-Life",
+                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                 ],
                 against: [
@@ -61691,6 +61751,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Iran Nuclear Deal",
+                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                 ],
@@ -61777,10 +61841,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                 website: "https://yenforsenate.com/",
                 supports: [
                   {
-                    label: "Protect Abortion Rights",
-                    url: "https://yenforsenate.com/",
-                  },
-                  {
                     label: "Defend Medical Autonomy",
                     url: "https://yenforsenate.com/",
                   },
@@ -61830,6 +61890,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Federal Accountability",
+                    url: "https://yenforsenate.com/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://yenforsenate.com/",
                   },
                 ],
@@ -61891,10 +61955,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                   {
-                    label: "Restore Abortion Rights",
-                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
-                  },
-                  {
                     label: "Autism Services",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
@@ -61920,6 +61980,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "LGBTQ Rights",
+                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                 ],
@@ -62136,7 +62200,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "SAVE America Act",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
                   },
-                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                   {
                     label: "Born-Alive Protection",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
@@ -62161,6 +62224,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Second Amendment",
                     url: "https://hernforsenate.com/",
                   },
+                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                 ],
               },
               {
@@ -62322,6 +62386,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   {
                     label: "Workers' Rights",
                     url: "https://nondoc.com/2026/06/04/cd-5-democratic-primary-trey-martin-jena-nelson-fight-for-right-to-face-bice/",
+                  },
+                  {
+                    label: "Abortion Rights",
+                    url: "https://www.treyforoklahoma.com/platform",
                   },
                 ],
                 against: [
@@ -62599,15 +62667,15 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                 party: "REPUBLICAN",
                 supports: [
                   {
-                    label: "Pro-Life",
-                    url: "https://okhouse.gov/representatives/danny-sterling",
-                  },
-                  {
                     label: "Agriculture Support",
                     url: "https://okhouse.gov/representatives/danny-sterling",
                   },
                   {
                     label: "Law Enforcement Support",
+                    url: "https://okhouse.gov/representatives/danny-sterling",
+                  },
+                  {
+                    label: "Pro-Life",
                     url: "https://okhouse.gov/representatives/danny-sterling",
                   },
                 ],
@@ -62624,7 +62692,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Lower Taxes (Property)",
                     url: "https://www.lewisfor27.com",
                   },
-                  { label: "Pro-Life", url: "https://www.lewisfor27.com" },
                   {
                     label: "Second Amendment",
                     url: "https://www.lewisfor27.com",
@@ -62633,6 +62700,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Law Enforcement Support",
                     url: "https://www.lewisfor27.com",
                   },
+                  { label: "Pro-Life", url: "https://www.lewisfor27.com" },
                 ],
               },
               {
@@ -63104,10 +63172,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                 website: "https://yenforsenate.com/",
                 supports: [
                   {
-                    label: "Protect Abortion Rights",
-                    url: "https://yenforsenate.com/",
-                  },
-                  {
                     label: "Defend Medical Autonomy",
                     url: "https://yenforsenate.com/",
                   },
@@ -63157,6 +63221,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Federal Accountability",
+                    url: "https://yenforsenate.com/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://yenforsenate.com/",
                   },
                 ],
@@ -63218,10 +63286,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                   {
-                    label: "Restore Abortion Rights",
-                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
-                  },
-                  {
                     label: "Autism Services",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
@@ -63247,6 +63311,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "LGBTQ Rights",
+                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                 ],
@@ -63463,7 +63531,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "SAVE America Act",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
                   },
-                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                   {
                     label: "Born-Alive Protection",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
@@ -63488,6 +63555,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Second Amendment",
                     url: "https://hernforsenate.com/",
                   },
+                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                 ],
               },
               {
@@ -63639,10 +63707,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://brandon4congress.com/",
                   },
                   {
-                    label: "Protect Abortion Rights",
-                    url: "https://brandon4congress.com/",
-                  },
-                  {
                     label: "Fund Public Schools",
                     url: "https://brandon4congress.com/",
                   },
@@ -63685,6 +63749,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   {
                     label: "Richard Star Act",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-democrats-go-head-to-head-in-2nd-3rd-4th-congressional-district-primaries/",
+                  },
+                  {
+                    label: "Abortion Rights",
+                    url: "https://brandon4congress.com/",
                   },
                 ],
                 against: [
@@ -63752,15 +63820,15 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                   {
-                    label: "Pro-Life",
-                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
-                  },
-                  {
                     label: "Second Amendment",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                   {
                     label: "Fund National Defense",
+                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
+                  },
+                  {
+                    label: "Pro-Life",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                 ],
@@ -63925,7 +63993,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Education Funding",
                     url: "https://votederekporter.com",
                   },
-                  { label: "Pro-Life", url: "https://votederekporter.com" },
                   {
                     label: "Second Amendment",
                     url: "https://votederekporter.com",
@@ -63938,6 +64005,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Small Business Support",
                     url: "https://votederekporter.com",
                   },
+                  { label: "Pro-Life", url: "https://votederekporter.com" },
                 ],
               },
             ],
@@ -64044,10 +64112,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                 website: "https://yenforsenate.com/",
                 supports: [
                   {
-                    label: "Protect Abortion Rights",
-                    url: "https://yenforsenate.com/",
-                  },
-                  {
                     label: "Defend Medical Autonomy",
                     url: "https://yenforsenate.com/",
                   },
@@ -64097,6 +64161,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Federal Accountability",
+                    url: "https://yenforsenate.com/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://yenforsenate.com/",
                   },
                 ],
@@ -64158,10 +64226,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                   {
-                    label: "Restore Abortion Rights",
-                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
-                  },
-                  {
                     label: "Autism Services",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
@@ -64187,6 +64251,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "LGBTQ Rights",
+                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                 ],
@@ -64403,7 +64471,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "SAVE America Act",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
                   },
-                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                   {
                     label: "Born-Alive Protection",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
@@ -64428,6 +64495,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Second Amendment",
                     url: "https://hernforsenate.com/",
                   },
+                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                 ],
               },
               {
@@ -64623,10 +64691,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://www.oklahomafight.com/",
                   },
                   {
-                    label: "Reproductive Rights",
-                    url: "https://www.oklahomafight.com/",
-                  },
-                  {
                     label: "Protect Democracy",
                     url: "https://www.oklahomafight.com/",
                   },
@@ -64636,6 +64700,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Green Energy",
+                    url: "https://www.oklahomafight.com/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://www.oklahomafight.com/",
                   },
                 ],
@@ -64691,10 +64759,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                   {
-                    label: "Pro-Life",
-                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
-                  },
-                  {
                     label: "Hyde Amendment",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
@@ -64712,6 +64776,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Fort Reno Protection",
+                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
+                  },
+                  {
+                    label: "Pro-Life",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                 ],
@@ -64848,10 +64916,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                 website: "https://yenforsenate.com/",
                 supports: [
                   {
-                    label: "Protect Abortion Rights",
-                    url: "https://yenforsenate.com/",
-                  },
-                  {
                     label: "Defend Medical Autonomy",
                     url: "https://yenforsenate.com/",
                   },
@@ -64901,6 +64965,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Federal Accountability",
+                    url: "https://yenforsenate.com/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://yenforsenate.com/",
                   },
                 ],
@@ -64962,10 +65030,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                   {
-                    label: "Restore Abortion Rights",
-                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
-                  },
-                  {
                     label: "Autism Services",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
@@ -64991,6 +65055,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "LGBTQ Rights",
+                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                 ],
@@ -65207,7 +65275,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "SAVE America Act",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
                   },
-                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                   {
                     label: "Born-Alive Protection",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
@@ -65232,6 +65299,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Second Amendment",
                     url: "https://hernforsenate.com/",
                   },
+                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                 ],
               },
               {
@@ -65426,7 +65494,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Strengthen Medicare",
                     url: "https://paulroyse.com",
                   },
-                  { label: "Pro-Life", url: "https://paulroyse.com" },
                   { label: "Religious Liberty", url: "https://paulroyse.com" },
                   { label: "Term Limits", url: "https://paulroyse.com" },
                   { label: "Eight-Year Limit", url: "https://paulroyse.com" },
@@ -65435,6 +65502,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "National Debt Reduction",
                     url: "https://paulroyse.com",
                   },
+                  { label: "Pro-Life", url: "https://paulroyse.com" },
                 ],
                 against: [
                   { label: "FISA Surveillance", url: "https://paulroyse.com" },
@@ -65596,10 +65664,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://www.tedfordforcongress.com/",
                   },
                   {
-                    label: "Pro-Life",
-                    url: "https://www.tedfordforcongress.com/",
-                  },
-                  {
                     label: "Second Amendment",
                     url: "https://www.tedfordforcongress.com/",
                   },
@@ -65613,6 +65677,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Veterans Support",
+                    url: "https://www.tedfordforcongress.com/",
+                  },
+                  {
+                    label: "Pro-Life",
                     url: "https://www.tedfordforcongress.com/",
                   },
                 ],
@@ -65662,14 +65730,14 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/05/25/cheat-sheet-hern-decision-draws-9-to-oklahomas-1st-congressional-district-gop-primary/",
                   },
                   {
-                    label: "Pro-Life",
-                    url: "https://nondoc.com/2026/05/25/cheat-sheet-hern-decision-draws-9-to-oklahomas-1st-congressional-district-gop-primary/",
-                  },
-                  {
                     label: "Ban CRT",
                     url: "https://nondoc.com/2026/05/25/cheat-sheet-hern-decision-draws-9-to-oklahomas-1st-congressional-district-gop-primary/",
                   },
                   { label: "Trump Agenda", url: "https://votekimdavid.com" },
+                  {
+                    label: "Pro-Life",
+                    url: "https://nondoc.com/2026/05/25/cheat-sheet-hern-decision-draws-9-to-oklahomas-1st-congressional-district-gop-primary/",
+                  },
                 ],
               },
               {
@@ -65748,7 +65816,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Second Amendment",
                     url: "https://nathanbutterfield.com",
                   },
-                  { label: "Pro-Life", url: "https://nathanbutterfield.com" },
                   {
                     label: "Small Government",
                     url: "https://nathanbutterfield.com",
@@ -65781,6 +65848,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Local Control",
                     url: "https://nathanbutterfield.com",
                   },
+                  { label: "Pro-Life", url: "https://nathanbutterfield.com" },
                 ],
                 against: [
                   {
@@ -65843,10 +65911,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://brandon4congress.com/",
                   },
                   {
-                    label: "Protect Abortion Rights",
-                    url: "https://brandon4congress.com/",
-                  },
-                  {
                     label: "Fund Public Schools",
                     url: "https://brandon4congress.com/",
                   },
@@ -65889,6 +65953,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   {
                     label: "Richard Star Act",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-democrats-go-head-to-head-in-2nd-3rd-4th-congressional-district-primaries/",
+                  },
+                  {
+                    label: "Abortion Rights",
+                    url: "https://brandon4congress.com/",
                   },
                 ],
                 against: [
@@ -65956,15 +66024,15 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                   {
-                    label: "Pro-Life",
-                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
-                  },
-                  {
                     label: "Second Amendment",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                   {
                     label: "Fund National Defense",
+                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
+                  },
+                  {
+                    label: "Pro-Life",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                 ],
@@ -66216,7 +66284,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Rural Public Safety",
                     url: "https://www.gannforhouse.com",
                   },
-                  { label: "Pro-Life", url: "https://www.gannforhouse.com" },
                   {
                     label: "Second Amendment",
                     url: "https://www.gannforhouse.com",
@@ -66229,6 +66296,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Local Control",
                     url: "https://www.gannforhouse.com",
                   },
+                  { label: "Pro-Life", url: "https://www.gannforhouse.com" },
                 ],
                 against: [
                   {
@@ -66286,10 +66354,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://www.longforstatehouse.com",
                   },
                   {
-                    label: "Pro-Life",
-                    url: "https://www.longforstatehouse.com",
-                  },
-                  {
                     label: "Second Amendment",
                     url: "https://www.longforstatehouse.com",
                   },
@@ -66325,6 +66389,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Rural Funding",
                     url: "https://nondoc.com/2026/06/06/cheat-sheet-3-republicans-compete-for-open-seat-in-northeast-oklahomas-hd-9/",
                   },
+                  {
+                    label: "Pro-Life",
+                    url: "https://www.longforstatehouse.com",
+                  },
                 ],
               },
               {
@@ -66344,7 +66412,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Parental Rights",
                     url: "https://votecrystalcampbell.com",
                   },
-                  { label: "Pro-Life", url: "https://votecrystalcampbell.com" },
                   {
                     label: "Law Enforcement Support",
                     url: "https://votecrystalcampbell.com",
@@ -66369,6 +66436,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Roads Infrastructure",
                     url: "https://nondoc.com/2026/06/06/cheat-sheet-3-republicans-compete-for-open-seat-in-northeast-oklahomas-hd-9/",
                   },
+                  { label: "Pro-Life", url: "https://votecrystalcampbell.com" },
                 ],
               },
               {
@@ -66452,7 +66520,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                 party: "REPUBLICAN",
                 website: "https://votevancuren.com",
                 supports: [
-                  { label: "Pro-Life", url: "https://votevancuren.com" },
                   {
                     label: "Second Amendment",
                     url: "https://votevancuren.com",
@@ -66462,6 +66529,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://votevancuren.com",
                   },
                   { label: "Child Advocacy", url: "https://votevancuren.com" },
+                  { label: "Pro-Life", url: "https://votevancuren.com" },
                 ],
               },
             ],
@@ -66625,10 +66693,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                 website: "https://yenforsenate.com/",
                 supports: [
                   {
-                    label: "Protect Abortion Rights",
-                    url: "https://yenforsenate.com/",
-                  },
-                  {
                     label: "Defend Medical Autonomy",
                     url: "https://yenforsenate.com/",
                   },
@@ -66678,6 +66742,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Federal Accountability",
+                    url: "https://yenforsenate.com/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://yenforsenate.com/",
                   },
                 ],
@@ -66739,10 +66807,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                   {
-                    label: "Restore Abortion Rights",
-                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
-                  },
-                  {
                     label: "Autism Services",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
@@ -66768,6 +66832,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "LGBTQ Rights",
+                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                 ],
@@ -66984,7 +67052,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "SAVE America Act",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
                   },
-                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                   {
                     label: "Born-Alive Protection",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
@@ -67009,6 +67076,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Second Amendment",
                     url: "https://hernforsenate.com/",
                   },
+                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                 ],
               },
               {
@@ -67170,6 +67238,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   {
                     label: "Workers' Rights",
                     url: "https://nondoc.com/2026/06/04/cd-5-democratic-primary-trey-martin-jena-nelson-fight-for-right-to-face-bice/",
+                  },
+                  {
+                    label: "Abortion Rights",
+                    url: "https://www.treyforoklahoma.com/platform",
                   },
                 ],
                 against: [
@@ -67447,10 +67519,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                 website: "https://yenforsenate.com/",
                 supports: [
                   {
-                    label: "Protect Abortion Rights",
-                    url: "https://yenforsenate.com/",
-                  },
-                  {
                     label: "Defend Medical Autonomy",
                     url: "https://yenforsenate.com/",
                   },
@@ -67500,6 +67568,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Federal Accountability",
+                    url: "https://yenforsenate.com/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://yenforsenate.com/",
                   },
                 ],
@@ -67561,10 +67633,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                   {
-                    label: "Restore Abortion Rights",
-                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
-                  },
-                  {
                     label: "Autism Services",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
@@ -67590,6 +67658,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "LGBTQ Rights",
+                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                 ],
@@ -67806,7 +67878,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "SAVE America Act",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
                   },
-                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                   {
                     label: "Born-Alive Protection",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
@@ -67831,6 +67902,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Second Amendment",
                     url: "https://hernforsenate.com/",
                   },
+                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                 ],
               },
               {
@@ -67982,10 +68054,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://brandon4congress.com/",
                   },
                   {
-                    label: "Protect Abortion Rights",
-                    url: "https://brandon4congress.com/",
-                  },
-                  {
                     label: "Fund Public Schools",
                     url: "https://brandon4congress.com/",
                   },
@@ -68028,6 +68096,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   {
                     label: "Richard Star Act",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-democrats-go-head-to-head-in-2nd-3rd-4th-congressional-district-primaries/",
+                  },
+                  {
+                    label: "Abortion Rights",
+                    url: "https://brandon4congress.com/",
                   },
                 ],
                 against: [
@@ -68095,15 +68167,15 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                   {
-                    label: "Pro-Life",
-                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
-                  },
-                  {
                     label: "Second Amendment",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                   {
                     label: "Fund National Defense",
+                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
+                  },
+                  {
+                    label: "Pro-Life",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                 ],
@@ -68213,10 +68285,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://www.kennysmithforsenate.com",
                   },
                   {
-                    label: "Pro-Life",
-                    url: "https://www.kennysmithforsenate.com",
-                  },
-                  {
                     label: "Second Amendment",
                     url: "https://www.kennysmithforsenate.com",
                   },
@@ -68246,6 +68314,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Conservative Values",
+                    url: "https://www.kennysmithforsenate.com",
+                  },
+                  {
+                    label: "Pro-Life",
                     url: "https://www.kennysmithforsenate.com",
                   },
                 ],
@@ -68390,10 +68462,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                 website: "https://yenforsenate.com/",
                 supports: [
                   {
-                    label: "Protect Abortion Rights",
-                    url: "https://yenforsenate.com/",
-                  },
-                  {
                     label: "Defend Medical Autonomy",
                     url: "https://yenforsenate.com/",
                   },
@@ -68443,6 +68511,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Federal Accountability",
+                    url: "https://yenforsenate.com/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://yenforsenate.com/",
                   },
                 ],
@@ -68504,10 +68576,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                   {
-                    label: "Restore Abortion Rights",
-                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
-                  },
-                  {
                     label: "Autism Services",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
@@ -68533,6 +68601,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "LGBTQ Rights",
+                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                 ],
@@ -68749,7 +68821,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "SAVE America Act",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
                   },
-                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                   {
                     label: "Born-Alive Protection",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
@@ -68774,6 +68845,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Second Amendment",
                     url: "https://hernforsenate.com/",
                   },
+                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                 ],
               },
               {
@@ -68959,10 +69031,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://www.mitchelljacob.com/",
                   },
                   {
-                    label: "Pro-Choice",
-                    url: "https://www.mitchelljacob.com/",
-                  },
-                  {
                     label: "Tribal Sovereignty",
                     url: "https://www.mitchelljacob.com/",
                   },
@@ -68977,6 +69045,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "No PAC Money",
+                    url: "https://www.mitchelljacob.com/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://www.mitchelljacob.com/",
                   },
                 ],
@@ -69142,16 +69214,16 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                   {
-                    label: "Pro-Life",
-                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
-                  },
-                  {
                     label: "Truth Commission",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                   {
                     label: "Trump Agenda",
                     url: "https://tomcoleforcongress.com/",
+                  },
+                  {
+                    label: "Pro-Life",
+                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                 ],
                 against: [
@@ -69161,6 +69233,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Iran Nuclear Deal",
+                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                 ],
@@ -69331,10 +69407,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                 website: "https://yenforsenate.com/",
                 supports: [
                   {
-                    label: "Protect Abortion Rights",
-                    url: "https://yenforsenate.com/",
-                  },
-                  {
                     label: "Defend Medical Autonomy",
                     url: "https://yenforsenate.com/",
                   },
@@ -69384,6 +69456,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Federal Accountability",
+                    url: "https://yenforsenate.com/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://yenforsenate.com/",
                   },
                 ],
@@ -69445,10 +69521,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                   {
-                    label: "Restore Abortion Rights",
-                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
-                  },
-                  {
                     label: "Autism Services",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
@@ -69474,6 +69546,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "LGBTQ Rights",
+                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                 ],
@@ -69690,7 +69766,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "SAVE America Act",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
                   },
-                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                   {
                     label: "Born-Alive Protection",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
@@ -69715,6 +69790,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Second Amendment",
                     url: "https://hernforsenate.com/",
                   },
+                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                 ],
               },
               {
@@ -69910,10 +69986,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://www.oklahomafight.com/",
                   },
                   {
-                    label: "Reproductive Rights",
-                    url: "https://www.oklahomafight.com/",
-                  },
-                  {
                     label: "Protect Democracy",
                     url: "https://www.oklahomafight.com/",
                   },
@@ -69923,6 +69995,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Green Energy",
+                    url: "https://www.oklahomafight.com/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://www.oklahomafight.com/",
                   },
                 ],
@@ -69978,10 +70054,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                   {
-                    label: "Pro-Life",
-                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
-                  },
-                  {
                     label: "Hyde Amendment",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
@@ -69999,6 +70071,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Fort Reno Protection",
+                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
+                  },
+                  {
+                    label: "Pro-Life",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                 ],
@@ -70155,10 +70231,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                 website: "https://yenforsenate.com/",
                 supports: [
                   {
-                    label: "Protect Abortion Rights",
-                    url: "https://yenforsenate.com/",
-                  },
-                  {
                     label: "Defend Medical Autonomy",
                     url: "https://yenforsenate.com/",
                   },
@@ -70208,6 +70280,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Federal Accountability",
+                    url: "https://yenforsenate.com/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://yenforsenate.com/",
                   },
                 ],
@@ -70269,10 +70345,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                   {
-                    label: "Restore Abortion Rights",
-                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
-                  },
-                  {
                     label: "Autism Services",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
@@ -70298,6 +70370,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "LGBTQ Rights",
+                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                 ],
@@ -70514,7 +70590,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "SAVE America Act",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
                   },
-                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                   {
                     label: "Born-Alive Protection",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
@@ -70539,6 +70614,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Second Amendment",
                     url: "https://hernforsenate.com/",
                   },
+                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                 ],
               },
               {
@@ -70724,10 +70800,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://www.mitchelljacob.com/",
                   },
                   {
-                    label: "Pro-Choice",
-                    url: "https://www.mitchelljacob.com/",
-                  },
-                  {
                     label: "Tribal Sovereignty",
                     url: "https://www.mitchelljacob.com/",
                   },
@@ -70742,6 +70814,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "No PAC Money",
+                    url: "https://www.mitchelljacob.com/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://www.mitchelljacob.com/",
                   },
                 ],
@@ -70907,16 +70983,16 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                   {
-                    label: "Pro-Life",
-                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
-                  },
-                  {
                     label: "Truth Commission",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                   {
                     label: "Trump Agenda",
                     url: "https://tomcoleforcongress.com/",
+                  },
+                  {
+                    label: "Pro-Life",
+                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                 ],
                 against: [
@@ -70926,6 +71002,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Iran Nuclear Deal",
+                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                 ],
@@ -71076,10 +71156,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                 website: "https://yenforsenate.com/",
                 supports: [
                   {
-                    label: "Protect Abortion Rights",
-                    url: "https://yenforsenate.com/",
-                  },
-                  {
                     label: "Defend Medical Autonomy",
                     url: "https://yenforsenate.com/",
                   },
@@ -71129,6 +71205,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Federal Accountability",
+                    url: "https://yenforsenate.com/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://yenforsenate.com/",
                   },
                 ],
@@ -71190,10 +71270,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                   {
-                    label: "Restore Abortion Rights",
-                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
-                  },
-                  {
                     label: "Autism Services",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
@@ -71219,6 +71295,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "LGBTQ Rights",
+                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                 ],
@@ -71435,7 +71515,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "SAVE America Act",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
                   },
-                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                   {
                     label: "Born-Alive Protection",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
@@ -71460,6 +71539,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Second Amendment",
                     url: "https://hernforsenate.com/",
                   },
+                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                 ],
               },
               {
@@ -71654,7 +71734,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Strengthen Medicare",
                     url: "https://paulroyse.com",
                   },
-                  { label: "Pro-Life", url: "https://paulroyse.com" },
                   { label: "Religious Liberty", url: "https://paulroyse.com" },
                   { label: "Term Limits", url: "https://paulroyse.com" },
                   { label: "Eight-Year Limit", url: "https://paulroyse.com" },
@@ -71663,6 +71742,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "National Debt Reduction",
                     url: "https://paulroyse.com",
                   },
+                  { label: "Pro-Life", url: "https://paulroyse.com" },
                 ],
                 against: [
                   { label: "FISA Surveillance", url: "https://paulroyse.com" },
@@ -71824,10 +71904,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://www.tedfordforcongress.com/",
                   },
                   {
-                    label: "Pro-Life",
-                    url: "https://www.tedfordforcongress.com/",
-                  },
-                  {
                     label: "Second Amendment",
                     url: "https://www.tedfordforcongress.com/",
                   },
@@ -71841,6 +71917,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Veterans Support",
+                    url: "https://www.tedfordforcongress.com/",
+                  },
+                  {
+                    label: "Pro-Life",
                     url: "https://www.tedfordforcongress.com/",
                   },
                 ],
@@ -71890,14 +71970,14 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/05/25/cheat-sheet-hern-decision-draws-9-to-oklahomas-1st-congressional-district-gop-primary/",
                   },
                   {
-                    label: "Pro-Life",
-                    url: "https://nondoc.com/2026/05/25/cheat-sheet-hern-decision-draws-9-to-oklahomas-1st-congressional-district-gop-primary/",
-                  },
-                  {
                     label: "Ban CRT",
                     url: "https://nondoc.com/2026/05/25/cheat-sheet-hern-decision-draws-9-to-oklahomas-1st-congressional-district-gop-primary/",
                   },
                   { label: "Trump Agenda", url: "https://votekimdavid.com" },
+                  {
+                    label: "Pro-Life",
+                    url: "https://nondoc.com/2026/05/25/cheat-sheet-hern-decision-draws-9-to-oklahomas-1st-congressional-district-gop-primary/",
+                  },
                 ],
               },
               {
@@ -71976,7 +72056,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Second Amendment",
                     url: "https://nathanbutterfield.com",
                   },
-                  { label: "Pro-Life", url: "https://nathanbutterfield.com" },
                   {
                     label: "Small Government",
                     url: "https://nathanbutterfield.com",
@@ -72009,6 +72088,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Local Control",
                     url: "https://nathanbutterfield.com",
                   },
+                  { label: "Pro-Life", url: "https://nathanbutterfield.com" },
                 ],
                 against: [
                   {
@@ -72192,7 +72272,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                 party: "REPUBLICAN",
                 website: "https://jadanterrazas.com",
                 supports: [
-                  { label: "Pro-Life", url: "https://jadanterrazas.com" },
                   {
                     label: "Lower Income Tax",
                     url: "https://jadanterrazas.com",
@@ -72213,6 +72292,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Immigration Enforcement",
                     url: "https://jadanterrazas.com",
                   },
+                  { label: "Pro-Life", url: "https://jadanterrazas.com" },
                 ],
                 against: [
                   { label: "Lobbyist Money", url: "https://jadanterrazas.com" },
@@ -72227,7 +72307,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Lower Taxes (Everyone)",
                     url: "https://colemanforoklahoma.com",
                   },
-                  { label: "Pro-Life", url: "https://colemanforoklahoma.com" },
                   {
                     label: "Second Amendment",
                     url: "https://colemanforoklahoma.com",
@@ -72252,6 +72331,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Law Enforcement",
                     url: "https://colemanforoklahoma.com",
                   },
+                  { label: "Pro-Life", url: "https://colemanforoklahoma.com" },
                 ],
                 against: [
                   {
@@ -72299,8 +72379,8 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://gollihare.com",
                   },
                   { label: "Insurance Reform", url: "https://gollihare.com" },
-                  { label: "Pro-Life", url: "https://gollihare.com" },
                   { label: "Second Amendment", url: "https://gollihare.com" },
+                  { label: "Pro-Life", url: "https://gollihare.com" },
                 ],
               },
               {
@@ -72314,10 +72394,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Government Transparency",
-                    url: "https://www.craigstump2026.com/issues",
-                  },
-                  {
-                    label: "Criminalize Abortion",
                     url: "https://www.craigstump2026.com/issues",
                   },
                   {
@@ -72338,6 +72414,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Medical Conscience",
+                    url: "https://www.craigstump2026.com/issues",
+                  },
+                  {
+                    label: "Pro-Life",
                     url: "https://www.craigstump2026.com/issues",
                   },
                 ],
@@ -72431,13 +72511,13 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Education Funding",
                     url: "http://kenttaylorok.com",
                   },
-                  { label: "Pro-Life", url: "http://kenttaylorok.com" },
                   { label: "Second Amendment", url: "http://kenttaylorok.com" },
                   {
                     label: "Law Enforcement Support",
                     url: "http://kenttaylorok.com",
                   },
                   { label: "Rural Healthcare", url: "http://kenttaylorok.com" },
+                  { label: "Pro-Life", url: "http://kenttaylorok.com" },
                 ],
               },
               {
@@ -72457,7 +72537,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Parental Rights",
                     url: "https://brentdriskill.com",
                   },
-                  { label: "Pro-Life", url: "https://brentdriskill.com" },
                   {
                     label: "Second Amendment",
                     url: "https://brentdriskill.com",
@@ -72483,6 +72562,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://brentdriskill.com",
                   },
                   { label: "Child Advocacy", url: "https://brentdriskill.com" },
+                  { label: "Pro-Life", url: "https://brentdriskill.com" },
                 ],
               },
             ],
@@ -72523,7 +72603,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Girls Sports Protection",
                     url: "https://hasteforsenate.com",
                   },
-                  { label: "Pro-Life", url: "https://hasteforsenate.com" },
                   {
                     label: "Second Amendment",
                     url: "https://hasteforsenate.com",
@@ -72560,6 +72639,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Reading Proficiency",
                     url: "https://nondoc.com/2026/06/14/senate-district-36-incumbent-john-haste-faces-phillip-weiland-republican-primary/",
                   },
+                  { label: "Pro-Life", url: "https://hasteforsenate.com" },
                 ],
               },
             ],
@@ -72584,10 +72664,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                 supports: [
                   {
                     label: "School Choice",
-                    url: "https://www.longforstatehouse.com",
-                  },
-                  {
-                    label: "Pro-Life",
                     url: "https://www.longforstatehouse.com",
                   },
                   {
@@ -72626,6 +72702,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Rural Funding",
                     url: "https://nondoc.com/2026/06/06/cheat-sheet-3-republicans-compete-for-open-seat-in-northeast-oklahomas-hd-9/",
                   },
+                  {
+                    label: "Pro-Life",
+                    url: "https://www.longforstatehouse.com",
+                  },
                 ],
               },
               {
@@ -72645,7 +72725,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Parental Rights",
                     url: "https://votecrystalcampbell.com",
                   },
-                  { label: "Pro-Life", url: "https://votecrystalcampbell.com" },
                   {
                     label: "Law Enforcement Support",
                     url: "https://votecrystalcampbell.com",
@@ -72670,6 +72749,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Roads Infrastructure",
                     url: "https://nondoc.com/2026/06/06/cheat-sheet-3-republicans-compete-for-open-seat-in-northeast-oklahomas-hd-9/",
                   },
+                  { label: "Pro-Life", url: "https://votecrystalcampbell.com" },
                 ],
               },
               {
@@ -72773,7 +72853,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Parental Rights",
                     url: "https://stearmanforhouse.vote",
                   },
-                  { label: "Pro-Life", url: "https://stearmanforhouse.vote" },
                   {
                     label: "Second Amendment",
                     url: "https://stearmanforhouse.vote",
@@ -72786,6 +72865,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Property Rights",
                     url: "https://stearmanforhouse.vote",
                   },
+                  { label: "Pro-Life", url: "https://stearmanforhouse.vote" },
                 ],
               },
             ],
@@ -72803,10 +72883,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                 website: "https://www.banningforoklahoma.com",
                 supports: [
                   {
-                    label: "Pro-Life",
-                    url: "https://www.banningforoklahoma.com/issues",
-                  },
-                  {
                     label: "Second Amendment",
                     url: "https://www.banningforoklahoma.com/issues",
                   },
@@ -72820,6 +72896,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Lower Taxes (Everyone)",
+                    url: "https://www.banningforoklahoma.com/issues",
+                  },
+                  {
+                    label: "Pro-Life",
                     url: "https://www.banningforoklahoma.com/issues",
                   },
                 ],
@@ -72896,15 +72976,15 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://www.brianjacksontakesaction.com",
                   },
                   {
-                    label: "Pro-Life",
-                    url: "https://www.brianjacksontakesaction.com",
-                  },
-                  {
                     label: "Economic Opportunity",
                     url: "https://www.brianjacksontakesaction.com",
                   },
                   {
                     label: "Local Leadership",
+                    url: "https://www.brianjacksontakesaction.com",
+                  },
+                  {
+                    label: "Pro-Life",
                     url: "https://www.brianjacksontakesaction.com",
                   },
                 ],
@@ -72999,7 +73079,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Lower Taxes (Everyone)",
                     url: "https://www.angelastrohm.com",
                   },
-                  { label: "Pro-Life", url: "https://www.angelastrohm.com" },
                   {
                     label: "Second Amendment",
                     url: "https://www.angelastrohm.com",
@@ -73036,6 +73115,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Conservative Values",
                     url: "https://www.angelastrohm.com",
                   },
+                  { label: "Pro-Life", url: "https://www.angelastrohm.com" },
                 ],
               },
               {
@@ -73044,10 +73124,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                 supports: [
                   {
                     label: "Religious Liberty",
-                    url: "https://nondoc.com/2026/06/03/cheat-sheet-familiar-faces-newcomers-seek-open-hd-69-republican-primary/",
-                  },
-                  {
-                    label: "Pro-Life",
                     url: "https://nondoc.com/2026/06/03/cheat-sheet-familiar-faces-newcomers-seek-open-hd-69-republican-primary/",
                   },
                   {
@@ -73070,6 +73146,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Limit Government",
                     url: "https://nondoc.com/2026/06/03/cheat-sheet-familiar-faces-newcomers-seek-open-hd-69-republican-primary/",
                   },
+                  {
+                    label: "Pro-Life",
+                    url: "https://nondoc.com/2026/06/03/cheat-sheet-familiar-faces-newcomers-seek-open-hd-69-republican-primary/",
+                  },
                 ],
                 against: [
                   {
@@ -73089,10 +73169,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Education Funding",
-                    url: "https://www.carrieforthehouse.com",
-                  },
-                  {
-                    label: "Pro-Life",
                     url: "https://www.carrieforthehouse.com",
                   },
                   {
@@ -73138,6 +73214,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   {
                     label: "Responsible Government",
                     url: "https://nondoc.com/2026/06/03/cheat-sheet-familiar-faces-newcomers-seek-open-hd-69-republican-primary/",
+                  },
+                  {
+                    label: "Pro-Life",
+                    url: "https://www.carrieforthehouse.com",
                   },
                 ],
               },
@@ -73227,7 +73307,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                 party: "REPUBLICAN",
                 website: "https://votevancuren.com",
                 supports: [
-                  { label: "Pro-Life", url: "https://votevancuren.com" },
                   {
                     label: "Second Amendment",
                     url: "https://votevancuren.com",
@@ -73237,6 +73316,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://votevancuren.com",
                   },
                   { label: "Child Advocacy", url: "https://votevancuren.com" },
+                  { label: "Pro-Life", url: "https://votevancuren.com" },
                 ],
               },
             ],
@@ -73289,10 +73369,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://www.woolleyforstatehouse.com",
                   },
                   {
-                    label: "Pro-Life",
-                    url: "https://www.woolleyforstatehouse.com",
-                  },
-                  {
                     label: "Second Amendment",
                     url: "https://www.woolleyforstatehouse.com",
                   },
@@ -73310,6 +73386,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Conservative Values",
+                    url: "https://www.woolleyforstatehouse.com",
+                  },
+                  {
+                    label: "Pro-Life",
                     url: "https://www.woolleyforstatehouse.com",
                   },
                 ],
@@ -73537,10 +73617,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                 website: "https://yenforsenate.com/",
                 supports: [
                   {
-                    label: "Protect Abortion Rights",
-                    url: "https://yenforsenate.com/",
-                  },
-                  {
                     label: "Defend Medical Autonomy",
                     url: "https://yenforsenate.com/",
                   },
@@ -73590,6 +73666,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Federal Accountability",
+                    url: "https://yenforsenate.com/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://yenforsenate.com/",
                   },
                 ],
@@ -73651,10 +73731,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                   {
-                    label: "Restore Abortion Rights",
-                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
-                  },
-                  {
                     label: "Autism Services",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
@@ -73680,6 +73756,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "LGBTQ Rights",
+                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                 ],
@@ -73896,7 +73976,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "SAVE America Act",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
                   },
-                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                   {
                     label: "Born-Alive Protection",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
@@ -73921,6 +74000,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Second Amendment",
                     url: "https://hernforsenate.com/",
                   },
+                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                 ],
               },
               {
@@ -74115,7 +74195,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Strengthen Medicare",
                     url: "https://paulroyse.com",
                   },
-                  { label: "Pro-Life", url: "https://paulroyse.com" },
                   { label: "Religious Liberty", url: "https://paulroyse.com" },
                   { label: "Term Limits", url: "https://paulroyse.com" },
                   { label: "Eight-Year Limit", url: "https://paulroyse.com" },
@@ -74124,6 +74203,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "National Debt Reduction",
                     url: "https://paulroyse.com",
                   },
+                  { label: "Pro-Life", url: "https://paulroyse.com" },
                 ],
                 against: [
                   { label: "FISA Surveillance", url: "https://paulroyse.com" },
@@ -74285,10 +74365,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://www.tedfordforcongress.com/",
                   },
                   {
-                    label: "Pro-Life",
-                    url: "https://www.tedfordforcongress.com/",
-                  },
-                  {
                     label: "Second Amendment",
                     url: "https://www.tedfordforcongress.com/",
                   },
@@ -74302,6 +74378,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Veterans Support",
+                    url: "https://www.tedfordforcongress.com/",
+                  },
+                  {
+                    label: "Pro-Life",
                     url: "https://www.tedfordforcongress.com/",
                   },
                 ],
@@ -74351,14 +74431,14 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/05/25/cheat-sheet-hern-decision-draws-9-to-oklahomas-1st-congressional-district-gop-primary/",
                   },
                   {
-                    label: "Pro-Life",
-                    url: "https://nondoc.com/2026/05/25/cheat-sheet-hern-decision-draws-9-to-oklahomas-1st-congressional-district-gop-primary/",
-                  },
-                  {
                     label: "Ban CRT",
                     url: "https://nondoc.com/2026/05/25/cheat-sheet-hern-decision-draws-9-to-oklahomas-1st-congressional-district-gop-primary/",
                   },
                   { label: "Trump Agenda", url: "https://votekimdavid.com" },
+                  {
+                    label: "Pro-Life",
+                    url: "https://nondoc.com/2026/05/25/cheat-sheet-hern-decision-draws-9-to-oklahomas-1st-congressional-district-gop-primary/",
+                  },
                 ],
               },
               {
@@ -74437,7 +74517,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Second Amendment",
                     url: "https://nathanbutterfield.com",
                   },
-                  { label: "Pro-Life", url: "https://nathanbutterfield.com" },
                   {
                     label: "Small Government",
                     url: "https://nathanbutterfield.com",
@@ -74470,6 +74549,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Local Control",
                     url: "https://nathanbutterfield.com",
                   },
+                  { label: "Pro-Life", url: "https://nathanbutterfield.com" },
                 ],
                 against: [
                   {
@@ -74532,10 +74612,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://brandon4congress.com/",
                   },
                   {
-                    label: "Protect Abortion Rights",
-                    url: "https://brandon4congress.com/",
-                  },
-                  {
                     label: "Fund Public Schools",
                     url: "https://brandon4congress.com/",
                   },
@@ -74578,6 +74654,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   {
                     label: "Richard Star Act",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-democrats-go-head-to-head-in-2nd-3rd-4th-congressional-district-primaries/",
+                  },
+                  {
+                    label: "Abortion Rights",
+                    url: "https://brandon4congress.com/",
                   },
                 ],
                 against: [
@@ -74645,15 +74725,15 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                   {
-                    label: "Pro-Life",
-                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
-                  },
-                  {
                     label: "Second Amendment",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                   {
                     label: "Fund National Defense",
+                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
+                  },
+                  {
+                    label: "Pro-Life",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                 ],
@@ -74767,7 +74847,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Girls Sports Protection",
                     url: "https://hasteforsenate.com",
                   },
-                  { label: "Pro-Life", url: "https://hasteforsenate.com" },
                   {
                     label: "Second Amendment",
                     url: "https://hasteforsenate.com",
@@ -74804,6 +74883,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Reading Proficiency",
                     url: "https://nondoc.com/2026/06/14/senate-district-36-incumbent-john-haste-faces-phillip-weiland-republican-primary/",
                   },
+                  { label: "Pro-Life", url: "https://hasteforsenate.com" },
                 ],
               },
             ],
@@ -74850,7 +74930,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Rural Public Safety",
                     url: "https://www.gannforhouse.com",
                   },
-                  { label: "Pro-Life", url: "https://www.gannforhouse.com" },
                   {
                     label: "Second Amendment",
                     url: "https://www.gannforhouse.com",
@@ -74863,6 +74942,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Local Control",
                     url: "https://www.gannforhouse.com",
                   },
+                  { label: "Pro-Life", url: "https://www.gannforhouse.com" },
                 ],
                 against: [
                   {
@@ -74932,15 +75012,15 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                 party: "REPUBLICAN",
                 supports: [
                   {
-                    label: "Pro-Life",
-                    url: "https://okhouse.gov/representatives/chris-sneed",
-                  },
-                  {
                     label: "Utility Rate Protection",
                     url: "https://okhouse.gov/representatives/chris-sneed",
                   },
                   {
                     label: "Law Enforcement Support",
+                    url: "https://okhouse.gov/representatives/chris-sneed",
+                  },
+                  {
+                    label: "Pro-Life",
                     url: "https://okhouse.gov/representatives/chris-sneed",
                   },
                 ],
@@ -74954,13 +75034,13 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://roytimmons.com",
                   },
                   { label: "Parental Rights", url: "https://roytimmons.com" },
-                  { label: "Pro-Life", url: "https://roytimmons.com" },
                   { label: "Second Amendment", url: "https://roytimmons.com" },
                   { label: "Property Rights", url: "https://roytimmons.com" },
                   {
                     label: "Utility Rate Protection",
                     url: "https://roytimmons.com",
                   },
+                  { label: "Pro-Life", url: "https://roytimmons.com" },
                 ],
               },
             ],
@@ -74982,10 +75062,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://www.woolleyforstatehouse.com",
                   },
                   {
-                    label: "Pro-Life",
-                    url: "https://www.woolleyforstatehouse.com",
-                  },
-                  {
                     label: "Second Amendment",
                     url: "https://www.woolleyforstatehouse.com",
                   },
@@ -75003,6 +75079,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Conservative Values",
+                    url: "https://www.woolleyforstatehouse.com",
+                  },
+                  {
+                    label: "Pro-Life",
                     url: "https://www.woolleyforstatehouse.com",
                   },
                 ],
@@ -75147,10 +75227,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                 website: "https://yenforsenate.com/",
                 supports: [
                   {
-                    label: "Protect Abortion Rights",
-                    url: "https://yenforsenate.com/",
-                  },
-                  {
                     label: "Defend Medical Autonomy",
                     url: "https://yenforsenate.com/",
                   },
@@ -75200,6 +75276,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Federal Accountability",
+                    url: "https://yenforsenate.com/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://yenforsenate.com/",
                   },
                 ],
@@ -75261,10 +75341,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                   {
-                    label: "Restore Abortion Rights",
-                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
-                  },
-                  {
                     label: "Autism Services",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
@@ -75290,6 +75366,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "LGBTQ Rights",
+                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                 ],
@@ -75506,7 +75586,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "SAVE America Act",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
                   },
-                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                   {
                     label: "Born-Alive Protection",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
@@ -75531,6 +75610,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Second Amendment",
                     url: "https://hernforsenate.com/",
                   },
+                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                 ],
               },
               {
@@ -75682,10 +75762,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://brandon4congress.com/",
                   },
                   {
-                    label: "Protect Abortion Rights",
-                    url: "https://brandon4congress.com/",
-                  },
-                  {
                     label: "Fund Public Schools",
                     url: "https://brandon4congress.com/",
                   },
@@ -75728,6 +75804,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   {
                     label: "Richard Star Act",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-democrats-go-head-to-head-in-2nd-3rd-4th-congressional-district-primaries/",
+                  },
+                  {
+                    label: "Abortion Rights",
+                    url: "https://brandon4congress.com/",
                   },
                 ],
                 against: [
@@ -75795,15 +75875,15 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                   {
-                    label: "Pro-Life",
-                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
-                  },
-                  {
                     label: "Second Amendment",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                   {
                     label: "Fund National Defense",
+                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
+                  },
+                  {
+                    label: "Pro-Life",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                 ],
@@ -75965,7 +76045,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Parental Rights",
                     url: "https://stearmanforhouse.vote",
                   },
-                  { label: "Pro-Life", url: "https://stearmanforhouse.vote" },
                   {
                     label: "Second Amendment",
                     url: "https://stearmanforhouse.vote",
@@ -75978,6 +76057,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Property Rights",
                     url: "https://stearmanforhouse.vote",
                   },
+                  { label: "Pro-Life", url: "https://stearmanforhouse.vote" },
                 ],
               },
             ],
@@ -76078,10 +76158,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                 website: "https://yenforsenate.com/",
                 supports: [
                   {
-                    label: "Protect Abortion Rights",
-                    url: "https://yenforsenate.com/",
-                  },
-                  {
                     label: "Defend Medical Autonomy",
                     url: "https://yenforsenate.com/",
                   },
@@ -76131,6 +76207,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Federal Accountability",
+                    url: "https://yenforsenate.com/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://yenforsenate.com/",
                   },
                 ],
@@ -76192,10 +76272,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                   {
-                    label: "Restore Abortion Rights",
-                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
-                  },
-                  {
                     label: "Autism Services",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
@@ -76221,6 +76297,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "LGBTQ Rights",
+                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                 ],
@@ -76437,7 +76517,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "SAVE America Act",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
                   },
-                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                   {
                     label: "Born-Alive Protection",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
@@ -76462,6 +76541,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Second Amendment",
                     url: "https://hernforsenate.com/",
                   },
+                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                 ],
               },
               {
@@ -76657,10 +76737,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://www.oklahomafight.com/",
                   },
                   {
-                    label: "Reproductive Rights",
-                    url: "https://www.oklahomafight.com/",
-                  },
-                  {
                     label: "Protect Democracy",
                     url: "https://www.oklahomafight.com/",
                   },
@@ -76670,6 +76746,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Green Energy",
+                    url: "https://www.oklahomafight.com/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://www.oklahomafight.com/",
                   },
                 ],
@@ -76725,10 +76805,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                   {
-                    label: "Pro-Life",
-                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
-                  },
-                  {
                     label: "Hyde Amendment",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
@@ -76746,6 +76822,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Fort Reno Protection",
+                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
+                  },
+                  {
+                    label: "Pro-Life",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                 ],
@@ -76954,10 +77034,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                 website: "https://yenforsenate.com/",
                 supports: [
                   {
-                    label: "Protect Abortion Rights",
-                    url: "https://yenforsenate.com/",
-                  },
-                  {
                     label: "Defend Medical Autonomy",
                     url: "https://yenforsenate.com/",
                   },
@@ -77007,6 +77083,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Federal Accountability",
+                    url: "https://yenforsenate.com/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://yenforsenate.com/",
                   },
                 ],
@@ -77068,10 +77148,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                   {
-                    label: "Restore Abortion Rights",
-                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
-                  },
-                  {
                     label: "Autism Services",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
@@ -77097,6 +77173,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "LGBTQ Rights",
+                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                 ],
@@ -77313,7 +77393,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "SAVE America Act",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
                   },
-                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                   {
                     label: "Born-Alive Protection",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
@@ -77338,6 +77417,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Second Amendment",
                     url: "https://hernforsenate.com/",
                   },
+                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                 ],
               },
               {
@@ -77533,10 +77613,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://www.oklahomafight.com/",
                   },
                   {
-                    label: "Reproductive Rights",
-                    url: "https://www.oklahomafight.com/",
-                  },
-                  {
                     label: "Protect Democracy",
                     url: "https://www.oklahomafight.com/",
                   },
@@ -77546,6 +77622,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Green Energy",
+                    url: "https://www.oklahomafight.com/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://www.oklahomafight.com/",
                   },
                 ],
@@ -77601,10 +77681,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                   {
-                    label: "Pro-Life",
-                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
-                  },
-                  {
                     label: "Hyde Amendment",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
@@ -77622,6 +77698,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Fort Reno Protection",
+                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
+                  },
+                  {
+                    label: "Pro-Life",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                 ],
@@ -77777,10 +77857,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                 website: "https://yenforsenate.com/",
                 supports: [
                   {
-                    label: "Protect Abortion Rights",
-                    url: "https://yenforsenate.com/",
-                  },
-                  {
                     label: "Defend Medical Autonomy",
                     url: "https://yenforsenate.com/",
                   },
@@ -77830,6 +77906,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Federal Accountability",
+                    url: "https://yenforsenate.com/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://yenforsenate.com/",
                   },
                 ],
@@ -77891,10 +77971,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                   {
-                    label: "Restore Abortion Rights",
-                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
-                  },
-                  {
                     label: "Autism Services",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
@@ -77920,6 +77996,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "LGBTQ Rights",
+                    url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://nondoc.com/2026/05/27/cheat-sheet-5-oklahoma-democrats-compete-in-u-s-senate-primary/",
                   },
                 ],
@@ -78136,7 +78216,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "SAVE America Act",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
                   },
-                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                   {
                     label: "Born-Alive Protection",
                     url: "https://nondoc.com/2026/05/26/cheat-sheet-5-gop-candidates-seek-oklahoma-u-s-senate-seat/",
@@ -78161,6 +78240,7 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     label: "Second Amendment",
                     url: "https://hernforsenate.com/",
                   },
+                  { label: "Pro-Life", url: "https://hernforsenate.com/" },
                 ],
               },
               {
@@ -78356,10 +78436,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://www.oklahomafight.com/",
                   },
                   {
-                    label: "Reproductive Rights",
-                    url: "https://www.oklahomafight.com/",
-                  },
-                  {
                     label: "Protect Democracy",
                     url: "https://www.oklahomafight.com/",
                   },
@@ -78369,6 +78445,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Green Energy",
+                    url: "https://www.oklahomafight.com/",
+                  },
+                  {
+                    label: "Abortion Rights",
                     url: "https://www.oklahomafight.com/",
                   },
                 ],
@@ -78424,10 +78504,6 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                   {
-                    label: "Pro-Life",
-                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
-                  },
-                  {
                     label: "Hyde Amendment",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
@@ -78445,6 +78521,10 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                   },
                   {
                     label: "Fort Reno Protection",
+                    url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
+                  },
+                  {
+                    label: "Pro-Life",
                     url: "https://nondoc.com/2026/06/01/cheat-sheet-brecheen-lucas-cole-try-to-defend-cd-2-cd-3-cd-4-seats-in-okgop-primary/",
                   },
                 ],

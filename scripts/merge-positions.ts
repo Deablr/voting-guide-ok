@@ -80,11 +80,58 @@ for (const file of files) {
   }
 }
 
+const abortionLabels = new Set([
+  "abortion",
+  "pro-life",
+  "abolition",
+  "abortion rights",
+  "pro-choice",
+  "abortion ban",
+  "reproductive rights",
+  "planned parenthood",
+  "roe v wade",
+  "criminalize abortion",
+  "anti-abortion",
+  "abortion access",
+])
+
+function isAbortionLabel(label: string): boolean {
+  const normalized = normalizeLabel(label)
+  return abortionLabels.has(normalized) || normalized.includes("abortion")
+}
+
+const correctionsPath = "/tmp/opencode/abortion-corrections.json"
+if (fs.existsSync(correctionsPath)) {
+  const corrections: Record<string, CandidatePositions> = JSON.parse(
+    fs.readFileSync(correctionsPath, "utf-8")
+  )
+  for (const [name, correction] of Object.entries(corrections)) {
+    const normalizedName = name.toUpperCase().trim()
+    const current = merged[normalizedName] || {}
+    merged[normalizedName] = {
+      supports: mergeList(
+        current.supports?.filter((p) => !isAbortionLabel(p.label)),
+        correction.supports
+      ),
+      against: mergeList(
+        current.against?.filter((p) => !isAbortionLabel(p.label)),
+        correction.against
+      ),
+    }
+  }
+  console.log(
+    `Applied abortion corrections for ${Object.keys(corrections).length} candidates`
+  )
+}
+
 // Validation
 let totalChips = 0
 let longLabels = 0
 for (const [name, positions] of Object.entries(merged)) {
-  for (const item of [...(positions.supports || []), ...(positions.against || [])]) {
+  for (const item of [
+    ...(positions.supports || []),
+    ...(positions.against || []),
+  ]) {
     totalChips++
     const wc = wordCount(item.label)
     if (wc > 3) {
@@ -94,7 +141,9 @@ for (const [name, positions] of Object.entries(merged)) {
   }
 }
 
-console.log(`Merged ${Object.keys(merged).length} candidates, ${totalChips} chips`)
+console.log(
+  `Merged ${Object.keys(merged).length} candidates, ${totalChips} chips`
+)
 if (longLabels > 0) {
   console.warn(`Found ${longLabels} labels longer than 3 words`)
 }
@@ -128,11 +177,7 @@ const replacement = `const existingPositions: Record<
 > = ${serialized.trimStart()}
 `
 
-const generatorPath = path.join(
-  process.cwd(),
-  "scripts",
-  "generate-ballot.ts"
-)
+const generatorPath = path.join(process.cwd(), "scripts", "generate-ballot.ts")
 let generatorSource = fs.readFileSync(generatorPath, "utf-8")
 
 const pattern =
