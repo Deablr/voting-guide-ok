@@ -1,4 +1,9 @@
-import type { Candidate as CandidateType, Endorsement, Race } from "@/data/ballot"
+import type {
+  Candidate as CandidateType,
+  Endorsement,
+  Position,
+  Race,
+} from "@/data/ballot"
 import { getYouTubeEmbedUrl } from "@/lib/youtube"
 
 const DEAB_BG = "oklch(0.18 0.05 264.5)"
@@ -32,6 +37,35 @@ function EndorsementBadge({ endorsement }: { endorsement: Endorsement }) {
   )
 }
 
+function PositionChip({
+  position,
+  fallbackUrl,
+  variant,
+}: {
+  position: Position
+  fallbackUrl?: string
+  variant: "support" | "against"
+}) {
+  const label = position.label
+  const href = position.url?.trim() || fallbackUrl || "#"
+  const isExternal = href.startsWith("http")
+  const className =
+    variant === "support"
+      ? "inline-flex items-center rounded-full bg-primary/10 px-2 py-0.5 text-xs font-medium text-primary hover:bg-primary/20 hover:underline"
+      : "inline-flex items-center rounded-full bg-destructive/10 px-2 py-0.5 text-xs font-medium text-destructive hover:bg-destructive/20 hover:underline"
+
+  return (
+    <a
+      href={href}
+      target={isExternal ? "_blank" : undefined}
+      rel={isExternal ? "noopener noreferrer" : undefined}
+      className={className}
+    >
+      {label}
+    </a>
+  )
+}
+
 function Candidate({ candidate }: { candidate: CandidateType }) {
   return (
     <li className="py-2">
@@ -52,8 +86,45 @@ function Candidate({ candidate }: { candidate: CandidateType }) {
       {candidate.endorsements && candidate.endorsements.length > 0 && (
         <div className="mt-1 flex flex-wrap gap-1.5">
           {candidate.endorsements.map((endorsement) => (
-            <EndorsementBadge key={endorsement.name} endorsement={endorsement} />
+            <EndorsementBadge
+              key={endorsement.name}
+              endorsement={endorsement}
+            />
           ))}
+        </div>
+      )}
+      {candidate.supports && candidate.supports.length > 0 && (
+        <div className="mt-2">
+          <span className="text-xs font-semibold text-muted-foreground">
+            Supports
+          </span>
+          <div className="mt-0.5 flex flex-wrap gap-1.5">
+            {candidate.supports.map((position, index) => (
+              <PositionChip
+                key={index}
+                position={position}
+                fallbackUrl={candidate.website}
+                variant="support"
+              />
+            ))}
+          </div>
+        </div>
+      )}
+      {candidate.against && candidate.against.length > 0 && (
+        <div className="mt-2">
+          <span className="text-xs font-semibold text-muted-foreground">
+            Against
+          </span>
+          <div className="mt-0.5 flex flex-wrap gap-1.5">
+            {candidate.against.map((position, index) => (
+              <PositionChip
+                key={index}
+                position={position}
+                fallbackUrl={candidate.website}
+                variant="against"
+              />
+            ))}
+          </div>
         </div>
       )}
     </li>
