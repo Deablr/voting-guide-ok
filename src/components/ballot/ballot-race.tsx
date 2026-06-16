@@ -1,5 +1,36 @@
-import type { Candidate as CandidateType, Race } from "@/data/ballot"
+import type { Candidate as CandidateType, Endorsement, Race } from "@/data/ballot"
 import { getYouTubeEmbedUrl } from "@/lib/youtube"
+
+const DEAB_BG = "oklch(0.18 0.05 264.5)"
+
+function EndorsementBadge({ endorsement }: { endorsement: Endorsement }) {
+  const isDeab = endorsement.name.toLowerCase().includes("deab")
+  const className = isDeab
+    ? "inline-flex items-center rounded-full px-2 py-0.5 text-xs font-medium text-white hover:underline"
+    : "inline-flex items-center rounded-full bg-accent px-2 py-0.5 text-xs font-medium text-accent-foreground hover:underline"
+  const style = isDeab ? { backgroundColor: DEAB_BG } : undefined
+
+  if (endorsement.url) {
+    return (
+      <a
+        key={endorsement.name}
+        href={endorsement.url}
+        target="_blank"
+        rel="noopener noreferrer"
+        className={className}
+        style={style}
+      >
+        {endorsement.name}
+      </a>
+    )
+  }
+
+  return (
+    <span key={endorsement.name} className={className} style={style}>
+      {endorsement.name}
+    </span>
+  )
+}
 
 function Candidate({ candidate }: { candidate: CandidateType }) {
   return (
@@ -21,15 +52,7 @@ function Candidate({ candidate }: { candidate: CandidateType }) {
       {candidate.endorsements && candidate.endorsements.length > 0 && (
         <div className="mt-1 flex flex-wrap gap-1.5">
           {candidate.endorsements.map((endorsement) => (
-            <a
-              key={endorsement.name}
-              href={endorsement.url}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center rounded-full bg-accent px-2 py-0.5 text-xs font-medium text-accent-foreground hover:underline"
-            >
-              {endorsement.name}
-            </a>
+            <EndorsementBadge key={endorsement.name} endorsement={endorsement} />
           ))}
         </div>
       )}

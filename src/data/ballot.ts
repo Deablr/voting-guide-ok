@@ -1,6 +1,6 @@
 export type Endorsement = {
   name: string
-  url: string
+  url?: string
 }
 
 export type Candidate = {
@@ -153,6 +153,11 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                 name: "JAKE A. MERRICK",
                 party: "REPUBLICAN",
                 website: "https://jakemerrickforgovernor.com/",
+                endorsements: [
+                  {
+                    name: "Deab Endorsed"
+                  }
+                ]
               },
               {
                 name: "CHARLES MCCALL",
@@ -229,6 +234,11 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                 name: "JUSTIN JJ HUMPHREY",
                 party: "REPUBLICAN",
                 website: "https://jj4ltgov.com",
+                endorsements: [
+                  {
+                    name: "Deab Endorsed"
+                  }
+                ],
               },
               {
                 name: "BRIAN HILL",
@@ -12982,6 +12992,11 @@ export const jurisdictionBallots: Record<string, JurisdictionBallot> = {
                 name: "MARK TEDFORD",
                 party: "REPUBLICAN",
                 website: "https://www.tedfordforcongress.com/",
+                endorsements: [
+                  {
+                    name: "Deab Endorsed"
+                  }
+                ],
               },
               {
                 name: "KIM DAVID",
