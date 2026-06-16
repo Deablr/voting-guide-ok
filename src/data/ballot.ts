@@ -635,7 +635,6 @@ const state_officersSection: BallotSection = {
           name: "JUSTIN JJ HUMPHREY",
           party: "REPUBLICAN",
           website: "https://jj4ltgov.com",
-          endorsements: [{ name: "Deab Endorsed" }],
           supports: [
             { label: "DHS Reform", url: "https://jj4ltgov.com/issues" },
             { label: "DOC Reform", url: "https://jj4ltgov.com/issues" },

@@ -517,11 +517,6 @@ const existingEndorsements: Record<string, { name: string; url?: string }[]> = {
       name: "Deab Endorsed",
     },
   ],
-  "JUSTIN JJ HUMPHREY": [
-    {
-      name: "Deab Endorsed",
-    },
-  ],
   "MARK TEDFORD": [
     {
       name: "Deab Endorsed",
