@@ -39,7 +39,7 @@ const existingResearch: Record<
   string,
   {
     website?: string
-    endorsements?: { name: string; url: string }[]
+    endorsements?: { name: string; url?: string }[]
     debates?: { label: string; url: string }[]
   }
 > = {
@@ -482,7 +482,7 @@ const existingCandidateWebsites: Record<string, string> = {
   "DUSTIN ALLEN": "https://dustinallenforjudge.com",
 }
 
-const existingEndorsements: Record<string, { name: string; url: string }[]> = {
+const existingEndorsements: Record<string, { name: string; url?: string }[]> = {
   "MIKE MAZZEI": [
     {
       name: "Trump Endorsed",
@@ -507,12 +507,27 @@ const existingEndorsements: Record<string, { name: string; url: string }[]> = {
       url: "https://truthsocial.com/@realDonaldTrump/116534955446755104",
     },
   ],
+  "JAKE A. MERRICK": [
+    {
+      name: "Deab Endorsed",
+    },
+  ],
+  "JUSTIN JJ HUMPHREY": [
+    {
+      name: "Deab Endorsed",
+    },
+  ],
+  "MARK TEDFORD": [
+    {
+      name: "Deab Endorsed",
+    },
+  ],
 }
 
 const lines: string[] = []
 lines.push(`export type Endorsement = {`)
 lines.push(`  name: string`)
-lines.push(`  url: string`)
+lines.push(`  url?: string`)
 lines.push(`}`)
 lines.push(``)
 lines.push(`export type Candidate = {`)
@@ -637,9 +652,13 @@ for (const county of parsed) {
           if (endorsements) {
             lines.push(`                endorsements: [`)
             for (const e of endorsements) {
-              lines.push(
-                `                  { name: "${e.name}", url: "${e.url}" },`
-              )
+              if (e.url) {
+                lines.push(
+                  `                  { name: "${e.name}", url: "${e.url}" },`
+                )
+              } else {
+                lines.push(`                  { name: "${e.name}" },`)
+              }
             }
             lines.push(`                ],`)
           }
