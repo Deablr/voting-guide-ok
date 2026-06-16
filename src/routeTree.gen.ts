@@ -9,8 +9,14 @@
 // Additionally, you should also exclude this file from your linter and/or formatter to prevent it from being checked or modified.
 
 import { Route as rootRouteImport } from './routes/__root'
+import { Route as PacSpendingRouteImport } from './routes/pac-spending'
 import { Route as IndexRouteImport } from './routes/index'
 
+const PacSpendingRoute = PacSpendingRouteImport.update({
+  id: '/pac-spending',
+  path: '/pac-spending',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
@@ -19,28 +25,39 @@ const IndexRoute = IndexRouteImport.update({
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/pac-spending': typeof PacSpendingRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/pac-spending': typeof PacSpendingRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/pac-spending': typeof PacSpendingRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/'
+  fullPaths: '/' | '/pac-spending'
   fileRoutesByTo: FileRoutesByTo
-  to: '/'
-  id: '__root__' | '/'
+  to: '/' | '/pac-spending'
+  id: '__root__' | '/' | '/pac-spending'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  PacSpendingRoute: typeof PacSpendingRoute
 }
 
 declare module '@tanstack/react-router' {
   interface FileRoutesByPath {
+    '/pac-spending': {
+      id: '/pac-spending'
+      path: '/pac-spending'
+      fullPath: '/pac-spending'
+      preLoaderRoute: typeof PacSpendingRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/': {
       id: '/'
       path: '/'
@@ -53,6 +70,7 @@ declare module '@tanstack/react-router' {
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  PacSpendingRoute: PacSpendingRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)

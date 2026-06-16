@@ -1,5 +1,5 @@
 import { useMemo, useState } from "react"
-import { createFileRoute } from "@tanstack/react-router"
+import { createFileRoute, Link } from "@tanstack/react-router"
 
 import { BallotHeader } from "@/components/ballot/ballot-header"
 import { BallotLegend } from "@/components/ballot/ballot-legend"
@@ -64,6 +64,15 @@ function VoterGuide() {
     <main className="mx-auto min-h-svh max-w-3xl px-4 py-8">
       <BallotHeader info={ballotInfo} />
 
+      <div className="mb-6 flex justify-end">
+        <Link
+          to="/pac-spending"
+          className="text-sm font-semibold text-primary hover:underline"
+        >
+          View PAC spending report →
+        </Link>
+      </div>
+
       <div className="mb-6 grid gap-4 rounded-lg border border-border bg-card p-4 sm:grid-cols-2">
         <div className="space-y-1.5">
           <label
@@ -114,6 +123,10 @@ function VoterGuide() {
             label: "Trump Endorsed",
             url: "https://ballotpedia.org/Endorsements_by_Donald_Trump#2026",
           },
+          {
+            label: 'Deab Endorsed',
+            url: 'https://deablr.com'
+          }
         ]}
       />
 
