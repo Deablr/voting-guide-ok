@@ -62,6 +62,14 @@ function VoterGuide() {
 
   return (
     <main className="mx-auto min-h-svh max-w-3xl px-4 py-8">
+      <div className="sticky top-0 z-50 -mx-4 mb-6 rounded-none border-y border-amber-300 bg-amber-50 p-3 text-sm text-amber-900 shadow-sm dark:border-amber-700 dark:bg-amber-950/90 dark:text-amber-100 sm:mx-0 sm:rounded-md sm:border">
+        <span className="font-semibold">⚠️ Data warning:</span> This voter
+        guide data was aggregated by Kimi K2.7 from official Oklahoma election
+        sources. Candidate names, offices, and ballot information should be
+        treated as research-grade; always verify with official sources before
+        voting.
+      </div>
+
       <BallotHeader info={ballotInfo} />
 
       <div className="mb-6 flex justify-end">
